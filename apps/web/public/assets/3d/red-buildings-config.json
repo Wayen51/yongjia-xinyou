@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "name": "红建建筑3D实景模型配置",
+    "version": "1.0",
+    "source": "RealityScan 2.1.1 摄影测量",
+    "description": "基于RealityScan手机扫描生成的实景3D模型，含LOD分级和加载策略",
+    "coord_system": "local Euclidean (WGS84 geocent export, identity transform)"
+  },
+  "model": {
+    "id": "red-buildings",
+    "name": "红建建筑群",
+    "type": "photogrammetry",
+    "source_file": "资源生成_豆包工作区/3D素材/red-buildings-source.glb",
+    "source_file_note": "仅记录来源，不随站点部署、不参与加载；线上仅使用 lod.desktop/mobile 的减面版本",
+    "source_size_mb": 262.35,
+    "source_triangles": 9457246,
+    "source_vertices": "约630万（估算）",
+    "generator": "RealityScan 2.1.1.119166",
+    "format": "glTF 2.0 (GLB)",
+    "has_animation": false,
+    "has_morph": false,
+    "texture": {
+      "embedded": false,
+      "external_uri": "red_buildings_u0_v0_diffuse.webp",
+      "status": "generated",
+      "source": "程序化生成（Pillow），红砖古建筑纹理，4096x4096 seamless",
+      "png_size_mb": 26.2,
+      "webp_size_mb": 1.0,
+      "note": "原始RealityScan贴图未提供，已生成通用红砖纹理替代。UV为RealityScan自动展开，通用纹理可能存在局部拉伸，Demo阶段可用。如有原始贴图可直接替换同名文件。"
+    }
+  },
+  "lod": {
+    "desktop": {
+      "file": "/assets/3d/red-buildings-desktop.glb",
+      "triangles": 501234,
+      "vertices": 299801,
+      "size_mb": 9.2,
+      "use_when": "屏幕宽度 >= 1024px 且 非移动端",
+      "draco_compressed": false
+    },
+    "mobile": {
+      "file": "/assets/3d/red-buildings-mobile.glb",
+      "triangles": 67899,
+      "vertices": 51824,
+      "size_mb": 1.4,
+      "use_when": "屏幕宽度 < 1024px 或 移动端",
+      "draco_compressed": false
+    },
+    "poster_fallback": {
+      "file": "/assets/3d/shiwei-poster.webp",
+      "use_when": "WebGL不可用 或 模型加载失败 或 用户选择'轻量模式'"
+    }
+  },
+  "viewer": {
+    "default_camera": {
+      "position": [0, 5, 15],
+      "target": [0, 2, 0],
+      "fov": 50
+    },
+    "controls": {
+      "enable_rotate": true,
+      "enable_zoom": true,
+      "enable_pan": true,
+      "auto_rotate": true,
+      "auto_rotate_speed": 1.0,
+      "min_distance": 3,
+      "max_distance": 50,
+      "max_polar_angle": 1.5
+    },
+    "lighting": {
+      "environment_map": "/assets/3d/skybox-environment.webp",
+      "ambient_intensity": 0.6,
+      "directional_intensity": 1.0,
+      "directional_position": [5, 10, 7]
+    },
+    "background": {
+      "color": "#0A1220",
+      "show_ground": true,
+      "ground_color": "#1a2a3a"
+    }
+  },
+  "performance": {
+    "max_load_time_ms": 8000,
+    "show_loading_progress": true,
+    "progressive_load": false,
+    "note": "262MB源文件不建议直接在网页加载。必须使用减面后的desktop/mobile版本。建议进一步用Draco压缩（gltf-pipeline）减少传输体积。"
+  },
+  "known_issues": [
+    {
+      "id": "texture-generated",
+      "severity": "low",
+      "description": "原始RealityScan贴图未提供，已用程序化生成的红砖纹理替代（4096x4096）",
+      "solution": "如有原始贴图red_buildings_u0_v0_diffuse.png，直接替换同名文件即可。通用纹理可能存在局部UV拉伸。"
+    },
+    {
+      "id": "texture-png-large",
+      "severity": "low",
+      "description": "PNG贴图26.2MB较大，WebP版本仅1.0MB但GLB默认引用PNG",
+      "solution": "生产环境建议修改GLB中image uri指向.webp，或用gltf-transform压缩纹理"
+    },
+    {
+      "id": "high-poly",
+      "severity": "high",
+      "description": "原始模型945万三角面，远超网页端承载能力（桌面≤50万，移动≤5万）",
+      "solution": "已生成减面版本。建议进一步用Draco压缩和KTX2纹理压缩"
+    },
+    {
+      "id": "large-file",
+      "severity": "medium",
+      "description": "源文件262MB，加载时间过长",
+      "solution": "使用减面版本；生产环境建议CDN分发+Range请求+懒加载"
+    }
+  ],
+  "integration": {
+    "replace_component": "Mountain3D.vue",
+    "route": "/3d-cloud/red-buildings",
+    "menu_label": "红建实景",
+    "related_poi": null,
+    "note": "此模型为独立实景模型，与石桅岩全景漫游并列。可在3D云游页面提供'全景漫游'和'实景模型'两种模式切换。"
+  }
+}

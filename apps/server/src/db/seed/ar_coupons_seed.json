@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "version": "1.0",
+    "total": 6,
+    "note": "演示态奖励券：券面为本地素材，核销为 mock，页面须标注「演示模拟·DEMO」"
+  },
+  "coupons": [
+    {
+      "id": "CPN-001",
+      "name": "石桅岩门票 8 折",
+      "type": "discount",
+      "value": 20,
+      "value_label": "8折",
+      "poi_id": "POI-001",
+      "business_id": "POI-001",
+      "image": "coupons/coupon-cpn-001.webp",
+      "valid_days": 30,
+      "desc": "石桅岩景区门票 8 折，一人一券，演示数据不产生实际费用。"
+    },
+    {
+      "id": "CPN-002",
+      "name": "龙湾潭门票 7 折",
+      "type": "discount",
+      "value": 30,
+      "value_label": "7折",
+      "poi_id": "POI-003",
+      "business_id": "POI-003",
+      "image": "coupons/coupon-cpn-002.webp",
+      "valid_days": 30,
+      "desc": "龙湾潭森林公园门票 7 折，演示数据不产生实际费用。"
+    },
+    {
+      "id": "CPN-003",
+      "name": "岭上人家烤全羊 8.8 折",
+      "type": "discount",
+      "value": 100,
+      "value_label": "8.8折",
+      "poi_id": "POI-002",
+      "business_id": "BIZ-007",
+      "image": "coupons/coupon-cpn-003.webp",
+      "valid_days": 15,
+      "desc": "岭上人家烤全羊 8.8 折（建议 6 人以上使用），演示数据不构成真实预订。"
+    },
+    {
+      "id": "CPN-004",
+      "name": "苍坡民宿 9 折",
+      "type": "discount",
+      "value": 50,
+      "value_label": "9折",
+      "poi_id": "POI-004",
+      "business_id": "BIZ-022",
+      "image": "coupons/coupon-cpn-004.webp",
+      "valid_days": 30,
+      "desc": "苍坡古村周边民宿 9 折，需提前电话预约，演示数据不构成真实预订。"
+    },
+    {
+      "id": "CPN-005",
+      "name": "永嘉麦饼买一送一",
+      "type": "buyget",
+      "value": 13,
+      "value_label": "买一送一",
+      "poi_id": "POI-006",
+      "business_id": "BIZ-001",
+      "image": "coupons/coupon-cpn-005.webp",
+      "valid_days": 7,
+      "desc": "岩头镇老街永嘉麦饼买一送一，演示数据不产生实际费用。"
+    },
+    {
+      "id": "CPN-006",
+      "name": "瓯窑文创 8 折",
+      "type": "discount",
+      "value": 20,
+      "value_label": "8折",
+      "poi_id": "POI-008",
+      "business_id": "BIZ-015",
+      "image": "coupons/coupon-cpn-006.webp",
+      "valid_days": 30,
+      "desc": "瓯窑小镇文创店 8 折，演示数据不产生实际费用。"
+    }
+  ]
+}

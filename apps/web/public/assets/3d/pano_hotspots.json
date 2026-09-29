@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "name": "石桅岩720°全景热点配置",
+    "version": "1.0",
+    "scene": "shiwei-rock",
+    "description": "石桅岩景区全景模式下的可点击热点，内容来自知识库culture/poi域",
+    "hotspot_count": 3
+  },
+  "hotspots": [
+    {
+      "id": "hotspot-01",
+      "name": "石桅岩主峰",
+      "position": {
+        "yaw": 0,
+        "pitch": -10
+      },
+      "icon": "mountain",
+      "title": "浙南天柱 · 石桅岩",
+      "content": "眼前这座306米高的巨石就是石桅岩，亿年前火山活动留下的孤峰，船桅一样傲然矗立。它是楠溪江的招牌景观，所在的鹤盛镇是楠溪江上游精华段。当地人说这块石头是船工心中的航标，看到它就知道家不远了。",
+      "source": "POI-001 石桅岩景区",
+      "action": {
+        "type": "link",
+        "target": "/wiki/POI-001"
+      }
+    },
+    {
+      "id": "hotspot-02",
+      "name": "小三峡",
+      "position": {
+        "yaw": 120,
+        "pitch": -5
+      },
+      "icon": "water",
+      "title": "碧水小三峡",
+      "content": "石桅岩脚下的这段峡谷叫小三峡，碧水绕着岩壁转了个弯，溪水清得能看见底下的鹅卵石。可以坐船观景，也可以走山腰的栈道融入青山碧水之间。雨后溪水量大更壮观，但要注意安全。",
+      "source": "POI-001 石桅岩景区",
+      "action": {
+        "type": "link",
+        "target": "/wiki/POI-001"
+      }
+    },
+    {
+      "id": "hotspot-03",
+      "name": "水仙洞",
+      "position": {
+        "yaw": -90,
+        "pitch": 0
+      },
+      "icon": "cave",
+      "title": "水仙洞 · 天然岩洞",
+      "content": "山脚下这个天然岩洞叫水仙洞，传说有水仙在此修炼。洞不大但清幽，洞口正对着溪水，是休息和拍照的好地方。洞内凉爽，夏天特别舒服。走石桅岩环线时会经过这里，不要错过。",
+      "source": "POI-032 水仙洞",
+      "action": {
+        "type": "link",
+        "target": "/wiki/POI-032"
+      }
+    }
+  ],
+  "note": "全景图素材(A8)未就绪时，全景tab可隐藏；热点配置保留，素材到位后直接接入。"
+}

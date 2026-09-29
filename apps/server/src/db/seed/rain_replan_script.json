@@ -1,0 +1,62 @@
+{
+  "description": "暴雨重规划 Killer Demo 降级剧本：LLM 或天气 API 故障时用本地剧本保证演示完整（对齐 plan_diff 契约，条目 id 均真实存在于 knowledge_seed_v3.json）",
+  "version": "1.1",
+  "generated_at": "2026-09-08",
+  "updated_at": "2026-09-11",
+  "contract": "plan_diff 结构遵循《永嘉新游-产品设计稿-AI编程指导.md》API 契约：removed/added/rescheduled 每项必含 id / name / reason",
+  "scenario": "周末一家四口两天一夜短途游，预算 2000 元以内，核心诉求轻松不赶路、体验感优先",
+  "trigger": "下雨|暴雨|雨天|淋雨|天气",
+  "original_itinerary": {
+    "day1": [
+      { "time": "09:00-10:30", "activity": "抵达永嘉，入住民宿", "type": "indoor", "location": "岩头镇民宿" },
+      { "time": "11:00-12:30", "activity": "丽水街漫步+午餐（永嘉麦饼）", "type": "outdoor", "location": "丽水街" },
+      { "time": "14:00-17:00", "activity": "石桅岩景区徒步+水仙洞", "type": "outdoor", "location": "石桅岩景区" },
+      { "time": "18:00-19:30", "activity": "岭上人家烤全羊晚餐", "type": "indoor", "location": "岭上人家" }
+    ],
+    "day2": [
+      { "time": "08:30-10:00", "activity": "狮子岩竹筏漂流", "type": "outdoor", "location": "狮子岩" },
+      { "time": "10:30-12:00", "activity": "苍坡古村文房四宝探秘", "type": "outdoor", "location": "苍坡古村" },
+      { "time": "12:00-13:30", "activity": "古村农家菜午餐", "type": "indoor", "location": "苍坡村" },
+      { "time": "14:00-16:00", "activity": "永嘉书院+永嘉学馆", "type": "indoor", "location": "永嘉书院" },
+      { "time": "16:30", "activity": "返程", "type": "transport", "location": "" }
+    ]
+  },
+  "rain_event": {
+    "trigger": "14:00-18:00 时段暴雨预警",
+    "affected_items": [
+      { "id": "POI-001", "name": "石桅岩景区", "day": 1, "time": "14:00-17:00", "reason": "户外徒步+水仙洞乘船，暴雨无法进行" }
+    ]
+  },
+  "plan_diff": {
+    "removed": [
+      { "id": "POI-001", "name": "石桅岩景区", "reason": "户外徒步+水仙洞乘船，暴雨天溪谷湿滑、江面风大，有安全风险" }
+    ],
+    "added": [
+      { "id": "POI-018", "name": "瓯窑博物馆", "start": "14:00", "end": "15:30", "cost_cny": 0, "indoor": true, "reason": "全室内，看千年瓯窑青瓷，避雨主力" },
+      { "id": "BIZ-030", "name": "瓯窑手工体验课", "start": "15:30", "end": "17:00", "cost_cny": 140, "indoor": true, "reason": "就在博物馆旁，亲手拉坯烧一只青瓷杯带走，雨天反而成了旅程记忆点" }
+    ],
+    "rescheduled": [
+      { "id": "POI-001", "name": "石桅岩景区", "from": "Day1 09:00", "to": "次日 09:00", "reason": "雨后次日放晴，云雾里的「浙南天柱」反而更出片" }
+    ],
+    "budget_recheck": {
+      "before_cny": 1478,
+      "after_cny": 1618,
+      "delta_cny": 140,
+      "note": "仅多一笔体验课费用，拉坯作品含烧制可带走；石桅岩改期不加价"
+    },
+    "change_summary": "1 个户外点改期、新增 2 个室内点（博物馆+手作），动线顺移不绕路，预算 +140 元",
+    "sources": ["POI-001", "POI-018", "BIZ-030"]
+  },
+  "indoor_alternatives_pool": [
+    { "id": "POI-018", "name": "瓯窑小镇·瓯窑博物馆", "duration_min": 150, "cost_cny": 0, "quality": "高", "suitable_for": ["亲子", "文化爱好者"], "note": "体验课 BIZ-030 相邻，可连排" },
+    { "id": "POI-009", "name": "永嘉书院", "duration_min": 150, "cost_cny": 50, "quality": "高", "suitable_for": ["文化爱好者", "全年龄段"], "note": "院内永嘉学馆 POI-021 可一并参观" },
+    { "id": "POI-019", "name": "芙蓉宋瓷博物馆", "duration_min": 60, "cost_cny": 0, "quality": "中", "suitable_for": ["文化爱好者"], "note": "含在芙蓉古村门票内" },
+    { "id": "POI-022", "name": "徐定超故居民俗博物馆", "duration_min": 60, "cost_cny": 0, "quality": "中", "suitable_for": ["人文爱好者"] },
+    { "id": "POI-023", "name": "书兰居非遗博物馆", "duration_min": 60, "cost_cny": 0, "quality": "中", "suitable_for": ["非遗爱好者"] },
+    { "id": "POI-026", "name": "枫林数字诗路 e 站", "duration_min": 60, "cost_cny": 0, "quality": "高", "suitable_for": ["亲子", "科技爱好者"] },
+    { "id": "POI-020", "name": "楠溪书院美术馆", "duration_min": 60, "cost_cny": 0, "quality": "中", "suitable_for": ["艺术爱好者"], "note": "含在石桅岩门票内" },
+    { "id": "POI-033", "name": "岩头百姓书屋", "duration_min": 30, "cost_cny": 0, "quality": "低", "suitable_for": ["阅读爱好者"] },
+    { "id": "POI-005", "name": "陶公洞", "duration_min": 90, "cost_cny": 10, "quality": "中", "suitable_for": ["全年龄段"], "note": "半室内，大型石室" },
+    { "id": "POI-032", "name": "水仙洞", "duration_min": 30, "cost_cny": 0, "quality": "低", "suitable_for": ["全年龄段"], "note": "半室内，需乘船；暴雨天不建议" }
+  ]
+}

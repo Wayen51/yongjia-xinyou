@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "version": "1.0",
+    "note": "演示用玩家记录"
+  },
+  "records": [
+    {
+      "id": "REC-001",
+      "game_id": "AR-GAME-001",
+      "user_name": "游客*明",
+      "points_done": 4,
+      "total_points": 4,
+      "completed": true,
+      "duration_min": 45,
+      "rewards_claimed": 3,
+      "score": 95,
+      "date": "2026-09-08"
+    },
+    {
+      "id": "REC-002",
+      "game_id": "AR-GAME-001",
+      "user_name": "游客*华",
+      "points_done": 2,
+      "total_points": 4,
+      "completed": false,
+      "duration_min": 22,
+      "rewards_claimed": 1,
+      "score": 50,
+      "date": "2026-09-08"
+    },
+    {
+      "id": "REC-003",
+      "game_id": "AR-GAME-001",
+      "user_name": "游客*芳",
+      "points_done": 4,
+      "total_points": 4,
+      "completed": true,
+      "duration_min": 38,
+      "rewards_claimed": 4,
+      "score": 100,
+      "date": "2026-09-07"
+    },
+    {
+      "id": "REC-004",
+      "game_id": "AR-GAME-001",
+      "user_name": "游客*伟",
+      "points_done": 1,
+      "total_points": 4,
+      "completed": false,
+      "duration_min": 10,
+      "rewards_claimed": 0,
+      "score": 25,
+      "date": "2026-09-07"
+    },
+    {
+      "id": "REC-005",
+      "game_id": "AR-GAME-001",
+      "user_name": "游客*静",
+      "points_done": 3,
+      "total_points": 4,
+      "completed": false,
+      "duration_min": 30,
+      "rewards_claimed": 2,
+      "score": 75,
+      "date": "2026-09-06"
+    }
+  ],
+  "leaderboard": [
+    {
+      "rank": 1,
+      "user_name": "游客*芳",
+      "score": 100,
+      "badge": "永嘉文化达人"
+    },
+    {
+      "rank": 2,
+      "user_name": "游客*明",
+      "score": 95,
+      "badge": "永嘉文化达人"
+    },
+    {
+      "rank": 3,
+      "user_name": "游客*静",
+      "score": 75,
+      "badge": "-"
+    },
+    {
+      "rank": 4,
+      "user_name": "游客*华",
+      "score": 50,
+      "badge": "-"
+    },
+    {
+      "rank": 5,
+      "user_name": "游客*伟",
+      "score": 25,
+      "badge": "-"
+    }
+  ]
+}

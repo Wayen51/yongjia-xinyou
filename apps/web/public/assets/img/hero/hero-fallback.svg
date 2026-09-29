@@ -1,0 +1,17 @@
+<svg viewBox="0 0 1440 760" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#101C30"/>
+      <stop offset="100%" stop-color="#0A1220"/>
+    </linearGradient>
+    <linearGradient id="fpeak" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2b5f64" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#16263f" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1440" height="760" fill="url(#fbg)"/>
+  <circle cx="1130" cy="200" r="90" fill="none" stroke="#E8B84B" stroke-opacity="0.5" stroke-width="2"/>
+  <circle cx="1130" cy="200" r="46" fill="#E8B84B" fill-opacity="0.25"/>
+  <polygon points="60,760 500,210 720,520 980,120 1380,760" fill="url(#fpeak)" stroke="#3EC6B8" stroke-opacity="0.35" stroke-width="2"/>
+  <polyline points="0,640 220,620 460,650 720,600 1040,648 1440,610" fill="none" stroke="#3EC6B8" stroke-opacity="0.45" stroke-width="3"/>
+</svg>

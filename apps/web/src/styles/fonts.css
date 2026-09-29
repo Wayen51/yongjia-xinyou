@@ -1,0 +1,53 @@
+/* =====================================================================
+   永嘉新游 · 本地书法字体声明（品牌主视觉 / 分区标题专用）
+   =====================================================================
+   字体：霞鹜文楷 LXGW WenKai（SIL Open Font License 1.1，可商用），
+   只用于「品牌主视觉 + 分区标题」，不参与正文排版——正文、表单、以及
+   **顶栏导航**一律走 design-tokens.css 的 --font-sans 系统栈
+   （顶栏统一基础字体，避免多字体割裂）。
+
+   2026-09-12 合规替换：原 xiaoyao-xingshu / maobi-xingkai 无法确认商用授权，
+   已替换为 LXGW WenKai，并按站点实际用字做子集化（收录 apps/web + apps/mobile
+   源码内出现的全部中日韩字符，含全部场景名，1264 字 / 约 278KB），
+   既消除授权风险，也远小于原 2.98MB / 0.44MB。
+
+   装载方式：由同目录 main.css 顶部 @import 引入（与 design-tokens.css 一致）。
+   这样 apps/web 与 apps/mobile 都能拿到（mobile 的样式入口 @import 了 web 的 main.css）。
+
+   素材位置：apps/web/public/assets/fonts/lxgwwenkai-subset.woff2
+           （apps/mobile 的 publicDir 指向 apps/web/public，两端共用一份，不复制）。
+   子集若需扩充用字，请重新用 subset-font 生成并覆盖同名文件。
+
+   关于站酷鸿远御风体（2026-09-11 撤下）：
+   顶栏曾用御风体的「子集版」做导航字（只收录导航实际用字，约 48KB）。
+   但子集字体缺字**不会报错**，浏览器只会静默回退到 --font-sans —— 导航改版加上
+   「效果展示 / 场景管理」后，这 8 个字不在子集里，两项整体回退、与其余 6 项明显不一致，
+   反而造成「导航栏字体不统一」。故顶栏改为统一 --font-sans，御风体 woff2、
+   .font-yufeng 工具类与 scripts/subset-nav-font.mjs 子集脚本一并移除。
+   若以后确实需要装饰字体做导航，请用整包字体（如 .font-maobi）而非子集字体，
+   否则会以同样的方式静默缺字。
+
+   为什么只留 woff2：早先的 @font-face 写了 woff2/woff/ttf 三级回退，
+   而 2026 年的浏览器全都支持 woff2，回退链永远用不上，却让 48MB 的
+   .woff/.ttf 源字体随部署包一起上传。源文件已移出 public 留档，不再随部署走。
+   ===================================================================== */
+
+@font-face {
+  font-family: "LXGWWenKai";
+  src: url("/assets/fonts/lxgwwenkai-subset.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---- 工具类 ----
+   仅用于品牌主视觉与分区标题；顶栏导航已统一走 --font-sans，不再套装饰字体。
+   回退用 --font-serif（宋体栈）而非 cursive：
+   cursive 在各平台会命中完全不同的字体，与设计稿反差过大。
+   两个类名保留旧名以兼容既有模板，字体统一指向 LXGW WenKai（霞鹜文楷）。 */
+.font-xiaoyao {
+  font-family: "LXGWWenKai", var(--font-serif);
+}
+.font-maobi {
+  font-family: "LXGWWenKai", var(--font-serif);
+}

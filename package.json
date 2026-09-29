@@ -1,0 +1,22 @@
+{
+  "name": "yongjia-zhiyou",
+  "private": true,
+  "version": "1.0.0",
+  "description": "永嘉新游 · AI 数字文旅伴游演示平台",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:web": "node scripts/run.mjs web",
+    "dev:mobile": "node scripts/run.mjs mobile",
+    "dev:server": "node scripts/run.mjs server",
+    "build": "node scripts/build.mjs",
+    "start": "node apps/server/dist/index.js",
+    "sync-assets": "node scripts/sync-assets.mjs"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "sharp": "^0.33.5"
+  }
+}

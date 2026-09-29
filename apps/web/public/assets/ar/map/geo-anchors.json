@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "version": "1.0",
+    "note": "底图像素坐标与经纬度的对应关系，用于Leaflet叠层对齐"
+  },
+  "overview_map": {
+    "image": "map/yongjia-overview.webp",
+    "width": 2048,
+    "height": 1152,
+    "control_points": [
+      {
+        "lat": 28.45,
+        "lng": 120.5,
+        "px": 50,
+        "py": 80
+      },
+      {
+        "lat": 28.45,
+        "lng": 120.95,
+        "px": 1998,
+        "py": 80
+      },
+      {
+        "lat": 28.1,
+        "lng": 120.5,
+        "px": 50,
+        "py": 1072
+      },
+      {
+        "lat": 28.1,
+        "lng": 120.95,
+        "px": 1998,
+        "py": 1072
+      }
+    ]
+  },
+  "shiweiyan_map": {
+    "image": "map/scene-shiweiyan.webp",
+    "width": 1600,
+    "height": 1000,
+    "control_points": [
+      {
+        "lat": 28.4,
+        "lng": 120.85,
+        "px": 100,
+        "py": 100
+      },
+      {
+        "lat": 28.4,
+        "lng": 120.92,
+        "px": 1500,
+        "py": 100
+      },
+      {
+        "lat": 28.36,
+        "lng": 120.85,
+        "px": 100,
+        "py": 900
+      },
+      {
+        "lat": 28.36,
+        "lng": 120.92,
+        "px": 1500,
+        "py": 900
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "@zhiyou/web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "echarts": "^5.6.0",
+    "pinia": "^2.3.1",
+    "three": "^0.186.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "@types/three": "^0.185.4",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "tailwindcss": "^4.1.11",
+    "typescript": "~5.8.2",
+    "vite": "^6.3.5",
+    "vue-tsc": "^2.2.10"
+  }
+}

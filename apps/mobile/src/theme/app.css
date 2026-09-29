@@ -1,0 +1,355 @@
+/* =====================================================================
+   永嘉新游 · 手机端 APP 样式入口
+   仅在 apps/mobile 工程加载，网站（apps/web）不受影响。
+
+   1) 引入网站的全局样式与设计令牌（单一事实源，不复制）
+   2) 移动端基础重置：满高、禁纵向橡皮筋、安全区变量
+   3) 把 AR 寻宝页的「演示手机框」压平为真实全屏（覆写，不改组件本体）
+   ===================================================================== */
+@import "../../../web/src/styles/main.css";
+
+/* Tailwind 内容扫描：两份源码都要扫，否则网站组件里用到的类不会生成 */
+@source "../../../web/src";
+@source "../";
+
+:root {
+  --yjm-tabbar-h: 58px;
+  --yjm-safe-top: env(safe-area-inset-top, 0px);
+  --yjm-safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+html,
+body {
+  height: 100%;
+  overscroll-behavior-y: none;
+  background: #070e18;
+}
+
+#app {
+  min-height: 100%;
+  height: 100%;
+}
+
+/* ============ 外壳 ============ */
+.yjm-root {
+  /* 宽屏（演示投屏 / 桌面浏览器开 /m/）时收成居中手机列，不再整行拉伸；
+     手机上 100vw 即列宽，无任何变化 */
+  --yjm-col: min(100vw, 520px);
+  --yjm-gutter: calc((100vw - var(--yjm-col)) / 2);
+  width: var(--yjm-col);
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+  overflow: hidden;
+}
+.yjm-body {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+/* 沉浸页（寻宝 / 云游）：内容自己滚动，外壳不滚动 */
+.yjm-body--immersive {
+  overflow: hidden;
+}
+
+/* ============ 移动端全局质感 ============ */
+html {
+  -webkit-text-size-adjust: 100%;
+}
+.yjm-root {
+  -webkit-tap-highlight-color: transparent;
+  background: radial-gradient(120% 55% at 50% 0%, rgba(31, 139, 130, 0.14), transparent 68%), #070e18;
+}
+.yjm-root :where(button, a, [role="button"]) {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+.yjm-body {
+  scrollbar-width: none;
+}
+.yjm-body::-webkit-scrollbar {
+  display: none;
+}
+
+/* ============ 底部 Tab（美化） ============ */
+.yjm-tabbar {
+  flex: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding-bottom: var(--yjm-safe-bottom);
+  background: rgba(12, 21, 36, 0.94);
+  border-top: 1px solid var(--color-line-soft);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 -1px 0 rgba(62, 198, 184, 0.16), 0 -10px 28px rgba(0, 0, 0, 0.45);
+}
+.yjm-tab {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  height: var(--yjm-tabbar-h);
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--color-text-tertiary);
+  font-size: 11px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: color var(--dur-fast) var(--ease-out), transform var(--dur-fast) var(--ease-out);
+}
+.yjm-tab.is-on {
+  color: var(--color-brand-300);
+  font-weight: 600;
+}
+.yjm-tab:active {
+  transform: scale(0.94);
+}
+.yjm-tab.is-on .yjm-tab__pill {
+  opacity: 1;
+  transform: none;
+}
+.yjm-tab.is-on svg {
+  filter: drop-shadow(0 0 6px rgba(45, 212, 191, 0.5));
+}
+.yjm-tab svg {
+  width: 23px;
+  height: 23px;
+  position: relative;
+  z-index: 1;
+}
+.yjm-tab__pill {
+  position: absolute;
+  top: 7px;
+  left: 50%;
+  width: 44px;
+  height: 25px;
+  margin-left: -22px;
+  border-radius: 999px;
+  opacity: 0;
+  transform: scale(0.7);
+  background: rgba(62, 198, 184, 0.15);
+  transition: opacity var(--dur-base) var(--ease-out), transform var(--dur-base) var(--ease-spring);
+}
+
+/* ============================================================
+   ArPlayView 适配：演示态「手机外框」→ 真机全屏
+   ArPlayView 的样式是 scoped（选择器带 [data-v-*]），
+   这里用 .yjm-root 后代限定提高优先级，覆盖其桌面演示形态。
+   ============================================================ */
+
+/* 隐藏顶部运营调试条（含「运营端 / 位置监控」跳转，玩家不可见） */
+.yjm-root .toolbar {
+  display: none !important;
+}
+
+/* 高度链路必须是确定值：.yjm-body → .play-page → .stage → .phone → .screen
+   任一环塌陷，内部 height:100% 都会解析为 auto，手机屏会变成一条线。 */
+.yjm-root .play-page {
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important;
+  padding: 0 !important;
+}
+.yjm-root .stage {
+  flex: 1 1 auto !important;
+  display: block !important;
+  min-height: 0 !important;
+  padding: 0 !important;
+}
+
+.yjm-root .phone {
+  width: 100% !important;
+  max-width: none !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+.yjm-root .phone__island,
+.yjm-root .phone__side {
+  display: none !important;
+}
+.yjm-root .screen {
+  height: 100% !important;
+  border-radius: 0 !important;
+}
+
+/* 楠楠页：隐藏「评委演示控制台」，玩家端不应出现运营调试入口 */
+.yjm-root .demo-console {
+  display: none !important;
+}
+
+/* 页面容器在移动端收窄内边距，把宽度让给内容 */
+@media (max-width: 900px) {
+  .yjm-root .page {
+    padding: 0 14px !important;
+  }
+}
+
+/* 楠楠页：顶部让出状态栏安全区 */
+.yjm-root .agent__header {
+  padding-top: calc(10px + var(--yjm-safe-top));
+}
+.yjm-root .composer__hint {
+  display: none;
+}
+
+/* 云游页："大屏巡航演示" 是现场投屏入口，手机端隐藏 */
+.yjm-root .space__cruise {
+  display: none !important;
+}
+
+/* 手机端云游：实景模型（9MB+ GLB）对移动端过重，只保留全景漫游 */
+.yjm-root .space__mode:nth-child(2) {
+  display: none !important;
+}
+.yjm-root .agent {
+  height: 100%;
+  min-height: 0;
+}
+.yjm-root .agent__main {
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+}
+/* 行程悬浮球：手机端抬高，避免压住底部输入区 */
+.yjm-root .plan-fab {
+  bottom: calc(146px + env(safe-area-inset-bottom, 0px)) !important;
+}
+
+/* ============ 左上角返回键 ============ */
+/* 外壳级悬浮按钮：仅子级页面（/play/:id 等）出现，Tab 根页面平级不渲染。
+   z-index 45：高于 AR 玩法层（≤30）与手势指示器（40），低于模态弹层（60）。 */
+.yjm-backbtn {
+  position: fixed;
+  top: calc(var(--yjm-safe-top) + 10px);
+  /* 宽屏时贴住居中手机列左缘（var 定义在 .yjm-root 上，fixed 子元素可继承） */
+  left: calc(var(--yjm-gutter, 0px) + env(safe-area-inset-left, 0px) + 10px);
+  z-index: 45;
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border-radius: 50%;
+  border: 1px solid rgba(62, 198, 184, 0.42);
+  color: var(--color-brand-100, #b8ece6);
+  background: rgba(12, 21, 36, 0.72);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 255, 0.06);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    transform var(--dur-fast, 140ms) var(--ease-spring, ease-out),
+    background var(--dur-fast, 140ms) ease,
+    border-color var(--dur-fast, 140ms) ease;
+}
+.yjm-backbtn svg {
+  width: 22px;
+  height: 22px;
+  margin-left: -3px; /* chevron 视觉居中 */
+  pointer-events: none;
+}
+.yjm-backbtn:hover {
+  border-color: rgba(62, 198, 184, 0.65);
+  background: rgba(18, 32, 52, 0.85);
+}
+/* 触摸反馈：按下轻微缩小 + 青色提亮 */
+.yjm-backbtn:active {
+  transform: scale(0.88);
+  border-color: rgba(62, 198, 184, 0.85);
+  background: rgba(62, 198, 184, 0.22);
+}
+.yjm-backbtn:focus-visible {
+  outline: none;
+  border-color: rgba(62, 198, 184, 0.9);
+  box-shadow: 0 0 0 3px rgba(62, 198, 184, 0.28), 0 6px 18px rgba(0, 0, 0, 0.45);
+}
+/* 寻宝沉浸页顶部保留了 40px 模拟状态栏，返回键下移到 appbar 行，
+   垂直中心与站点名对齐，不压时钟 */
+.yjm-backbtn--immersive {
+  top: calc(var(--yjm-safe-top) + 48px);
+}
+/* 进出场：淡入 + 轻微放大 */
+.yjm-back-enter-active,
+.yjm-back-leave-active {
+  transition:
+    opacity var(--dur-fast, 140ms) ease,
+    transform var(--dur-fast, 140ms) var(--ease-spring, ease-out);
+}
+.yjm-back-enter-from,
+.yjm-back-leave-to {
+  opacity: 0;
+  transform: scale(0.7);
+}
+
+/* 寻宝页 appbar 左侧让出返回键位置（含横屏刘海安全区），不遮挡站点名/进度环。
+   PlayScreen 是 scoped 样式（.appbar[data-v-*] 同特异性），必须 !important，
+   与本文件其他 .yjm-root 覆写一致。 */
+.yjm-root .appbar {
+  padding-left: calc(env(safe-area-inset-left, 0px) + 60px) !important;
+}
+
+/* 横屏：垂直空间紧张，隐藏模拟状态栏（真机有系统状态栏），
+   返回键与 appbar 一起贴顶，避让量同步收窄 */
+@media (orientation: landscape) {
+  .yjm-backbtn,
+  .yjm-backbtn--immersive {
+    top: calc(env(safe-area-inset-top, 0px) + 8px);
+  }
+  .yjm-body--immersive .statusbar {
+    display: none !important;
+  }
+  .yjm-root .appbar {
+    padding-top: calc(env(safe-area-inset-top, 0px) + 8px) !important;
+    padding-bottom: 8px !important;
+  }
+}
+
+/* ============ 左边缘滑入返回指示器 ============ */
+/* --p 由 useBackGesture 写入（0~1 拖拽进度）：透明度与位移都跟着手指走 */
+.yjm-swipeback {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: var(--yjm-gutter, 0px);
+  z-index: 40;
+  width: 72px;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+  background: linear-gradient(90deg, rgba(7, 14, 24, 0.86), rgba(7, 14, 24, 0));
+  opacity: calc(var(--p, 0) * 0.95);
+  transition: opacity 120ms linear;
+}
+.yjm-swipeback__ico {
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: var(--color-brand-100);
+  background: rgba(12, 21, 36, 0.9);
+  border: 1px solid rgba(62, 198, 184, 0.42);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  transform: translateX(calc((var(--p, 0) - 1) * 16px)) scale(calc(0.88 + var(--p, 0) * 0.12));
+}
+.yjm-swipeback__ico svg {
+  width: 20px;
+  height: 20px;
+  margin-left: -2px;
+}
+/* 未拖拽时彻底移出合成层，避免固定层常驻影响滚动性能 */
+.yjm-swipeback:not(.is-on) {
+  visibility: hidden;
+}
+

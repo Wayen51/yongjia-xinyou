@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "name": "丽水街720°全景热点配置",
+    "version": "1.0",
+    "scene": "lishuijie",
+    "description": "岩头镇丽水街古村临水廊檐全景模式下的可点击热点",
+    "hotspot_count": 3
+  },
+  "hotspots": [
+    {
+      "id": "hs-1",
+      "name": "临水廊檐",
+      "position": {
+        "yaw": 0,
+        "pitch": -5
+      },
+      "icon": "building",
+      "title": "丽水街 · 临水长廊",
+      "content": "眼前这条沿湖而建的长廊就是丽水街，全长约300米，北起献义门，南止丽水桥。两旁是设有美人靠的风雨长廊，坐在廊下看溪水倒映红灯笼，是岩头镇最经典的画面。",
+      "source": "POI-012 丽水街",
+      "action": {
+        "type": "link",
+        "target": "/wiki/POI-012"
+      }
+    },
+    {
+      "id": "hs-2",
+      "name": "丽水桥",
+      "position": {
+        "yaw": 90,
+        "pitch": -10
+      },
+      "icon": "bridge",
+      "title": "丽水桥 · 明代古桥",
+      "content": "这座三孔石拱桥叫丽水桥，建于明嘉靖三十七年（1558年），是丽水街的南端起点。桥身用花岗岩砌成，四百多年来一直承载着往来行人。桥下溪水清澈，是纳凉拍照的好地方。",
+      "source": "POI-012 丽水街",
+      "action": {
+        "type": "link",
+        "target": "/wiki/POI-012"
+      }
+    },
+    {
+      "id": "hs-3",
+      "name": "红灯笼",
+      "position": {
+        "yaw": -45,
+        "pitch": 15
+      },
+      "icon": "lantern",
+      "title": "灯笼长廊 · 夜色最美",
+      "content": "廊檐下悬挂的红灯笼是丽水街的标志。傍晚时分灯笼亮起，暖黄灯光倒映在溪水中，整个长廊如梦似幻。很多摄影师专门来拍丽水街夜景，建议日落前后半小时到达。",
+      "source": "POI-012 丽水街",
+      "action": {
+        "type": "link",
+        "target": "/wiki/POI-012"
+      }
+    }
+  ]
+}

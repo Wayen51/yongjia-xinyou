@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "version": "1.1",
+    "note": "演示用AR游戏，基于culture主题；billboard 字段对应 assets/ar/billboard/ 下实际素材"
+  },
+  "games": [
+    {
+      "id": "AR-GAME-001",
+      "name": "石桅岩文化寻宝",
+      "template_id": "culture",
+      "status": "active",
+      "created_at": "2026-09-01",
+      "start_date": "2026-09-01",
+      "end_date": "2026-12-31",
+      "ai_mode": "mock",
+      "points": [
+        {
+          "poi_id": "POI-001",
+          "order": 1,
+          "billboard": "billboard-lantern.webp",
+          "task_type": "quiz",
+          "npc": "楠楠",
+          "question": "石桅岩海拔高度约多少米？",
+          "answer": "306米",
+          "hint": "它是楠溪江的标志性山峰",
+          "explanation": "石桅岩高约 306 米，三面环溪，被称为「浙南天柱」，是楠溪江的标志性景观。",
+          "reward_coupon_id": "CPN-001"
+        },
+        {
+          "poi_id": "POI-003",
+          "order": 2,
+          "billboard": "billboard-fu-bag.webp",
+          "task_type": "puzzle",
+          "npc": "摇橹船娘",
+          "question": "龙湾潭有几级瀑布？",
+          "answer": "七级（七折瀑）",
+          "hint": "数一数瀑布的层数",
+          "explanation": "龙湾潭以「七折瀑」闻名，溪流层层跌落共七级，是楠溪江上游最完整的一段峡谷瀑布群。",
+          "reward_coupon_id": "CPN-002"
+        },
+        {
+          "poi_id": "POI-029",
+          "order": 3,
+          "billboard": "billboard-treasure.webp",
+          "task_type": "quiz",
+          "npc": "摊主阿婆",
+          "question": "岭上人家最出名的美食是？",
+          "answer": "烤全羊",
+          "hint": "一整只羊，炭火慢烤",
+          "explanation": "岭上人家位于鹤盛镇岭上村，以炭火慢烤全羊闻名，是楠溪江一带有名的农家菜。",
+          "reward_coupon_id": "CPN-003"
+        },
+        {
+          "poi_id": "POI-010",
+          "order": 4,
+          "billboard": "billboard-scroll.webp",
+          "task_type": "quiz",
+          "npc": "村老族长",
+          "question": "苍坡古村始建于哪个朝代？",
+          "answer": "五代后周（955年）",
+          "hint": "比南宋还要早两百多年",
+          "explanation": "苍坡古村始建于五代后周显德二年（955 年）；南宋淳熙五年（1178 年）由李氏九世祖李嵩按「文房四宝」格局重新规划，至今格局保存完整。",
+          "reward_coupon_id": "CPN-004"
+        }
+      ],
+      "total_rewards": 4,
+      "completion_badge": "永嘉文化达人"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "version": "2.0",
+  "description": "永嘉文化寻宝：每个驿站一种独立玩法",
+  "stations": [
+    {
+      "stationId": "S0",
+      "type": "jigsaw",
+      "title": "文房四宝拼图",
+      "npc": "老学者",
+      "locationDetail": "苍坡古村-墨池旁",
+      "intro": "苍坡以‘文房四宝’布局闻名，请把打散的墨池图景拼回原貌。",
+      "solvedMsg": "拼图归位！笔、墨、纸、砚，耕读传家。",
+      "reward": "文房四宝徽章",
+      "related_culture_id": "CUL-034",
+      "data": {
+        "image": "/assets/img/kb/poi-010-cover.webp",
+        "rows": 3,
+        "cols": 3
+      }
+    },
+    {
+      "stationId": "S1",
+      "type": "memory",
+      "title": "古街美食记忆翻牌",
+      "npc": "麦饼大娘",
+      "locationDetail": "丽水街-麦饼摊",
+      "intro": "丽水街烟火气十足，把美食和名字配对，集齐街头味道。",
+      "solvedMsg": "配对成功！古街小吃，一样都不能少。",
+      "reward": "丽水街红灯笼",
+      "related_culture_id": "CUL-007",
+      "data": {
+        "pairs": [
+          { "icon": "🥮", "label": "永嘉麦饼" },
+          { "icon": "🍜", "label": "楠溪素面" },
+          { "icon": "🥟", "label": "金粉饺" },
+          { "icon": "🍶", "label": "永嘉老酒汗" },
+          { "icon": "🫖", "label": "乌牛早茶" },
+          { "icon": "🍝", "label": "沙岗粉干" }
+        ]
+      }
+    },
+    {
+      "stationId": "S2",
+      "type": "maze",
+      "title": "竹筏寻路",
+      "npc": "船夫",
+      "locationDetail": "狮子岩-竹筏码头",
+      "intro": "江心双屿，竹筏逐浪。操控竹筏避开礁石，抵达夕阳观景台。",
+      "solvedMsg": "顺流而下！狮子戏球的落日尽收眼底。",
+      "reward": "竹筏船票",
+      "related_culture_id": "CUL-003",
+      "data": {
+        "grid": [
+          "S......",
+          ".##.##.",
+          ".#...#.",
+          ".#.##.#",
+          "...#...",
+          ".##.##.",
+          "......E"
+        ]
+      }
+    },
+    {
+      "stationId": "S3",
+      "type": "quiz",
+      "title": "浙南天柱问答",
+      "npc": "山水诗人",
+      "locationDetail": "石桅岩-观景台",
+      "intro": "石桅岩如船桅矗立，答对问题才能读懂它的亿年故事。",
+      "solvedMsg": "答对了！这座306米的孤峰见证了楠溪江的岁月。",
+      "reward": "浙南天柱印章",
+      "related_culture_id": "CUL-003",
+      "data": {
+        "questions": [
+          {
+            "id": "Q-S3-1",
+            "question": "被誉为‘山水诗鼻祖’，曾任永嘉太守的是哪位诗人？",
+            "options": ["陶渊明", "谢灵运", "王维", "孟浩然"],
+            "answer": 1,
+            "explanation": "南朝谢灵运任永嘉太守期间，遍历楠溪江山水，写下大量山水诗作，奠定了‘山水诗鼻祖’的地位。"
+          }
+        ]
+      }
+    },
+    {
+      "stationId": "S4",
+      "type": "poem",
+      "title": "水心塔前拼诗句",
+      "npc": "书院先生",
+      "locationDetail": "永嘉书院-永嘉学馆",
+      "intro": "永嘉学派重事功，也重诗文。把谢灵运的佳句按原序拼接。",
+      "solvedMsg": "诗句成章！永嘉山水，从此有了诗。",
+      "reward": "水心塔书签",
+      "related_culture_id": "CUL-001",
+      "data": {
+        "title": "谢灵运《登江中孤屿》节选",
+        "lines": ["江南倦历览，", "江北旷周旋。", "怀新道转迥，", "寻异景不延。"]
+      }
+    },
+    {
+      "stationId": "S5",
+      "type": "link",
+      "title": "瓯窑纹样配对",
+      "npc": "制瓷匠人",
+      "locationDetail": "瓯窑小镇-龙窑",
+      "intro": "一抔瓷土，千年窑火。把瓯窑相关的名称与释义连起来。",
+      "solvedMsg": "连连成功！匣钵、龙窑、坦头窑址，瓯窑记忆已点亮。",
+      "reward": "青瓷碎片",
+      "related_culture_id": "CUL-006",
+      "data": {
+        "pairs": [
+          { "left": "坦头窑址", "right": "唐代瓯窑官窑遗址" },
+          { "left": "龙窑", "right": "40.5米柴烧长窑" },
+          { "left": "匣钵", "right": "烧制时保护瓷器的窑具" },
+          { "left": "永嘉昆曲", "right": "世界首批人类口头和非物质遗产" },
+          { "left": "清刀技法", "right": "永嘉木雕代表性刀法" }
+        ]
+      }
+    },
+    {
+      "stationId": "S6",
+      "type": "hidden",
+      "title": "七星八斗寻物",
+      "npc": "南宋书生",
+      "locationDetail": "芙蓉古村-七星坛",
+      "intro": "芙蓉古村按‘七星八斗’布局，在图中找出村落里的文化符号。",
+      "solvedMsg": "眼力过人！七星八斗，藏尽古村智慧。",
+      "reward": "七星八斗罗盘",
+      "related_culture_id": "CUL-035",
+      "data": {
+        "image": "/assets/img/kb/poi-011-cover.webp",
+        "items": [
+          { "id": "pavilion", "name": "芙蓉亭", "icon": "🏛️", "x": 30, "y": 62 },
+          { "id": "pool", "name": "芙蓉池", "icon": "🌊", "x": 50, "y": 72 },
+          { "id": "porcelain", "name": "宋瓷", "icon": "🏺", "x": 70, "y": 52 },
+          { "id": "tree", "name": "古柏", "icon": "🌳", "x": 22, "y": 32 },
+          { "id": "altar", "name": "七星坛", "icon": "⭐", "x": 50, "y": 42 }
+        ]
+      }
+    },
+    {
+      "stationId": "S7",
+      "type": "cloze",
+      "title": "晒秋成语填空",
+      "npc": "晒秋阿婆",
+      "locationDetail": "林坑古村-晒场",
+      "intro": "林坑晒秋红遍全国。根据句意，把正确的成语填入空格。",
+      "solvedMsg": "填空正确！晒出丰收，晒出好日子。",
+      "reward": "晒秋辣椒串",
+      "related_culture_id": "CUL-037",
+      "data": {
+        "sentence": "林坑晒秋____，五彩斑斓的农作物____，吸引游客____。",
+        "answers": ["闻名遐迩", "错落有致", "络绎不绝"],
+        "options": ["闻名遐迩", "错落有致", "络绎不绝", "川流不息", "五谷丰登", "红红火火"]
+      }
+    }
+  ]
+}

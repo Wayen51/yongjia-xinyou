@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "styles": [
+    {
+      "id": "documentary",
+      "name": "纪录片",
+      "desc": "沉稳航拍，山水全景",
+      "cover": "clip-01-landscape.mp4",
+      "duration": 8
+    },
+    {
+      "id": "ancient",
+      "name": "古风",
+      "desc": "水墨意境，慢节奏",
+      "cover": "clip-02-ancient.mp4",
+      "duration": 8
+    },
+    {
+      "id": "vlog",
+      "name": "Vlog",
+      "desc": "轻松手持，人文视角",
+      "cover": "clip-03-village.mp4",
+      "duration": 8
+    },
+    {
+      "id": "craft",
+      "name": "工艺特写",
+      "desc": "微距细节，产品展示",
+      "cover": "clip-04-craft.mp4",
+      "duration": 8
+    },
+    {
+      "id": "heritage",
+      "name": "非遗纪实",
+      "desc": "昆曲瓯窑，文化传承",
+      "cover": "clip-05-heritage.mp4",
+      "duration": 8
+    },
+    {
+      "id": "aerial",
+      "name": "山水航拍",
+      "desc": "晨雾楠溪，大气开阔",
+      "cover": "clip-06-aerial.mp4",
+      "duration": 8
+    }
+  ]
+}

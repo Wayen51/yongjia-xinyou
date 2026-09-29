@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "themes": {
+    "culture": {
+      "primary": "#3EC6B8",
+      "secondary": "#E8B84B",
+      "bg": "#0A1220",
+      "progress": "#4ADE80",
+      "name": "永嘉文化寻宝"
+    },
+    "midautumn": {
+      "primary": "#F2D69A",
+      "secondary": "#E8B84B",
+      "bg": "#0A1220",
+      "progress": "#F59E0B",
+      "name": "中秋灯谜寻宝"
+    },
+    "spring": {
+      "primary": "#F87171",
+      "secondary": "#E8B84B",
+      "bg": "#0A1220",
+      "progress": "#4ADE80",
+      "name": "春节福字大作战"
+    },
+    "national-day": {
+      "primary": "#DC2626",
+      "secondary": "#F59E0B",
+      "bg": "#1A0A0A",
+      "progress": "#FBBF24",
+      "name": "国庆红色研学"
+    }
+  }
+}

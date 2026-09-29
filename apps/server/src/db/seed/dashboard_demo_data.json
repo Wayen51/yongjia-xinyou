@@ -1,0 +1,1029 @@
+{
+  "meta": {
+    "description": "永嘉新游数据驾驶舱演示数据（30天）+ 平台级B端运营指标扩展",
+    "period": "2026-08-10 至 2026-09-08",
+    "note": "本数据为演示用模拟数据，页面须标注演示数据",
+    "generated_at": "2026-09-08",
+    "version": "2.0-platform-extended"
+  },
+  "kpi": {
+    "total_exposure": 425662,
+    "total_visitors": 1652,
+    "total_plannings": 3885,
+    "total_gmv": 406632,
+    "avg_daily_exposure": 14188,
+    "conversion_rate": 0.24,
+    "avg_order_value": 393
+  },
+  "daily_data": [
+    {
+      "date": "2026-08-10",
+      "weekday": "周一",
+      "exposure": 13238,
+      "clicks": 1162,
+      "consultations": 260,
+      "plannings": 90,
+      "conversions": 19,
+      "gmv": 5787,
+      "new_visitors": 34
+    },
+    {
+      "date": "2026-08-11",
+      "weekday": "周二",
+      "exposure": 12654,
+      "clicks": 1089,
+      "consultations": 209,
+      "plannings": 63,
+      "conversions": 14,
+      "gmv": 5617,
+      "new_visitors": 17
+    },
+    {
+      "date": "2026-08-12",
+      "weekday": "周三",
+      "exposure": 9916,
+      "clicks": 1290,
+      "consultations": 283,
+      "plannings": 108,
+      "conversions": 28,
+      "gmv": 9709,
+      "new_visitors": 53
+    },
+    {
+      "date": "2026-08-13",
+      "weekday": "周四",
+      "exposure": 14855,
+      "clicks": 2026,
+      "consultations": 445,
+      "plannings": 163,
+      "conversions": 36,
+      "gmv": 18350,
+      "new_visitors": 52
+    },
+    {
+      "date": "2026-08-14",
+      "weekday": "周五",
+      "exposure": 9284,
+      "clicks": 989,
+      "consultations": 183,
+      "plannings": 67,
+      "conversions": 16,
+      "gmv": 4646,
+      "new_visitors": 25
+    },
+    {
+      "date": "2026-08-15",
+      "weekday": "周六",
+      "exposure": 12608,
+      "clicks": 1867,
+      "consultations": 350,
+      "plannings": 143,
+      "conversions": 46,
+      "gmv": 19708,
+      "new_visitors": 86
+    },
+    {
+      "date": "2026-08-16",
+      "weekday": "周日",
+      "exposure": 18036,
+      "clicks": 1685,
+      "consultations": 264,
+      "plannings": 114,
+      "conversions": 36,
+      "gmv": 18592,
+      "new_visitors": 67
+    },
+    {
+      "date": "2026-08-17",
+      "weekday": "周一",
+      "exposure": 9753,
+      "clicks": 1039,
+      "consultations": 202,
+      "plannings": 94,
+      "conversions": 21,
+      "gmv": 7670,
+      "new_visitors": 36
+    },
+    {
+      "date": "2026-08-18",
+      "weekday": "周二",
+      "exposure": 15398,
+      "clicks": 2241,
+      "consultations": 481,
+      "plannings": 202,
+      "conversions": 45,
+      "gmv": 20474,
+      "new_visitors": 59
+    },
+    {
+      "date": "2026-08-19",
+      "weekday": "周三",
+      "exposure": 12607,
+      "clicks": 1246,
+      "consultations": 302,
+      "plannings": 132,
+      "conversions": 30,
+      "gmv": 10734,
+      "new_visitors": 54
+    },
+    {
+      "date": "2026-08-20",
+      "weekday": "周四",
+      "exposure": 9726,
+      "clicks": 934,
+      "consultations": 143,
+      "plannings": 51,
+      "conversions": 12,
+      "gmv": 3967,
+      "new_visitors": 23
+    },
+    {
+      "date": "2026-08-21",
+      "weekday": "周五",
+      "exposure": 16171,
+      "clicks": 1649,
+      "consultations": 355,
+      "plannings": 134,
+      "conversions": 45,
+      "gmv": 17555,
+      "new_visitors": 63
+    },
+    {
+      "date": "2026-08-22",
+      "weekday": "周六",
+      "exposure": 15370,
+      "clicks": 2031,
+      "consultations": 414,
+      "plannings": 186,
+      "conversions": 49,
+      "gmv": 20582,
+      "new_visitors": 72
+    },
+    {
+      "date": "2026-08-23",
+      "weekday": "周日",
+      "exposure": 14188,
+      "clicks": 1641,
+      "consultations": 261,
+      "plannings": 80,
+      "conversions": 17,
+      "gmv": 7319,
+      "new_visitors": 31
+    },
+    {
+      "date": "2026-08-24",
+      "weekday": "周一",
+      "exposure": 13864,
+      "clicks": 1687,
+      "consultations": 317,
+      "plannings": 132,
+      "conversions": 35,
+      "gmv": 11911,
+      "new_visitors": 57
+    },
+    {
+      "date": "2026-08-25",
+      "weekday": "周二",
+      "exposure": 9915,
+      "clicks": 1265,
+      "consultations": 204,
+      "plannings": 97,
+      "conversions": 30,
+      "gmv": 13933,
+      "new_visitors": 44
+    },
+    {
+      "date": "2026-08-26",
+      "weekday": "周三",
+      "exposure": 12900,
+      "clicks": 1424,
+      "consultations": 278,
+      "plannings": 136,
+      "conversions": 45,
+      "gmv": 15444,
+      "new_visitors": 72
+    },
+    {
+      "date": "2026-08-27",
+      "weekday": "周四",
+      "exposure": 11876,
+      "clicks": 1372,
+      "consultations": 220,
+      "plannings": 93,
+      "conversions": 30,
+      "gmv": 12055,
+      "new_visitors": 40
+    },
+    {
+      "date": "2026-08-28",
+      "weekday": "周五",
+      "exposure": 14050,
+      "clicks": 1873,
+      "consultations": 381,
+      "plannings": 173,
+      "conversions": 48,
+      "gmv": 13446,
+      "new_visitors": 70
+    },
+    {
+      "date": "2026-08-29",
+      "weekday": "周六",
+      "exposure": 13629,
+      "clicks": 1197,
+      "consultations": 222,
+      "plannings": 110,
+      "conversions": 35,
+      "gmv": 11811,
+      "new_visitors": 48
+    },
+    {
+      "date": "2026-08-30",
+      "weekday": "周日",
+      "exposure": 21373,
+      "clicks": 3126,
+      "consultations": 495,
+      "plannings": 196,
+      "conversions": 41,
+      "gmv": 18964,
+      "new_visitors": 74
+    },
+    {
+      "date": "2026-08-31",
+      "weekday": "周一",
+      "exposure": 11902,
+      "clicks": 1501,
+      "consultations": 367,
+      "plannings": 122,
+      "conversions": 34,
+      "gmv": 14469,
+      "new_visitors": 67
+    },
+    {
+      "date": "2026-09-01",
+      "weekday": "周二",
+      "exposure": 16514,
+      "clicks": 2194,
+      "consultations": 480,
+      "plannings": 212,
+      "conversions": 55,
+      "gmv": 24266,
+      "new_visitors": 82
+    },
+    {
+      "date": "2026-09-02",
+      "weekday": "周三",
+      "exposure": 16461,
+      "clicks": 1837,
+      "consultations": 321,
+      "plannings": 100,
+      "conversions": 20,
+      "gmv": 8258,
+      "new_visitors": 33
+    },
+    {
+      "date": "2026-09-03",
+      "weekday": "周四",
+      "exposure": 10958,
+      "clicks": 931,
+      "consultations": 198,
+      "plannings": 68,
+      "conversions": 22,
+      "gmv": 10698,
+      "new_visitors": 27
+    },
+    {
+      "date": "2026-09-04",
+      "weekday": "周五",
+      "exposure": 13679,
+      "clicks": 1360,
+      "consultations": 270,
+      "plannings": 110,
+      "conversions": 33,
+      "gmv": 16228,
+      "new_visitors": 54
+    },
+    {
+      "date": "2026-09-05",
+      "weekday": "周六",
+      "exposure": 18051,
+      "clicks": 2435,
+      "consultations": 561,
+      "plannings": 189,
+      "conversions": 40,
+      "gmv": 15338,
+      "new_visitors": 61
+    },
+    {
+      "date": "2026-09-06",
+      "weekday": "周日",
+      "exposure": 21598,
+      "clicks": 3033,
+      "consultations": 471,
+      "plannings": 202,
+      "conversions": 59,
+      "gmv": 17378,
+      "new_visitors": 105
+    },
+    {
+      "date": "2026-09-07",
+      "weekday": "周一",
+      "exposure": 20672,
+      "clicks": 2900,
+      "consultations": 507,
+      "plannings": 171,
+      "conversions": 45,
+      "gmv": 17156,
+      "new_visitors": 64
+    },
+    {
+      "date": "2026-09-08",
+      "weekday": "周二",
+      "exposure": 14416,
+      "clicks": 2035,
+      "consultations": 320,
+      "plannings": 147,
+      "conversions": 48,
+      "gmv": 14567,
+      "new_visitors": 82
+    }
+  ],
+  "source_cities_top10": [
+    {
+      "city": "温州",
+      "visitors": 8520,
+      "percentage": 28.5
+    },
+    {
+      "city": "杭州",
+      "visitors": 4230,
+      "percentage": 14.1
+    },
+    {
+      "city": "上海",
+      "visitors": 3890,
+      "percentage": 13.0
+    },
+    {
+      "city": "宁波",
+      "visitors": 2870,
+      "percentage": 9.6
+    },
+    {
+      "city": "台州",
+      "visitors": 2150,
+      "percentage": 7.2
+    },
+    {
+      "city": "金华",
+      "visitors": 1680,
+      "percentage": 5.6
+    },
+    {
+      "city": "绍兴",
+      "visitors": 1420,
+      "percentage": 4.7
+    },
+    {
+      "city": "丽水",
+      "visitors": 1150,
+      "percentage": 3.8
+    },
+    {
+      "city": "苏州",
+      "visitors": 980,
+      "percentage": 3.3
+    },
+    {
+      "city": "其他",
+      "visitors": 2970,
+      "percentage": 10.2
+    }
+  ],
+  "conversion_funnel": [
+    {
+      "stage": "内容曝光",
+      "value": 425662,
+      "rate": 100.0
+    },
+    {
+      "stage": "点击访问",
+      "value": 51059,
+      "rate": 12.0
+    },
+    {
+      "stage": "AI咨询",
+      "value": 9764,
+      "rate": 2.3
+    },
+    {
+      "stage": "行程规划",
+      "value": 3885,
+      "rate": 0.9
+    },
+    {
+      "stage": "消费转化",
+      "value": 1034,
+      "rate": 0.2
+    }
+  ],
+  "content_effect": [
+    {
+      "type": "无人机航拍",
+      "exposure": 85000,
+      "clicks": 12800,
+      "conversion_rate": 3.2
+    },
+    {
+      "type": "3D云游",
+      "exposure": 62000,
+      "clicks": 10500,
+      "conversion_rate": 4.1
+    },
+    {
+      "type": "文化短视频",
+      "exposure": 78000,
+      "clicks": 11200,
+      "conversion_rate": 2.8
+    },
+    {
+      "type": "美食种草",
+      "exposure": 45000,
+      "clicks": 7800,
+      "conversion_rate": 3.5
+    },
+    {
+      "type": "古村人文",
+      "exposure": 38000,
+      "clicks": 6500,
+      "conversion_rate": 4.5
+    }
+  ],
+  "scenic_heat": [
+    {
+      "name": "石桅岩",
+      "visitors": 12500,
+      "heat_score": 95,
+      "conversion": 4.2
+    },
+    {
+      "name": "狮子岩",
+      "visitors": 11200,
+      "heat_score": 88,
+      "conversion": 3.8
+    },
+    {
+      "name": "永嘉书院",
+      "visitors": 9800,
+      "heat_score": 82,
+      "conversion": 4.5
+    },
+    {
+      "name": "龙湾潭",
+      "visitors": 8600,
+      "heat_score": 76,
+      "conversion": 3.5
+    },
+    {
+      "name": "苍坡古村",
+      "visitors": 7500,
+      "heat_score": 70,
+      "conversion": 5.1
+    },
+    {
+      "name": "芙蓉古村",
+      "visitors": 6800,
+      "heat_score": 65,
+      "conversion": 4.8
+    },
+    {
+      "name": "丽水街",
+      "visitors": 6200,
+      "heat_score": 60,
+      "conversion": 3.2
+    },
+    {
+      "name": "大若岩",
+      "visitors": 5500,
+      "heat_score": 55,
+      "conversion": 3.0
+    }
+  ],
+  "ai_insights": [
+    {
+      "id": "INS-001",
+      "date": "2026-09-07",
+      "category": "overview",
+      "title": "曝光≠转化：内容结构应向文化类倾斜",
+      "insight": "石桅岩内容曝光量最高（8.5万），但文化内容（古村人文）转化率更高（5.1%）。建议增加文化主题内容投放，并强化石桅岩—古村联动路线，提升二次消费转化。",
+      "confidence": 0.87,
+      "signals": [
+        { "label": "石桅岩内容总曝光", "value": "8.5 万", "delta": "全站榜首", "dir": "flat" },
+        { "label": "古村人文转化率", "value": "5.1%", "delta": "高于大盘 1.8pt", "dir": "up" },
+        { "label": "内容→消费大盘转化", "value": "3.3%", "delta": "曝光与转化脱节", "dir": "down" }
+      ],
+      "actions": [
+        "将文化主题内容投放占比提升至 40%",
+        "上线「石桅岩 × 古村人文」两日联动线路与主题内容"
+      ]
+    },
+    {
+      "id": "INS-002",
+      "date": "2026-09-06",
+      "category": "overview",
+      "title": "周末客流涨三成，消费转化却回落",
+      "insight": "周末（周六日）流量比工作日高30%，但转化率反而低15%。建议在周末增加限时优惠和预约引导，将高流量转化为高消费。",
+      "confidence": 0.82,
+      "signals": [
+        { "label": "周末日均到访", "value": "1.9 万", "delta": "较平日 +30%", "dir": "up" },
+        { "label": "周末转化率", "value": "2.5%", "delta": "较平日 -15%", "dir": "down" },
+        { "label": "散客占比", "value": "62%", "delta": "预约引导空间大", "dir": "flat" }
+      ],
+      "actions": [
+        "周六日投放限时餐饮 / 民宿核销券，承接增量客流",
+        "对周末到访推送分时段预约引导，削峰填谷"
+      ]
+    },
+    {
+      "id": "INS-003",
+      "date": "2026-09-05",
+      "category": "overview",
+      "title": "本地与沪杭双客群，需分产品承接",
+      "insight": "温州本地客源占28.5%，杭州+上海占27.1%。建议针对沪杭客群推出高铁自由行套餐，针对温州本地推出周末微度假产品。",
+      "confidence": 0.79,
+      "signals": [
+        { "label": "温州本地客源占比", "value": "28.5%", "delta": "第一大客源地", "dir": "flat" },
+        { "label": "杭州 + 上海占比", "value": "27.1%", "delta": "高客单潜力", "dir": "up" },
+        { "label": "沪杭人均停留", "value": "1.6 天", "delta": "低于本地 0.4 天", "dir": "down" }
+      ],
+      "actions": [
+        "面向沪杭上线「高铁直达·永嘉周末」自由行套餐",
+        "为温州本地客群强化周末微度假与亲子玩法"
+      ]
+    },
+    {
+      "id": "INS-004",
+      "date": "2026-09-08",
+      "category": "video",
+      "title": "古风模板播放与转化双高，优先供节令视频",
+      "insight": "古风风格视频平均播放量最高（12000），转化率4.1%。建议运营者优先使用古风模板制作节日营销视频，尤其是中秋、春节节点。",
+      "confidence": 0.85,
+      "signals": [
+        { "label": "古风视频平均播放", "value": "1.2 万", "delta": "高于全站均值 41%", "dir": "up" },
+        { "label": "古风内容转化率", "value": "4.1%", "delta": "高于大盘 0.8pt", "dir": "up" },
+        { "label": "本周古风产出占比", "value": "17%", "delta": "供给仍有缺口", "dir": "flat" }
+      ],
+      "actions": [
+        "运营台视频模板页将「古风」置顶，一键套用",
+        "中秋营销片默认使用古风模板 + 嫦娥/灯会分镜包"
+      ]
+    },
+    {
+      "id": "INS-005",
+      "date": "2026-09-08",
+      "category": "ar",
+      "title": "灯谜类寻宝参与深、停留长，可复用为常设玩法",
+      "insight": "AR游戏「中秋灯谜寻宝」参与率最高（1250人次），完成率72%。灯谜类互动用户停留时间最长（平均18分钟），建议每个节日都推出主题寻宝游戏。",
+      "confidence": 0.88,
+      "signals": [
+        { "label": "中秋灯谜寻宝参与", "value": "1,250 人", "delta": "本周全部 AR 场次第一", "dir": "up" },
+        { "label": "寻宝完成率", "value": "72%", "delta": "高于均值 14pt", "dir": "up" },
+        { "label": "平均停留时长", "value": "18 分钟", "delta": "最高互动深度", "dir": "up" }
+      ],
+      "actions": [
+        "将灯谜题库沉淀为「常设题库」，任意节日一键换皮复用",
+        "国庆 / 春节继续沿用灯谜式寻宝模板并加点位"
+      ]
+    },
+    {
+      "id": "INS-006",
+      "date": "2026-09-07",
+      "category": "coupon",
+      "title": "餐饮券引流、民宿券做大奖，券种各司其职",
+      "insight": "餐饮满减券核销率最高（44.5%），民宿代金券客单价最高（80元）。建议AR游戏奖品优先配置餐饮券引流，高价值民宿券作为通关大奖。",
+      "confidence": 0.81,
+      "signals": [
+        { "label": "餐饮满减券核销率", "value": "44.5%", "delta": "各券种最高", "dir": "up" },
+        { "label": "民宿代金券客单价", "value": "¥80", "delta": "带动 GMV 最强", "dir": "up" },
+        { "label": "券整体核销率", "value": "36.2%", "delta": "环比 +3.1pt", "dir": "up" }
+      ],
+      "actions": [
+        "AR 通关大奖统一配置高价值民宿券，拉高转化价值",
+        "餐饮满减券作为参与奖广泛发放，提升参与率"
+      ]
+    },
+    {
+      "id": "INS-007",
+      "date": "2026-09-06",
+      "category": "companion",
+      "title": "美食推荐占会话四分之一，麦饼点击最高",
+      "insight": "智能伴侣美食推荐意图占22%，其中永嘉麦饼被推荐后点击率最高。建议在知识库中强化美食与景点的关联推荐，形成「看景→吃饼→买文创」消费链。",
+      "confidence": 0.79,
+      "signals": [
+        { "label": "美食类意图占比", "value": "22%", "delta": "会话意图第一", "dir": "up" },
+        { "label": "永嘉麦饼推荐点击率", "value": "61%", "delta": "单品最高", "dir": "up" },
+        { "label": "美食→门票联动率", "value": "9.4%", "delta": "提升空间大", "dir": "flat" }
+      ],
+      "actions": [
+        "知识库为每个景区挂载「附近烟火美食」关联条目",
+        "打造「看景 → 吃饼 → 买文创」消费链并在伴侣话术引导"
+      ]
+    }
+  ],
+  "platform_kpi": {
+    "video_total": 128,
+    "video_this_week": 23,
+    "ar_games_active": 6,
+    "ar_participants": 3421,
+    "ar_completion_rate": 0.68,
+    "coupons_issued": 5680,
+    "coupons_redeemed": 2147,
+    "coupon_redeem_rate": 0.378,
+    "companion_chats": 18650,
+    "companion_avg_msg": 4.2,
+    "total_gmv_platform": 406632,
+    "tax_contribution_est": 24398
+  },
+  "video_metrics": {
+    "by_style": [
+      {
+        "style": "纪录片",
+        "count": 42,
+        "avg_views": 8500,
+        "conversion": 3.2
+      },
+      {
+        "style": "古风",
+        "count": 35,
+        "avg_views": 12000,
+        "conversion": 4.1
+      },
+      {
+        "style": "Vlog",
+        "count": 28,
+        "avg_views": 6800,
+        "conversion": 2.8
+      },
+      {
+        "style": "工艺特写",
+        "count": 23,
+        "avg_views": 5200,
+        "conversion": 3.5
+      }
+    ],
+    "weekly_trend": [
+      {
+        "week": "W32",
+        "videos": 8,
+        "views": 45000
+      },
+      {
+        "week": "W33",
+        "videos": 12,
+        "views": 68000
+      },
+      {
+        "week": "W34",
+        "videos": 15,
+        "views": 82000
+      },
+      {
+        "week": "W35",
+        "videos": 18,
+        "views": 95000
+      },
+      {
+        "week": "W36",
+        "videos": 23,
+        "views": 128000
+      }
+    ],
+    "top_videos": [
+      {
+        "title": "石桅岩·云海日出",
+        "style": "纪录片",
+        "views": 28500,
+        "shares": 1240,
+        "conversion": 4.8
+      },
+      {
+        "title": "楠溪江竹筏夜话",
+        "style": "古风",
+        "views": 24200,
+        "shares": 980,
+        "conversion": 4.2
+      },
+      {
+        "title": "瓯窑千年一窑火",
+        "style": "工艺特写",
+        "views": 18600,
+        "shares": 756,
+        "conversion": 5.1
+      },
+      {
+        "title": "苍坡古村的一天",
+        "style": "Vlog",
+        "views": 15800,
+        "shares": 620,
+        "conversion": 3.6
+      },
+      {
+        "title": "永嘉麦饼·家的味道",
+        "style": "Vlog",
+        "views": 14200,
+        "shares": 890,
+        "conversion": 3.9
+      }
+    ]
+  },
+  "ar_metrics": {
+    "games_list": [
+      {
+        "id": "AR-001",
+        "name": "中秋灯谜寻宝",
+        "festival": "中秋",
+        "points": 8,
+        "participants": 1250,
+        "completion": 0.72,
+        "status": "active"
+      },
+      {
+        "id": "AR-002",
+        "name": "楠溪精灵收集",
+        "festival": "日常",
+        "points": 12,
+        "participants": 890,
+        "completion": 0.65,
+        "status": "active"
+      },
+      {
+        "id": "AR-003",
+        "name": "古村密码探秘",
+        "festival": "日常",
+        "points": 6,
+        "participants": 620,
+        "completion": 0.71,
+        "status": "active"
+      },
+      {
+        "id": "AR-004",
+        "name": "春节福字大作战",
+        "festival": "春节",
+        "points": 10,
+        "participants": 450,
+        "completion": 0.68,
+        "status": "scheduled"
+      },
+      {
+        "id": "AR-005",
+        "name": "瓯窑碎片寻踪",
+        "festival": "日常",
+        "points": 5,
+        "participants": 211,
+        "completion": 0.62,
+        "status": "active"
+      }
+    ],
+    "daily_participation": [
+      {
+        "date": "2026-09-01",
+        "participants": 243,
+        "checkins": 68
+      },
+      {
+        "date": "2026-09-02",
+        "participants": 86,
+        "checkins": 110
+      },
+      {
+        "date": "2026-09-03",
+        "participants": 142,
+        "checkins": 97
+      },
+      {
+        "date": "2026-09-04",
+        "participants": 115,
+        "checkins": 66
+      },
+      {
+        "date": "2026-09-05",
+        "participants": 253,
+        "checkins": 179
+      },
+      {
+        "date": "2026-09-06",
+        "participants": 102,
+        "checkins": 148
+      },
+      {
+        "date": "2026-09-07",
+        "participants": 88,
+        "checkins": 47
+      },
+      {
+        "date": "2026-09-08",
+        "participants": 103,
+        "checkins": 95
+      }
+    ],
+    "point_heat": [
+      {
+        "poi": "石桅岩",
+        "checkins": 890,
+        "avg_time_min": 12
+      },
+      {
+        "poi": "丽水街",
+        "checkins": 720,
+        "avg_time_min": 18
+      },
+      {
+        "poi": "苍坡古村",
+        "checkins": 650,
+        "avg_time_min": 15
+      },
+      {
+        "poi": "永嘉书院",
+        "checkins": 580,
+        "avg_time_min": 14
+      },
+      {
+        "poi": "芙蓉古村",
+        "checkins": 420,
+        "avg_time_min": 16
+      }
+    ]
+  },
+  "coupon_metrics": {
+    "by_type": [
+      {
+        "type": "餐饮满减",
+        "issued": 2200,
+        "redeemed": 980,
+        "redeem_rate": 0.445,
+        "avg_value": 35
+      },
+      {
+        "type": "景点折扣",
+        "issued": 1500,
+        "redeemed": 520,
+        "redeem_rate": 0.347,
+        "avg_value": 20
+      },
+      {
+        "type": "民宿代金",
+        "issued": 980,
+        "redeemed": 310,
+        "redeem_rate": 0.316,
+        "avg_value": 80
+      },
+      {
+        "type": "文创礼品",
+        "issued": 1000,
+        "redeemed": 337,
+        "redeem_rate": 0.337,
+        "avg_value": 25
+      }
+    ],
+    "redemption_funnel": [
+      {
+        "stage": "曝光",
+        "value": 85000
+      },
+      {
+        "stage": "领取",
+        "value": 5680
+      },
+      {
+        "stage": "到店",
+        "value": 3200
+      },
+      {
+        "stage": "核销",
+        "value": 2147
+      }
+    ],
+    "top_redeem_poi": [
+      {
+        "poi": "岭上人家烤全羊",
+        "redeemed": 320,
+        "gmv": 48000
+      },
+      {
+        "poi": "永嘉麦饼总店",
+        "redeemed": 280,
+        "gmv": 9800
+      },
+      {
+        "poi": "瓯窑小镇",
+        "redeemed": 210,
+        "gmv": 16800
+      },
+      {
+        "poi": "石桅岩景区",
+        "redeemed": 195,
+        "gmv": 15600
+      },
+      {
+        "poi": "楠溪江竹筏",
+        "redeemed": 178,
+        "gmv": 14240
+      }
+    ]
+  },
+  "companion_metrics": {
+    "daily_chats": [
+      {
+        "date": "2026-09-01",
+        "chats": 519,
+        "satisfaction": 4.5
+      },
+      {
+        "date": "2026-09-02",
+        "chats": 413,
+        "satisfaction": 4.5
+      },
+      {
+        "date": "2026-09-03",
+        "chats": 766,
+        "satisfaction": 4.6
+      },
+      {
+        "date": "2026-09-04",
+        "chats": 679,
+        "satisfaction": 4.4
+      },
+      {
+        "date": "2026-09-05",
+        "chats": 629,
+        "satisfaction": 4.5
+      },
+      {
+        "date": "2026-09-06",
+        "chats": 814,
+        "satisfaction": 4.7
+      },
+      {
+        "date": "2026-09-07",
+        "chats": 788,
+        "satisfaction": 4.7
+      },
+      {
+        "date": "2026-09-08",
+        "chats": 757,
+        "satisfaction": 4.4
+      }
+    ],
+    "top_intents": [
+      {
+        "intent": "景点推荐",
+        "count": 5200,
+        "pct": 27.9
+      },
+      {
+        "intent": "美食推荐",
+        "count": 4100,
+        "pct": 22.0
+      },
+      {
+        "intent": "行程规划",
+        "count": 3500,
+        "pct": 18.8
+      },
+      {
+        "intent": "文化讲解",
+        "count": 2800,
+        "pct": 15.0
+      },
+      {
+        "intent": "交通导航",
+        "count": 1800,
+        "pct": 9.7
+      },
+      {
+        "intent": "其他",
+        "count": 1250,
+        "pct": 6.7
+      }
+    ],
+    "festival_recommendations": [
+      {
+        "festival": "中秋",
+        "recommended": "永嘉麦饼+赏月路线",
+        "clicks": 890,
+        "conversion": 12.5
+      },
+      {
+        "festival": "日常",
+        "recommended": "楠溪江一日游",
+        "clicks": 2400,
+        "conversion": 8.2
+      },
+      {
+        "festival": "周末",
+        "recommended": "古村人文两日游",
+        "clicks": 1600,
+        "conversion": 10.1
+      }
+    ]
+  }
+}

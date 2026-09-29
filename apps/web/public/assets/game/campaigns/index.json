@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "description": "永嘉新游·文化寻宝活动模板库：运营新增一场活动 = 往本目录加一个 bundle JSON，再在 campaigns 注册一条。无需改代码即可上新节日玩法。",
+  "default": "culture",
+  "campaigns": [
+    {
+      "id": "culture",
+      "name": "永嘉文化寻宝",
+      "tag": "常驻玩法",
+      "emoji": "🎎",
+      "desc": "踏着青石板一路寻过去——每座小镇都藏着不一样的文化挑战。",
+      "bundle": "/assets/game/campaigns/culture.json"
+    },
+    {
+      "id": "midautumn",
+      "name": "中秋灯谜寻宝",
+      "tag": "中秋限定 · 试运营",
+      "emoji": "🏮",
+      "desc": "运营临时加场演示：只换了一套 JSON，地图上就亮起了中秋限时驿站。",
+      "bundle": "/assets/game/campaigns/midautumn.json",
+      "home": {
+        "image": "/assets/img/festival/festival-midautumn.webp",
+        "btn": "开启灯谜之旅"
+      }
+    }
+  ]
+}

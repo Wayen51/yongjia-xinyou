@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "name": "龙湾潭720°全景热点配置",
+    "version": "1.0",
+    "scene": "longwantan",
+    "description": "七折瀑国家森林公园全景模式下的可点击热点",
+    "hotspot_count": 3
+  },
+  "hotspots": [
+    {
+      "id": "hs-1",
+      "name": "七折瀑",
+      "position": {
+        "yaw": 0,
+        "pitch": 10
+      },
+      "icon": "waterfall",
+      "title": "七折瀑 · 七级飞瀑",
+      "content": "眼前这条从山间倾泻而下的瀑布就是龙湾潭七折瀑，瀑布分七级跌落，总落差约200米，是楠溪江流域最壮观的瀑布群。丰水期水雾弥漫，阳光下可见彩虹；枯水期则如银丝垂落，婉约秀美。",
+      "source": "POI-003 龙湾潭",
+      "action": {
+        "type": "link",
+        "target": "/wiki/POI-003"
+      }
+    },
+    {
+      "id": "hs-2",
+      "name": "深潭",
+      "position": {
+        "yaw": 0,
+        "pitch": -25
+      },
+      "icon": "water",
+      "title": "龙湾潭 · 碧绿深潭",
+      "content": "瀑布下方这汪碧绿深潭就是龙湾潭，潭水因矿物质和光线折射呈翡翠色，深不见底。潭水冰凉清澈，是夏天避暑的绝佳去处。传说潭中有龙栖息，因此得名龙湾潭。潭边的观景台是拍照最佳位置。",
+      "source": "POI-003 龙湾潭",
+      "action": {
+        "type": "link",
+        "target": "/wiki/POI-003"
+      }
+    },
+    {
+      "id": "hs-3",
+      "name": "森林栈道",
+      "position": {
+        "yaw": 90,
+        "pitch": -10
+      },
+      "icon": "tree",
+      "title": "原始森林 · 天然氧吧",
+      "content": "瀑布两侧的茂密森林是龙湾潭国家森林公园的主体，森林覆盖率达95%以上，负氧离子浓度极高，是名副其实的\"天然氧吧\"。沿木栈道穿行林中，可以看到香果树、金钱松等珍稀植物，还有猕猴、穿山甲等野生动物。",
+      "source": "POI-003 龙湾潭",
+      "action": {
+        "type": "link",
+        "target": "/wiki/POI-003"
+      }
+    }
+  ]
+}

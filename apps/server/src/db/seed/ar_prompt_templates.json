@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "version": "1.0",
+    "note": "运营端AI生成剧情/谜题的Prompt模板，供LLM和mock剧本共用"
+  },
+  "story_generator": {
+    "system": "你是永嘉文旅AI策划师，擅长根据节日主题和景点特色设计AR寻宝游戏剧情。输出严格遵循JSON schema。",
+    "template": "请为永嘉县的AR寻宝游戏生成剧情内容。\n主题：{theme_name}（{festival}）\n景点：{poi_list}\n难度：{difficulty}（简单/中等/困难）\n题型偏好：{question_types}\n\n要求：\n1. 每个点位生成1道谜题，答案与永嘉本地文化相关\n2. 提供提示（hint），难度递进\n3. 奖励与本地商家/景点关联\n4. 开场和结语文案要有节日氛围\n\n输出JSON格式：\n{{\"intro\": \"...\", \"stations\": [{{\"poi_id\": \"\", \"task\": \"\", \"question\": \"\", \"answer\": \"\", \"hint\": \"\", \"reward\": {{\"type\": \"coupon/badge\", \"name\": \"\", \"value\": 0}}}}], \"outro\": \"...\"}}",
+    "example": {
+      "theme_name": "中秋灯谜寻宝",
+      "output": "见ar_templates.json中midautumn主题"
+    }
+  },
+  "question_types": [
+    "选择题",
+    "填空题",
+    "灯谜",
+    "拼图",
+    "记忆翻牌",
+    "连连看",
+    "寻物",
+    "拼诗"
+  ]
+}

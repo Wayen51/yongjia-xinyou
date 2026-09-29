@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "version": "1.0",
+    "name": "永嘉新游 · 假智能体「楠楠」演示剧本包",
+    "purpose": "评委演示专用：MOCK_LLM=true 时，后端不调用真实大模型，而是按本剧本逐条回放 SSE 事件，效果与真 Agent 完全一致且永不翻车",
+    "contract": "事件类型与载荷结构遵循《永嘉新游-产品设计稿-AI编程指导.md》API 契约章：token / tool_call / plan / plan_diff / done / error",
+    "usage": "按 trigger.pattern 顺序正则匹配用户输入，第一个命中的 scenario 即播放；全部未命中播放 fallback；delay_ms 控制打字机节奏",
+    "data_note": "剧本中所有 id（CUL/POI/BIZ）均真实存在于 knowledge_seed_v3.json，前端点击卡片可直接跳转知识库详情；plan 事件的 data 仅为占位标记，真实行程由行程服务按用户口味/天数选线后下发"
+  },
+  "scenarios": [
+    {
+      "id": "welcome",
+      "name": "开场欢迎",
+      "trigger": { "pattern": "你好|您好|hi|hello|在吗|你是谁" },
+      "events": [
+        { "event": "token", "delay_ms": 300, "data": { "text": "你好呀，我是楠楠" } },
+        { "event": "token", "delay_ms": 120, "data": { "text": "，永嘉山水的 AI 导游。" } },
+        { "event": "token", "delay_ms": 150, "data": { "text": "石桅岩的云雾、楠溪江的竹筏、苍坡的古村墨池，还有刚出炉的麦饼，我都熟。" } },
+        { "event": "token", "delay_ms": 150, "data": { "text": "告诉我你什么时候来、玩几天、喜欢山水还是人文，我马上给你排一版行程。" } },
+        { "event": "token", "delay_ms": 120, "data": { "text": "对了，就算半路下暴雨也别慌——我随时能帮你重排。" } },
+        { "event": "done", "delay_ms": 200, "data": { "scenario": "welcome" } }
+      ]
+    },
+    {
+      "id": "plan_trip",
+      "name": "行程规划（按口味与天数选线）",
+      "trigger": { "pattern": "规划|行程|怎么玩|攻略|一日游|两日游|三日游|两天|三天|周末|亲子|带娃|研学|慢游|深度游|摄影|手作" },
+      "events": [
+        { "event": "token", "delay_ms": 300, "data": { "text": "好嘞，先让我翻翻永嘉的山水账簿" } },
+        { "event": "tool_call", "delay_ms": 600, "data": { "tool": "kb_search", "args": { "domain": "poi", "keyword": "楠溪江 核心景区" }, "status": "running" } },
+        { "event": "tool_call", "delay_ms": 900, "data": { "tool": "kb_search", "args": { "domain": "business", "keyword": "特色餐饮 民宿" }, "status": "done", "result_summary": "命中 33 个景点、31 家商家，已按评分与动线排序" } },
+        { "event": "token", "delay_ms": 400, "data": { "text": "排好了！我照你的口味挑了一条最顺的线，节奏不赶：" } },
+        {
+          "event": "plan",
+          "delay_ms": 500,
+          "data": { "dynamic": "select_plan" }
+        },
+        { "event": "token", "delay_ms": 300, "data": { "text": "每个点我都在卡片里标了来历，点进去能看到知识库出处。" } },
+        { "event": "token", "delay_ms": 120, "data": { "text": "想把节奏放慢，或者换成亲子/研学口味，跟我说一声就改。" } },
+        { "event": "done", "delay_ms": 200, "data": { "scenario": "plan_trip" } }
+      ]
+    },
+    {
+      "id": "rain_replan",
+      "name": "暴雨重规划（Killer Demo）",
+      "trigger": { "pattern": "下雨|暴雨|雨天|淋雨|天气" },
+      "events": [
+        { "event": "token", "delay_ms": 300, "data": { "text": "别急，我先看一眼天上的情况" } },
+        { "event": "tool_call", "delay_ms": 600, "data": { "tool": "weather_query", "args": { "location": "永嘉县鹤盛镇", "time": "today 13:00-18:00" }, "status": "running" } },
+        { "event": "tool_call", "delay_ms": 900, "data": { "tool": "weather_query", "args": { "location": "永嘉县鹤盛镇" }, "status": "done", "result_summary": "永嘉这几天午后多雷阵雨，14:00-18:00 雨势最强，伴有短时强降水" } },
+        { "event": "token", "delay_ms": 400, "data": { "text": "{rain_intro}" } },
+        { "event": "token", "delay_ms": 200, "data": { "text": "{rain_pivot}" } },
+        {
+          "event": "plan_diff",
+          "delay_ms": 500,
+          "note": "内容不再写死：运行时由 itinerary/rain.ts 的 replanForRain() 按当前会话方案生成（P2-2）；本事件只保留发卡时机",
+          "data": {}
+        },
+        { "event": "token", "delay_ms": 300, "data": { "text": "{rain_wrap}" } },
+        { "event": "done", "delay_ms": 200, "data": { "scenario": "rain_replan" } }
+      ]
+    },
+    {
+      "id": "culture_qa",
+      "name": "文化问答（知识库溯源）",
+      "trigger": { "pattern": "永嘉学派|山水诗|谢灵运|昆曲|永昆|耕读|麦饼.*来历|历史|文化" },
+      "events": [
+        { "event": "token", "delay_ms": 300, "data": { "text": "问到点子上了，这可是永嘉的看家底。我查一下库里的记载" } },
+        { "event": "tool_call", "delay_ms": 700, "data": { "tool": "kb_get", "args": { "id": "CUL-001" }, "status": "done", "result_summary": "已取出「永嘉学派」条目" } },
+        { "event": "token", "delay_ms": 400, "data": { "text": "永嘉学派是南宋时与朱熹理学、陆九渊心学鼎足而立的三大学派之一，就诞生在这片土地上。" } },
+        { "event": "token", "delay_ms": 150, "data": { "text": "它主张「经世致用、义利并举」——读书人也要会做事、敢谈利，叶适是集大成者。" } },
+        { "event": "token", "delay_ms": 150, "data": { "text": "后来温州人敢闯敢做生意的那股劲儿，思想根子就在这儿。" } },
+        { "event": "token", "delay_ms": 150, "data": { "text": "想实地感受的话，沙头镇的永嘉书院和里面的永嘉学馆（条目 POI-009 / POI-021）就是为它而建的，值得你留一个小时。" } },
+        { "event": "token", "delay_ms": 120, "data": { "text": "（以上内容出自知识库 CUL-001「永嘉学派」，点卡片可看全部出处）" } },
+        { "event": "done", "delay_ms": 200, "data": { "scenario": "culture_qa" } }
+      ]
+    },
+    {
+      "id": "food_reco",
+      "name": "美食推荐",
+      "trigger": { "pattern": "吃什么|美食|好吃|特产|伴手礼|饿" },
+      "events": [
+        { "event": "token", "delay_ms": 300, "data": { "text": "说到吃，永嘉人可就不困了。我按场景给你挑三样" } },
+        { "event": "tool_call", "delay_ms": 700, "data": { "tool": "kb_search", "args": { "domain": "business", "category": "美食餐饮" }, "status": "done", "result_summary": "命中 10 条美食餐饮商家" } },
+        { "event": "token", "delay_ms": 400, "data": { "text": "路上干粮首选永嘉麦饼（BIZ-001），梅干菜五花肉馅，外酥里香，人均 13 元左右，一千多年历史的老手艺。" } },
+        { "event": "token", "delay_ms": 150, "data": { "text": "正餐硬菜推荐楠溪香鱼（BIZ-006），楠溪江溪水里长大的鱼，炭火一烤满屋香，人均一百出头。" } },
+        { "event": "token", "delay_ms": 150, "data": { "text": "伴手礼带乌牛早茶（BIZ-011），比西湖龙井还早半个月上市的早春茶，送人很有面子。" } },
+        { "event": "token", "delay_ms": 120, "data": { "text": "要是人多，岭上人家的烤全羊（BIZ-007）值得专门安排一顿，记得提前订。" } },
+        { "event": "done", "delay_ms": 200, "data": { "scenario": "food_reco" } }
+      ]
+    },
+    {
+      "id": "fallback",
+      "name": "兜底应答（不出戏、不越界）",
+      "trigger": { "pattern": ".*" },
+      "events": [
+        { "event": "token", "delay_ms": 300, "data": { "text": "这个问题超出我脑袋里的永嘉山水啦——我的本事都点在「怎么玩好永嘉」上。" } },
+        { "event": "token", "delay_ms": 150, "data": { "text": "不如让我做点擅长的：帮你排行程、讲讲永嘉学派和山水诗、推荐麦饼和民宿，或者应对突发天气？" } },
+        { "event": "done", "delay_ms": 200, "data": { "scenario": "fallback" } }
+      ]
+    }
+  ]
+}

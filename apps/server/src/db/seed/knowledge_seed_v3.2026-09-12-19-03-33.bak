@@ -1,0 +1,4002 @@
+{
+  "meta": {
+    "version": "3.0-content-filled",
+    "source": "culture_seed.json + poi_seed.json + business_seed.json（豆包生成，脚本归一）",
+    "total": 106,
+    "domains": {
+      "culture": 42,
+      "poi": 33,
+      "business": 31
+    },
+    "geo_notice": "geo_lat/geo_lng 为 GCJ-02 坐标：33 个 POI 已于 2026-09-10 全部定位（26 个高德名称实测匹配 + 4 个近似匹配 + 3 个按官方地址锚定；锚定项 POI-025、POI-026、POI-033 高德无本体 POI，误差约 ±100m）；BIZ-* 商家坐标仍为演示预设值，待后续校准",
+    "content_notice": "content 已填充 106/106 条"
+  },
+  "items": [
+    {
+      "id": "CUL-001",
+      "name": "永嘉学派",
+      "category": "思想学术",
+      "tags": [
+        "永嘉学派",
+        "事功之学",
+        "南宋",
+        "叶适",
+        "经世致用"
+      ],
+      "summary": "永嘉学派形成于宋代浙东路温州永嘉县，是南宋时期与朱熹理学、陆九渊心学鼎足而立的三大学派之一。提倡事功之学，主张'经世致用，义利并举'，重视商业和实用，是温州模式的思想渊源。代表人物有薛季宣、陈傅良、叶适（集大成者，号水心先生），最早可追溯至北宋王开祖、丁昌期。",
+      "related_poi": [
+        "POI-009",
+        "POI-021"
+      ],
+      "source": "永嘉县人民政府官网-历史文化；浙江日报",
+      "source_url": "http://www.yj.gov.cn/art/2021/1/28/art_1229487037_59055857.html",
+      "domain": "culture",
+      "related_poi_ids": [
+        "POI-009",
+        "POI-021"
+      ],
+      "content": "南宋永嘉学派与朱熹理学、陆九渊心学鼎足而立，讲'经世致用，义利并举'，不尚空谈，重实务和商业。代表人物薛季宣、陈傅良、叶适（水心先生），是温州模式的思想源头。去永嘉书院或永嘉学馆可看专题展。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.3,
+      "assets": {
+        "cover": "assets/img/kb/cul-001-cover.webp",
+        "fallback": "assets/img/placeholders/culture-cover.webp"
+      }
+    },
+    {
+      "id": "CUL-002",
+      "name": "耕读文化",
+      "category": "文化传统",
+      "tags": [
+        "耕读传家",
+        "楠溪江",
+        "古村落",
+        "读书耕田"
+      ],
+      "summary": "耕读文化是永嘉楠溪江流域千年传承的核心文化密码。'一等人忠臣孝子，两件事读书耕田'是苍坡古村等村落的家训。耕读文化强调半耕半读、亦农亦学，既重农耕务实，又重读书进取，孕育了永嘉学派'尚实利、重事功'的思想基因，也是温州人'敢为天下先'创业精神的历史源头。",
+      "related_poi": [
+        "POI-010",
+        "POI-011",
+        "POI-012"
+      ],
+      "source": "今日头条-楠溪江畔的务实与气节；今日永嘉",
+      "source_url": "http://m.toutiao.com/group/7645567245044711988/",
+      "domain": "culture",
+      "related_poi_ids": [
+        "POI-010",
+        "POI-011",
+        "POI-012"
+      ],
+      "content": "楠溪江耕读文化传了千年，'一等人忠臣孝子，两件事读书耕田'是古村村训。半耕半读、亦农亦学，苍坡古村按文房四宝布局就是最好的实物。祠堂前的旗杆石，是这家人出过读书人的证明。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.4,
+      "assets": {
+        "cover": "assets/img/kb/cul-002-cover.webp",
+        "fallback": "assets/img/kb/cul-002-cover.webp"
+      }
+    },
+    {
+      "id": "CUL-003",
+      "name": "山水诗摇篮",
+      "category": "文学传统",
+      "tags": [
+        "山水诗",
+        "谢灵运",
+        "中国山水诗鼻祖",
+        "楠溪江"
+      ],
+      "summary": "永嘉被誉为'中国山水诗摇篮'。南朝谢灵运任永嘉太守期间，遍历楠溪江山水，写下大量山水诗作，奠定了'山水诗鼻祖'的地位。苏东坡曾赞'自言官长如灵运，能使江山似永嘉'。永嘉的山水洗去了谢灵运的愤懑，也成就了中国文学史上山水诗派的诞生。",
+      "related_poi": [
+        "POI-001",
+        "POI-001",
+        "POI-002"
+      ],
+      "source": "浙江日报-永嘉：永远的山水诗 最美的桃花源",
+      "source_url": "https://mepaper.zjol.com.cn/szb/zjrb_hd_news.html?theDate=2014-11-27",
+      "domain": "culture",
+      "related_poi_ids": [
+        "POI-001",
+        "POI-002"
+      ],
+      "content": "谢灵运任永嘉太守时遍历楠溪江，写下中国最早的山水诗，成了山水诗鼻祖。'池塘生春草'写的就是永嘉。苏东坡赞'能使江山似永嘉'。楠溪江的山水催生了一个诗歌流派，沿江处处是诗境。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.5,
+      "assets": {
+        "cover": "assets/img/kb/cul-003-cover.webp",
+        "fallback": "assets/img/kb/cul-003-cover.webp"
+      }
+    },
+    {
+      "id": "CUL-004",
+      "name": "永嘉四灵",
+      "category": "文学流派",
+      "tags": [
+        "永嘉四灵",
+        "南宋诗人",
+        "徐玑",
+        "翁卷",
+        "赵师秀",
+        "徐照"
+      ],
+      "summary": "永嘉四灵是南宋时期永嘉（今温州）四位诗人的合称：徐玑（字灵渊）、翁卷（字灵舒）、赵师秀（字灵秀）、徐照（字灵晖）。他们反对江西诗派的生硬晦涩，推崇晚唐贾岛、姚合的清瘦野逸风格，以山水田园为主要题材，为宋诗发展做出了重要贡献，与永嘉学派同时期诞生，形成'永嘉现象'。",
+      "related_poi": [
+        "POI-001"
+      ],
+      "source": "浙江日报-浙江文化名城永嘉",
+      "source_url": "http://www.yjnet.cn/system/2010/06/07/010372649.shtml",
+      "domain": "culture",
+      "related_poi_ids": [],
+      "content": "南宋永嘉四灵：徐玑、翁卷、赵师秀、徐照，字号都带'灵'字。反对江西诗派的晦涩，学晚唐清瘦野逸，专写楠溪江山水田园。翁卷'绿遍山原白满川'写的就是永嘉四月乡村。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.6,
+      "assets": {
+        "cover": "assets/img/kb/cul-004-cover.webp",
+        "fallback": "assets/img/kb/cul-004-cover.webp"
+      }
+    },
+    {
+      "id": "CUL-005",
+      "name": "永嘉昆曲（永昆）",
+      "category": "非遗-传统戏剧",
+      "tags": [
+        "昆曲",
+        "永昆",
+        "人类非遗",
+        "南戏",
+        "张协状元"
+      ],
+      "summary": "永嘉昆曲（永昆）是昆曲的重要分支，2001年随昆曲一起被联合国教科文组织列入世界首批'人类口头和非物质遗产代表作'。永昆是南戏的直接传承，代表作《张协状元》曾获曹禺戏剧奖、鲁迅文学奖等。永昆唱腔古朴，保留了早期昆曲的特色，是活着的千年腔调。",
+      "related_poi": [
+        "POI-017",
+        "POI-023"
+      ],
+      "source": "今日头条-山水诗之源古村活态博物馆",
+      "source_url": "https://wl.wenzhou.gov.cn/art/2024/7/17/art_1660367_58907731.html",
+      "domain": "culture",
+      "related_poi_ids": [
+        "POI-017",
+        "POI-026"
+      ],
+      "content": "永昆是昆曲最古老分支，2001年入人类非遗，直接传承自南戏，唱腔古朴，有'活着的千年腔调'之称。《张协状元》获曹禺戏剧奖。比苏昆更接地气，带山野气息。关注永嘉昆剧团演出或非遗市集展演。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.7,
+      "assets": {
+        "cover": "assets/img/kb/cul-005-cover.webp",
+        "fallback": "assets/img/placeholders/culture-cover.webp"
+      },
+      "heritage_level": "国家级",
+      "heritage_batch": "2006年第一批",
+      "protection_unit": "永嘉昆剧团（永嘉昆曲传习所）",
+      "verification_status": "一致",
+      "verification_note": "2001年作为昆曲子项目列入人类口头非遗，2006年列入国家级第一批"
+    },
+    {
+      "id": "CUL-006",
+      "name": "瓯窑烧制技艺",
+      "category": "非遗-传统技艺",
+      "tags": [
+        "瓯窑",
+        "青瓷",
+        "东汉",
+        "海上丝绸之路",
+        "坦头窑址"
+      ],
+      "summary": "瓯窑是浙江传统名窑，始于东汉，盛于唐宋，窑址主要分布在永嘉瓯窑小镇（三江坦头村）一带。坦头窑址是唐代瓯窑官窑遗址，为全国重点文物保护单位，创下唐代瓯窑考古六大'首次'发现，是海上丝绸之路的珍贵见证。瓯窑瓷器以莲瓣纹四系罐、宋代执壶、莲瓣纹净水盏等为代表，造型端庄，工艺娴熟。",
+      "related_poi": [
+        "POI-017",
+        "POI-018",
+        "POI-018"
+      ],
+      "source": "永嘉网-温州园博会永嘉分会场；永嘉县人民政府非遗周预告",
+      "source_url": "http://www.yj.gov.cn/col/col1229264293/art/2026/art_080ef24b0b724920ada9e680f1d79e8d.html",
+      "domain": "culture",
+      "related_poi_ids": [
+        "POI-017",
+        "POI-018"
+      ],
+      "content": "瓯窑始于东汉盛于唐宋，窑址在永嘉瓯窑小镇三江坦头村。坦头窑址是唐代官窑遗址，全国文保，创六大考古'首次'，是海上丝绸之路见证。代表器莲瓣纹四系罐。去瓯窑小镇可看可亲手拉坯。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.8,
+      "assets": {
+        "cover": "assets/img/kb/cul-006-cover.webp",
+        "fallback": "assets/img/kb/cul-006-cover.webp"
+      },
+      "heritage_level": "市级",
+      "heritage_batch": "温州市非遗名录",
+      "protection_unit": "永嘉县瓯窑协会",
+      "verification_status": "一致",
+      "verification_note": "温州瓯窑烧制技艺为市级非遗，坦头唐代瓯窑遗址为省级文保"
+    },
+    {
+      "id": "CUL-007",
+      "name": "永嘉麦饼制作技艺",
+      "category": "非遗-传统技艺",
+      "tags": [
+        "麦饼",
+        "非遗美食",
+        "唐宋",
+        "花坦村",
+        "梅干菜"
+      ],
+      "summary": "永嘉麦饼有一千多年历史，源出于花坦村，由花坦村朱氏先人所创。唐宋时期，山民务农出门劳作，以麦粉包裹咸菜和鲜肉煎烤而成，便于携带。经典馅料为梅干菜五花肉，外皮酥脆，内馅咸香。2023年荣获第十五届浙江·中国非物质文化遗产博览会美食类金奖（温州地区唯一）。全县麦饼年销售额已突破6亿元，带动就业上万人。",
+      "related_poi": [
+        "POI-020",
+        "POI-020"
+      ],
+      "source": "今日头条-非遗美食之浙江永嘉麦饼；浙江非遗网",
+      "source_url": "https://wl.wenzhou.gov.cn/art/2023/8/23/art_1651060_58905001.html",
+      "domain": "culture",
+      "related_poi_ids": [],
+      "content": "永嘉麦饼千年历史，源出花坦村，麦粉裹咸菜鲜肉煎烤，方便携带。经典梅干菜五花肉馅，外脆内香。2023年获浙江非遗博览会美食金奖。岩头老街、岭上人家都有现烤，配葱花汤是地道早餐。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.2,
+      "assets": {
+        "cover": "assets/img/kb/cul-007-cover.webp",
+        "fallback": "assets/img/kb/cul-007-cover.webp"
+      },
+      "heritage_level": "县级",
+      "heritage_batch": "2022年第十一批县级",
+      "protection_unit": "永嘉麦饼协会",
+      "verification_status": "一致",
+      "verification_note": "2022年列入永嘉县第十一批县级非遗，首批县级非遗工坊"
+    },
+    {
+      "id": "CUL-008",
+      "name": "溪下马灯戏",
+      "category": "非遗-传统舞蹈",
+      "tags": [
+        "马灯戏",
+        "民俗舞蹈",
+        "清同治",
+        "安徽凤阳",
+        "楠溪源"
+      ],
+      "summary": "溪下马灯戏是永嘉溪下乡的传统民俗舞蹈，于清同治年间传自安徽凤阳花鼓戏。演员以竹马为道具，在民间音乐和吟唱声中变换阵法，来往穿梭，最后由双马收尾。剧目寓意丰富，蕴含楠溪江地域特色，积累了大量曲谱。2009年被列入第三批浙江省非物质文化遗产名录，2017年起连续举办四届溪下马灯戏文化旅游节。",
+      "related_poi": [
+        "POI-021"
+      ],
+      "source": "永嘉县人民政府-马灯戏唱响楠溪源",
+      "source_url": "https://m.baike.com/wiki/%E6%A5%A0%E6%BA%AA%E6%B1%9F/7221025236173635642",
+      "domain": "culture",
+      "related_poi_ids": [],
+      "content": "溪下马灯戏清同治年间传自安徽凤阳，演员骑竹马变换阵法，双马收尾，剧目寓意丰富，积累大量曲谱。2009年入浙江省非遗。过年时溪下乡队伍走村串户表演，是楠溪江源头最浓的年味。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.3,
+      "assets": {
+        "cover": "assets/img/kb/cul-008-cover.webp",
+        "fallback": "assets/img/kb/cul-008-cover.webp"
+      },
+      "heritage_level": "省级",
+      "heritage_batch": "浙江省非遗名录",
+      "protection_unit": "永嘉县溪下乡文化站",
+      "verification_status": "一致",
+      "verification_note": "浙江省省级非遗项目，流行于永嘉溪下地区"
+    },
+    {
+      "id": "CUL-009",
+      "name": "永嘉木雕",
+      "category": "非遗-传统技艺",
+      "tags": [
+        "木雕",
+        "清刀技法",
+        "佛像木雕",
+        "工艺美术"
+      ],
+      "summary": "永嘉木雕历史悠久，清刀技法堪称一绝，以线代面，讲究对称，工艺严谨精细，以传统木雕和佛像木雕为主。基本流程为构图、泥稿、选木材、打坯、细雕、打磨、上漆。作品先后参加国家级、省级展览60多次，获国家级金奖50多枚、银奖70多枚，5人被评为浙江省工艺美术大师。2008年列入第二批温州市非物质文化遗产名录。",
+      "related_poi": [
+        "POI-017",
+        "POI-017"
+      ],
+      "source": "永嘉县人民政府-非遗周周荟预告；搜狐-百工一条街",
+      "source_url": "https://wl.wenzhou.gov.cn/art/2023/8/23/art_1651060_58905001.html",
+      "domain": "culture",
+      "related_poi_ids": [
+        "POI-017"
+      ],
+      "content": "永嘉木雕清刀技法一绝，以线代面，不用砂纸全靠刻刀修光。做传统木雕和佛像木雕，流程从构图到上漆七步。获国家级金奖50多枚，5位省级大师。工艺美术创业园可见现场雕刻。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.4,
+      "assets": {
+        "cover": "assets/img/kb/cul-009-cover.webp",
+        "fallback": "assets/img/kb/cul-009-cover.webp"
+      },
+      "heritage_level": "县级",
+      "heritage_batch": "2022年第十一批县级",
+      "protection_unit": "永嘉木雕传承基地",
+      "verification_status": "一致",
+      "verification_note": "2022年列入县级非遗，首批县级非遗工坊"
+    },
+    {
+      "id": "CUL-010",
+      "name": "温州莲花",
+      "category": "非遗-曲艺",
+      "tags": [
+        "温州莲花",
+        "曲艺",
+        "说唱"
+      ],
+      "summary": "温州莲花是浙江省传统曲艺之一，2007年6月列入第二批浙江省非物质文化遗产名录。流行于温州地区，以永嘉为重要传承地，是一种以唱为主、说唱结合的曲艺形式，曲调优美，乡土气息浓郁。",
+      "related_poi": [
+        "POI-017"
+      ],
+      "source": "浙江省政府-县情概况非遗名录",
+      "source_url": "https://www.yj.gov.cn/art/2023/10/12/art_1229264293_59096177.html",
+      "domain": "culture",
+      "related_poi_ids": [
+        "POI-017"
+      ],
+      "content": "温州莲花是浙江传统曲艺，2007年入省非遗，永嘉为重要传承地。以唱为主说唱结合，曲调优美乡土味浓。一人主唱多人伴奏，内容多民间故事。乡村戏台和非遗市集可听老艺人现场表演。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.5,
+      "assets": {
+        "cover": "assets/img/kb/cul-010-cover.webp",
+        "fallback": "assets/img/kb/cul-010-cover.webp"
+      },
+      "heritage_level": "国家级",
+      "heritage_batch": "2008年第二批",
+      "protection_unit": "鹿城区+永嘉县联合申报",
+      "verification_status": "一致",
+      "verification_note": "原称永嘉道情，2008年列入国家级第二批非遗曲艺类"
+    },
+    {
+      "id": "CUL-011",
+      "name": "永嘉花鼓",
+      "category": "非遗-曲艺",
+      "tags": [
+        "永嘉花鼓",
+        "曲艺",
+        "说唱"
+      ],
+      "summary": "永嘉花鼓是永嘉地区的传统曲艺形式，2009年6月列入第三批浙江省非物质文化遗产名录。以花鼓为伴奏乐器，说唱结合，内容多取材于民间故事和历史传说，具有浓厚的乡土气息和地方特色。",
+      "related_poi": [],
+      "source": "浙江省政府-县情概况非遗名录",
+      "source_url": "http://m.toutiao.com/group/7011848936394588703/",
+      "domain": "culture",
+      "related_poi_ids": [],
+      "content": "永嘉花鼓2009年入省非遗，以花鼓伴奏说唱结合，故事多来自民间传说。比温州莲花更活泼节奏感强，过去是走村串户艺人的谋生手段。非遗市集和文化下乡还能看到，老艺人一敲鼓就围满老听众。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.6,
+      "assets": {
+        "cover": "assets/img/kb/cul-011-cover.webp",
+        "fallback": "assets/img/kb/cul-011-cover.webp"
+      },
+      "heritage_level": "省级",
+      "heritage_batch": "2009年第三批",
+      "protection_unit": "永嘉县非遗保护中心",
+      "verification_status": "一致",
+      "verification_note": "2009年列入浙江省第三批非遗名录，主要分布于楠溪江流域"
+    },
+    {
+      "id": "CUL-012",
+      "name": "踏八卦",
+      "category": "非遗-传统舞蹈",
+      "tags": [
+        "踏八卦",
+        "传统舞蹈",
+        "民俗"
+      ],
+      "summary": "踏八卦是永嘉地区的传统民俗舞蹈，2009年6月列入第三批浙江省非物质文化遗产名录。舞蹈以八卦阵形为基础，舞者按照特定步法踏行，融合了道教文化和民间信仰，具有祈福驱邪的寓意。",
+      "related_poi": [],
+      "source": "浙江省政府-县情概况非遗名录",
+      "source_url": "https://m.baike.com/wiki/%E6%A5%A0%E6%BA%AA%E6%B1%9F/7221025236173635642",
+      "domain": "culture",
+      "related_poi_ids": [],
+      "content": "踏八卦是永嘉传统民俗舞蹈，2009年入省非遗。按八卦阵形踏行，融合道教文化和民间信仰，祈福驱邪。祠堂广场表演，队伍摆出卦象边踏边唱，庄重又热闹，是楠溪江道教文化的活态传承。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.7,
+      "assets": {
+        "cover": "assets/img/kb/cul-012-cover.webp",
+        "fallback": "assets/img/kb/cul-012-cover.webp"
+      },
+      "heritage_level": "省级",
+      "heritage_batch": "2009年第三批",
+      "protection_unit": "永嘉县非遗保护中心",
+      "verification_status": "一致",
+      "verification_note": "2009年列入浙江省第三批非遗名录传统舞蹈类"
+    },
+    {
+      "id": "CUL-013",
+      "name": "乌牛早茶制作技艺",
+      "category": "非遗-传统技艺",
+      "tags": [
+        "乌牛早茶",
+        "绿茶",
+        "中国最早春茶",
+        "茶文化"
+      ],
+      "summary": "乌牛早茶是永嘉特产，因产于乌牛镇而得名，是中国每年最早上市的春茶之一，比一般绿茶早上市一个月。茶形扁平光滑，汤色清透明亮，茶香四溢。近年来研发出栀子花、杨梅、桂花等风味新中式调饮茶，以及乌牛早茶粉麦饼等创新产品，联合本土老字号'王大妈麦饼'推向市场。",
+      "related_poi": [
+        "POI-022",
+        "POI-017"
+      ],
+      "source": "温州市文化广电旅游局-乌牛早的破圈和拓圈",
+      "source_url": "https://www.zjich.cn/news/newsshow.html?id=457613",
+      "domain": "culture",
+      "related_poi_ids": [
+        "POI-017"
+      ],
+      "content": "乌牛早茶因产乌牛镇得名，中国最早上市春茶之一，比普通绿茶早一个月。扁平光滑汤色清透，近年开发栀子、杨梅、桂花等新中式调饮茶，还和王大妈麦饼合作茶粉麦饼。春天去乌牛镇茶园看晨雾采茶。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.8,
+      "assets": {
+        "cover": "assets/img/kb/cul-013-cover.webp",
+        "fallback": "assets/img/kb/cul-013-cover.webp"
+      },
+      "heritage_level": "市级",
+      "heritage_batch": "2008年温州市第二批",
+      "protection_unit": "永嘉县乌牛早茶协会",
+      "verification_status": "一致",
+      "verification_note": "2008年列入温州市第二批非遗，2023年获地理标志证明商标"
+    },
+    {
+      "id": "CUL-014",
+      "name": "永嘉老酒汗烧制技艺",
+      "category": "非遗-传统技艺",
+      "tags": [
+        "老酒汗",
+        "白酒",
+        "非遗",
+        "徐贤孟"
+      ],
+      "summary": "永嘉老酒汗是永嘉传统白酒，采用古法烧制技艺，非遗传承人徐贤孟（老司头）坚守传统工艺40年。老酒汗以优质大米为原料，经发酵、蒸馏等多道工序制成，酒体醇厚，香气浓郁。书兰居非遗博物馆设有老酒汗专题展区，积极参与团体标准制定，助力老酒汗产业振兴。",
+      "related_poi": [
+        "POI-019",
+        "POI-011"
+      ],
+      "source": "永嘉县人民政府-免费开放乡村博物馆；抖音非遗里的中国",
+      "source_url": "http://www.yjnet.cn/system/2026/01/08/015398490.shtml",
+      "domain": "culture",
+      "related_poi_ids": [
+        "POI-023",
+        "POI-011"
+      ],
+      "content": "永嘉老酒汗是传统白酒，传承人徐贤孟守古法40年。大米发酵蒸馏，酒体醇厚香气浓。'老酒汗'即老酒蒸出的精华。书兰居非遗博物馆有专题展。本地人用它待客，度数不低，喝时悠着点。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.2,
+      "assets": {
+        "cover": "assets/img/kb/cul-014-cover.webp",
+        "fallback": "assets/img/kb/cul-014-cover.webp"
+      },
+      "heritage_level": "县级",
+      "heritage_batch": "永嘉县非遗名录",
+      "protection_unit": "永嘉白酒非遗工坊",
+      "verification_status": "一致",
+      "verification_note": "县级非遗，首批县级非遗工坊（永嘉白酒）"
+    },
+    {
+      "id": "CUL-015",
+      "name": "沙岗粉干制作技艺",
+      "category": "非遗-传统技艺",
+      "tags": [
+        "沙岗粉干",
+        "传统技艺",
+        "宋代",
+        "枫林镇"
+      ],
+      "summary": "沙岗粉干产于永嘉枫林镇西北的新坊、镬炉、兆潭一带，已有800余年历史，远在宋代就已成为食中佳品。特点是细如纱线，洁白软韧，快熟耐煮，汤清不浑。制作粉干是当地传统家庭副业，一代代沙岗人肩挑粉干走村串户，驰誉温州各地，并有出口境外。已申报温州市非物质文化遗产保护名录。",
+      "related_poi": [
+        "POI-023",
+        "POI-023"
+      ],
+      "source": "抖音-永嘉传统美食；温州本地宝-楠溪江美食",
+      "source_url": "https://m.wz.bendibao.com/jingdian/nanxijiang/meishi/",
+      "domain": "culture",
+      "related_poi_ids": [],
+      "content": "沙岗粉干产枫林镇新坊、镬炉、兆潭一带，800年历史，宋代即为食中佳品。细如纱线洁白软韧，快熟耐煮汤清不浑。曾是当地家庭副业，挑担走村串户，还出口境外。枫林老街可买正宗货。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.3,
+      "assets": {
+        "cover": "assets/img/kb/cul-015-cover.webp",
+        "fallback": "assets/img/kb/cul-015-cover.webp"
+      }
+    },
+    {
+      "id": "CUL-016",
+      "name": "楠溪素面制作技艺",
+      "category": "非遗-传统技艺",
+      "tags": [
+        "楠溪素面",
+        "长寿面",
+        "8字面",
+        "千年历史"
+      ],
+      "summary": "楠溪素面亦称楠溪江长寿面、索面，成品常交叠成'8'字形，又称'8字面'。细如银丝，洁白柔韧，直径通常小于1.3毫米，营养丰富易消化，适合老人小孩。制作素面是楠溪两岸村民历代传统家庭副业，迄今已有一千余年历史，是当地人走亲访友的伴手礼和待客首选。",
+      "related_poi": [
+        "POI-001"
+      ],
+      "source": "爱自由旅游网-楠溪素面；今日头条-味道温州",
+      "source_url": "https://izy.cn/travel_guide/225/0_0_11307_7_0_0.html",
+      "domain": "culture",
+      "related_poi_ids": [],
+      "content": "楠溪素面又称长寿面、8字面，细如银丝直径不到1.3毫米，洁白柔韧易消化。千年历史，是楠溪两岸传统副业。好天气村里满是晾晒素面的竹架，银丝闪闪。走亲访友伴手礼和待客首选，一碗加两个蛋。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.4,
+      "assets": {
+        "cover": "assets/img/kb/cul-016-cover.webp",
+        "fallback": "assets/img/kb/cul-016-cover.webp"
+      }
+    },
+    {
+      "id": "CUL-017",
+      "name": "瓯绣",
+      "category": "非遗-传统技艺",
+      "tags": [
+        "瓯绣",
+        "刺绣",
+        "温州",
+        "传统工艺"
+      ],
+      "summary": "瓯绣是温州地区传统刺绣工艺，与湘绣、苏绣、蜀绣、粤绣并称中国名绣。瓯绣构图简练，针法严谨，色彩明快，具有浓郁的地方特色。瓯窑小镇聚集了瓯绣等多项非遗项目，进行活态传承和展示。",
+      "related_poi": [
+        "POI-017"
+      ],
+      "source": "抖音百科-瓯窑小镇",
+      "source_url": "https://m.baike.com/wiki/%E7%93%AF%E7%AA%91%E5%B0%8F%E9%95%87/7424414551791894555",
+      "domain": "culture",
+      "related_poi_ids": [
+        "POI-017"
+      ],
+      "content": "瓯绣与湘绣苏绣蜀绣粤绣并称中国名绣，构图简练针法严谨色彩明快。瓯窑小镇有活态传承展示，可看绣娘操作也可体验。题材多花鸟和地方戏曲人物，针脚细密，挂在家里有温州味道。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.5,
+      "assets": {
+        "cover": "assets/img/kb/cul-017-cover.webp",
+        "fallback": "assets/img/kb/cul-017-cover.webp"
+      }
+    },
+    {
+      "id": "CUL-018",
+      "name": "永嘉木偶戏",
+      "category": "非遗-传统戏剧",
+      "tags": [
+        "木偶戏",
+        "传统戏剧",
+        "展演"
+      ],
+      "summary": "永嘉木偶戏是永嘉地区传统戏剧形式，在各类非遗市集和文化活动中作为展演类项目呈现。木偶戏以木偶为表演载体，结合唱腔和配乐，演绎民间故事和历史剧目，深受当地群众喜爱。",
+      "related_poi": [],
+      "source": "温都网-AI的非遗市集",
+      "source_url": "待进一步校验",
+      "domain": "culture",
+      "related_poi_ids": [],
+      "content": "永嘉木偶戏以提线木偶为主，非遗市集常做展演。一个木偶十几根线，艺人手指翻飞间木偶能斟酒写字。配合唱腔配乐演绎民间故事，是很多永嘉人的庙会童年记忆。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.6,
+      "assets": {
+        "cover": "assets/img/kb/cul-018-cover.webp",
+        "fallback": "assets/img/kb/cul-018-cover.webp"
+      },
+      "heritage_level": "市级",
+      "heritage_batch": "温州市非遗名录",
+      "protection_unit": "永嘉县木偶戏传承基地",
+      "verification_status": "基本一致",
+      "verification_note": "温州市级非遗，提线木偶为主"
+    },
+    {
+      "id": "CUL-019",
+      "name": "永嘉瓯渠南拳",
+      "category": "非遗-传统体育",
+      "tags": [
+        "南拳",
+        "武术",
+        "瓯渠",
+        "上心屋"
+      ],
+      "summary": "永嘉瓯渠上心屋南拳是永嘉地区传统武术流派，在非遗市集等活动中作为展演类项目呈现。南拳讲究刚劲有力、步法稳健，是浙南地区重要的武术文化遗产。",
+      "related_poi": [
+        "POI-024"
+      ],
+      "source": "温都网-AI的非遗市集",
+      "source_url": "https://wl.wenzhou.gov.cn/art/2021/2/19/art_1642047_58885853.html",
+      "domain": "culture",
+      "related_poi_ids": [
+        "POI-024"
+      ],
+      "content": "瓯渠上心屋南拳是浙南重要武术流派，非遗市集常展演。刚劲有力步法稳健，比北拳紧凑发力刚猛。瓯渠习武风气盛出过不少拳师。看南拳能感受到永嘉人除了山水诗意外的硬朗尚武一面。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.7,
+      "assets": {
+        "cover": "assets/img/kb/cul-019-cover.webp",
+        "fallback": "assets/img/kb/cul-019-cover.webp"
+      },
+      "heritage_level": "省级",
+      "heritage_batch": "浙江省非遗名录",
+      "protection_unit": "永嘉县瓯渠南拳协会",
+      "verification_status": "一致",
+      "verification_note": "省级以上非遗项目，又称瓯渠上新屋南拳"
+    },
+    {
+      "id": "CUL-020",
+      "name": "米塑",
+      "category": "非遗-传统技艺",
+      "tags": [
+        "米塑",
+        "传统工艺",
+        "食品雕塑"
+      ],
+      "summary": "米塑是温州地区独特的传统工艺，以煮熟的米粉团为原料，通过捏、搓、刻、画等手法塑造成各种人物、花鸟、走兽等造型，色彩缤纷，常用于民俗节庆和祭祀活动。永嘉非遗市集常设米塑展示体验。",
+      "related_poi": [
+        "POI-017"
+      ],
+      "source": "温都网-AI的非遗市集；搜狐-百工一条街",
+      "source_url": "https://wap.wendu.cn/article/id/594938",
+      "domain": "culture",
+      "related_poi_ids": [
+        "POI-017"
+      ],
+      "content": "米塑是温州独有工艺，熟米粉团捏搓刻画成人物花鸟走兽，色彩缤纷，用于节庆祭祀。非遗市集师傅现场捏，几分钟出一个小动物，小朋友最爱看。好看但不能久放，是转瞬即逝的艺术。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.8,
+      "assets": {
+        "cover": "assets/img/kb/cul-020-cover.webp",
+        "fallback": "assets/img/kb/cul-020-cover.webp"
+      }
+    },
+    {
+      "id": "CUL-021",
+      "name": "糖塑（糖画）",
+      "category": "非遗-传统技艺",
+      "tags": [
+        "糖塑",
+        "糖画",
+        "民间工艺",
+        "美食"
+      ],
+      "summary": "糖塑（糖画）是永嘉传统民间工艺，以麦芽糖为原料，加热融化后在石板上浇铸出各种动物、花卉、文字等造型，既可观赏又可食用。是非遗市集美食类热门项目，深受儿童喜爱。",
+      "related_poi": [],
+      "source": "温都网-AI的非遗市集",
+      "source_url": "https://wap.wendu.cn/article/id/594938",
+      "domain": "culture",
+      "related_poi_ids": [],
+      "content": "糖塑即糖画，麦芽糖加热后在石板上浇出动物花卉文字，好看又能吃。非遗市集糖画摊永远围着孩子，转盘转到什么做什么，龙凤最受欢迎。师傅手一抖糖浆拉丝，举着先玩半天舍不得吃。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.2,
+      "assets": {
+        "cover": "assets/img/kb/cul-021-cover.webp",
+        "fallback": "assets/img/kb/cul-021-cover.webp"
+      }
+    },
+    {
+      "id": "CUL-022",
+      "name": "永嘉彩扎",
+      "category": "非遗-传统技艺",
+      "tags": [
+        "彩扎",
+        "纸扎",
+        "传统工艺"
+      ],
+      "summary": "永嘉彩扎是永嘉传统纸扎工艺，以竹篾为骨架，以彩纸、绸缎为面料，扎制出各种人物、动物、楼台亭阁等造型，工艺精细，色彩艳丽，常用于民俗节庆和传统仪式。",
+      "related_poi": [],
+      "source": "搜狐-百工一条街非遗项目",
+      "source_url": "https://m.sohu.com/a/270755604_99961811/",
+      "domain": "culture",
+      "related_poi_ids": [],
+      "content": "永嘉彩扎以竹篾为骨架彩纸绸缎为面料，扎人物动物亭台楼阁，精细艳丽。过去用于节庆仪式，现在多做非遗展示和元宵灯笼。看彩扎能感受民间巧手，竹篾弯几下糊上纸就是微缩古戏台。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.3,
+      "assets": {
+        "cover": "assets/img/kb/cul-022-cover.webp",
+        "fallback": "assets/img/kb/cul-022-cover.webp"
+      }
+    },
+    {
+      "id": "CUL-023",
+      "name": "绸塑",
+      "category": "非遗-传统技艺",
+      "tags": [
+        "绸塑",
+        "传统工艺",
+        "泥塑"
+      ],
+      "summary": "绸塑是永嘉传统工艺，以绸缎包裹泥塑或木胎，塑造出各种人物和造型，质感柔和，色彩典雅。瓯窑小镇聚集了绸塑等多项非遗项目进行活态传承。",
+      "related_poi": [
+        "POI-017"
+      ],
+      "source": "抖音百科-瓯窑小镇",
+      "source_url": "https://m.baike.com/wiki/%E7%93%AF%E7%AA%91%E5%B0%8F%E9%95%87/7424414551791894555",
+      "domain": "culture",
+      "related_poi_ids": [
+        "POI-017"
+      ],
+      "content": "绸塑用绸缎包裹泥塑木胎，塑造人物造型，质感柔和色彩典雅。瓯窑小镇有活态展示。作品多戏曲人物和民间传说角色，衣褶飘逸表情生动，摆在案头很雅致。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.4,
+      "assets": {
+        "cover": "assets/img/kb/cul-023-cover.webp",
+        "fallback": "assets/img/kb/cul-023-cover.webp"
+      }
+    },
+    {
+      "id": "CUL-024",
+      "name": "漆画",
+      "category": "非遗-传统技艺",
+      "tags": [
+        "漆画",
+        "传统工艺",
+        "美术"
+      ],
+      "summary": "漆画是永嘉传统美术工艺，以天然大漆为主要材料，结合镶嵌、描金、堆塑等技法创作，画面光泽温润，层次丰富，具有独特的东方美学韵味。瓯窑小镇设有漆画非遗展示。",
+      "related_poi": [
+        "POI-017"
+      ],
+      "source": "抖音百科-瓯窑小镇",
+      "source_url": "https://m.baike.com/wiki/%E7%93%AF%E7%AA%91%E5%B0%8F%E9%95%87/7424414551791894555",
+      "domain": "culture",
+      "related_poi_ids": [
+        "POI-017"
+      ],
+      "content": "漆画以天然大漆为主材，结合镶嵌描金堆塑，光泽温润层次丰富，东方美学独特。瓯窑小镇有漆画展示。大漆干后硬度高光泽好，能存百年，是可以传家的艺术品。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.5,
+      "assets": {
+        "cover": "assets/img/kb/cul-024-cover.webp",
+        "fallback": "assets/img/kb/cul-024-cover.webp"
+      }
+    },
+    {
+      "id": "CUL-025",
+      "name": "竹雕",
+      "category": "非遗-传统技艺",
+      "tags": [
+        "竹雕",
+        "传统工艺",
+        "雕刻"
+      ],
+      "summary": "永嘉竹雕是永嘉传统雕刻工艺，以楠溪江盛产的毛竹为原料，通过浮雕、圆雕、透雕等技法，雕刻出山水、人物、花鸟等图案。2023年永嘉竹雕亮相第十五届浙江·中国非物质文化遗产博览会，代表性传承人金魁的作品广受好评。",
+      "related_poi": [
+        "POI-017",
+        "POI-017"
+      ],
+      "source": "永嘉网-永嘉4项非遗亮相浙江非遗博览会",
+      "source_url": "http://www.yjnet.cn/system/2023/07/16/014806488.shtml",
+      "domain": "culture",
+      "related_poi_ids": [
+        "POI-017"
+      ],
+      "content": "永嘉竹雕用楠溪江毛竹，浮雕圆雕透雕皆有，刻山水人物花鸟。2023年亮相浙江非遗博览会，传承人金魁作品受好评。妙在因材施艺，利用竹材天然纹理。一个茶则笔筒经雕刻就有了故事。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.6,
+      "assets": {
+        "cover": "assets/img/kb/cul-025-cover.webp",
+        "fallback": "assets/img/kb/cul-025-cover.webp"
+      }
+    },
+    {
+      "id": "CUL-026",
+      "name": "青石雕",
+      "category": "非遗-传统技艺",
+      "tags": [
+        "青石雕",
+        "石刻",
+        "传统工艺"
+      ],
+      "summary": "青石雕是永嘉传统石刻工艺，以当地青石为原料，雕刻石狮、石牌坊、石碑、石窗等，工艺精湛，是楠溪江古村落建筑装饰的重要组成部分。非遗市集常设青石雕展示。",
+      "related_poi": [
+        "POI-010",
+        "POI-011"
+      ],
+      "source": "温都网-AI的非遗市集",
+      "source_url": "https://wap.wendu.cn/article/id/594938",
+      "domain": "culture",
+      "related_poi_ids": [
+        "POI-010",
+        "POI-011"
+      ],
+      "content": "青石雕用当地青石，雕石狮牌坊石碑石窗，是楠溪江古建装饰的重要部分。祠堂石狮、窗户石花历经数百年栩栩如生。非遗市集师傅现场凿石，一件精细石窗可能雕几个月，是耐心的活。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.7,
+      "assets": {
+        "cover": "assets/img/kb/cul-026-cover.webp",
+        "fallback": "assets/img/kb/cul-026-cover.webp"
+      }
+    },
+    {
+      "id": "CUL-027",
+      "name": "戚氏拓印术",
+      "category": "非遗-传统技艺",
+      "tags": [
+        "拓印",
+        "戚家军",
+        "爱国文化",
+        "碑拓"
+      ],
+      "summary": "戚氏拓印术是永嘉桥下镇的传统拓印技艺，与戚家军爱国文化相关联。书兰居非遗博物馆设有戚氏拓印术专题展区，致力于传播这项非遗项目和戚家军爱国文化。拓印术是将石碑、青铜器等文物上的文字图案复制到纸上的传统技艺。",
+      "related_poi": [
+        "POI-019"
+      ],
+      "source": "永嘉县人民政府-免费开放乡村博物馆",
+      "source_url": "https://www.yj.gov.cn/art/2024/6/3/art_1229264293_59104708.html",
+      "domain": "culture",
+      "related_poi_ids": [
+        "POI-023"
+      ],
+      "content": "戚氏拓印术在桥下镇，与戚家军爱国文化关联。书兰居非遗博物馆有专题展。拓印把石碑铜器文字图案复制到纸上，上墨贴纸捶打揭纸，每步讲究。游客可在博物馆体验亲手拓一张带走。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.8,
+      "assets": {
+        "cover": "assets/img/kb/cul-027-cover.webp",
+        "fallback": "assets/img/kb/cul-027-cover.webp"
+      }
+    },
+    {
+      "id": "CUL-028",
+      "name": "弹棉花技艺",
+      "category": "非遗-传统技艺",
+      "tags": [
+        "弹棉花",
+        "传统技艺",
+        "民俗"
+      ],
+      "summary": "弹棉花是永嘉传统手工技艺，通过弹弓将棉花弹松，制成棉被和棉胎。这项技艺曾是楠溪江地区重要的民间手工艺，如今在非遗市集中作为活态传承项目展示，唤起人们对传统生活方式的记忆。",
+      "related_poi": [],
+      "source": "温都网-AI的非遗市集",
+      "source_url": "https://wap.wendu.cn/article/id/594938",
+      "domain": "culture",
+      "related_poi_ids": [],
+      "content": "弹棉花用弹弓把棉花弹松做棉被棉胎，曾是楠溪江重要民间手艺。弹棉郎背弓走村串户，'咚咚'声是冬天的信号。现在机器替代了手工，但非遗市集还有活态展示，老师傅现场弹棉花唤起旧时光记忆。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.2,
+      "assets": {
+        "cover": "assets/img/kb/cul-028-cover.webp",
+        "fallback": "assets/img/kb/cul-028-cover.webp"
+      }
+    },
+    {
+      "id": "CUL-029",
+      "name": "鱼拓",
+      "category": "非遗-传统技艺",
+      "tags": [
+        "鱼拓",
+        "拓印",
+        "钓鱼文化",
+        "艺术"
+      ],
+      "summary": "鱼拓是将鱼的形态用颜料拓印到纸上的传统艺术形式，起源于钓鱼人记录渔获的方式。永嘉楠溪江盛产香鱼等鱼类，鱼拓艺术在此有深厚的民间基础，是非遗市集的特色展示项目。",
+      "related_poi": [
+        "POI-001"
+      ],
+      "source": "温都网-AI的非遗市集",
+      "source_url": "https://wap.wendu.cn/article/id/594938",
+      "domain": "culture",
+      "related_poi_ids": [],
+      "content": "鱼拓把鱼形用颜料拓印到纸上，源于钓鱼人记录渔获。楠溪江盛产香鱼，鱼拓有深厚民间基础。非遗市集师傅涂颜料盖纸按压，揭开就是栩栩如生的鱼。可装裱挂墙，是渔文化的独特表达。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.3,
+      "assets": {
+        "cover": "assets/img/kb/cul-029-cover.webp",
+        "fallback": "assets/img/kb/cul-029-cover.webp"
+      }
+    },
+    {
+      "id": "CUL-030",
+      "name": "点茶技艺",
+      "category": "非遗-传统技艺",
+      "tags": [
+        "点茶",
+        "宋代茶道",
+        "茶文化",
+        "斗茶"
+      ],
+      "summary": "点茶是宋代流行的茶道技艺，将茶末置于茶盏中，注汤并用茶筅击拂，产生细腻泡沫。永嘉作为宋韵文化深厚的地区，点茶技艺在非遗市集中活态传承，游客可体验宋代斗茶的雅趣。",
+      "related_poi": [
+        "POI-017",
+        "POI-009"
+      ],
+      "source": "温都网-AI的非遗市集",
+      "source_url": "https://wap.wendu.cn/article/id/594938",
+      "domain": "culture",
+      "related_poi_ids": [
+        "POI-017",
+        "POI-009"
+      ],
+      "content": "点茶是宋代茶道，茶末放盏中注汤用茶筅击拂出细腻泡沫，还能在泡沫上作画叫'茶百戏'。永嘉宋韵深厚，非遗市集活态传承，游客可体验斗茶雅趣。比泡茶更有仪式感，好的点茶泡沫咬盏不散。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.4,
+      "assets": {
+        "cover": "assets/img/kb/cul-030-cover.webp",
+        "fallback": "assets/img/kb/cul-030-cover.webp"
+      }
+    },
+    {
+      "id": "CUL-031",
+      "name": "钩绣",
+      "category": "非遗-传统技艺",
+      "tags": [
+        "钩绣",
+        "刺绣",
+        "传统工艺"
+      ],
+      "summary": "钩绣是永嘉传统刺绣工艺的一种，以钩针为工具，通过钩织技法创造出立体的刺绣图案，针法独特，质感丰富。非遗市集中常设钩绣展示和体验。",
+      "related_poi": [],
+      "source": "温都网-AI的非遗市集",
+      "source_url": "https://wap.wendu.cn/article/id/594938",
+      "domain": "culture",
+      "related_poi_ids": [],
+      "content": "钩绣是永嘉传统刺绣工艺，以钩针引线在底布上绣出立体图案，针法独特有浮雕感。作品多为花鸟和吉祥纹样，色彩丰富。在瓯窑小镇和非遗市集有展示，是温州刺绣家族中别具一格的分支。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.5,
+      "assets": {
+        "cover": "assets/img/kb/cul-031-cover.webp",
+        "fallback": "assets/img/kb/cul-031-cover.webp"
+      }
+    },
+    {
+      "id": "CUL-032",
+      "name": "十字绣",
+      "category": "非遗-传统技艺",
+      "tags": [
+        "十字绣",
+        "刺绣",
+        "传统工艺"
+      ],
+      "summary": "十字绣是永嘉民间传统刺绣工艺，以十字针法在绣布上绣出各种图案，题材广泛，色彩丰富，是楠溪江地区妇女的传统手工艺。非遗百工一条街常设十字绣展示。",
+      "related_poi": [],
+      "source": "搜狐-百工一条街非遗项目",
+      "source_url": "https://m.sohu.com/a/270755604_99961811/",
+      "domain": "culture",
+      "related_poi_ids": [],
+      "content": "十字绣在永嘉有广泛的群众基础，是民间女红的重要形式。绣娘们用针线在网格布上绣出山水、花鸟、人物，作品常作为家居装饰和婚嫁礼品。永嘉的十字绣融合了本地山水题材，楠溪江风景是常见主题。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.6,
+      "assets": {
+        "cover": "assets/img/kb/cul-032-cover.webp",
+        "fallback": "assets/img/kb/cul-032-cover.webp"
+      }
+    },
+    {
+      "id": "CUL-033",
+      "name": "龙档",
+      "category": "非遗-传统技艺",
+      "tags": [
+        "龙档",
+        "板凳龙",
+        "民俗",
+        "元宵"
+      ],
+      "summary": "龙档（板凳龙）是永嘉地区元宵节传统民俗活动，将一条条板凳连接成龙身，上面插满灯笼，由村民抬着巡游，场面壮观。龙档制作技艺是永嘉重要的非遗项目，融合了木工、纸扎、绘画等多种工艺。",
+      "related_poi": [],
+      "source": "温都网-AI的非遗市集",
+      "source_url": "https://wap.wendu.cn/article/id/594938",
+      "domain": "culture",
+      "related_poi_ids": [],
+      "content": "龙档是永嘉传统民俗器物，用樟木雕刻成龙形长档，上面缀有戏曲人物和吉祥图案，用于元宵节灯会。龙档雕刻精细，人物众多，是木雕和民俗的结合。过年时各村龙档出游，锣鼓喧天，是楠溪江最盛大的灯会活动。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.7,
+      "assets": {
+        "cover": "assets/img/kb/cul-033-cover.webp",
+        "fallback": "assets/img/kb/cul-033-cover.webp"
+      }
+    },
+    {
+      "id": "CUL-034",
+      "name": "苍坡古村-文房四宝布局",
+      "category": "古村落",
+      "tags": [
+        "苍坡",
+        "文房四宝",
+        "南宋",
+        "李姓",
+        "耕读文化"
+      ],
+      "summary": "苍坡古村位于岩头镇，始建于五代后周显德二年（955年），李姓聚居。南宋淳熙五年（1178年）九世祖李嵩邀请国师李时日重新规划，以'文房四宝'为布局意象：村右笔架山为'笔'，村中直街为'笔街'，东西两方池为'墨池'，村前平畴为'纸'，池畔条石为'砚'。1991年列为浙江省历史文化保护区，2020年入选浙江省第二批重点历史文化村落。",
+      "related_poi": [
+        "POI-010"
+      ],
+      "source": "今日永嘉-岩头三古村；携程攻略",
+      "source_url": "http://yjb.yjnet.cn/index.php/home/article/index/appkey/69/date/2023-07-06/page/1382702/aid/7712426.html",
+      "domain": "culture",
+      "related_poi_ids": [
+        "POI-010"
+      ],
+      "content": "苍坡古村始建于南宋，全村按'文房四宝'布局：笔街直通笔架山，墨池如砚，村墙似纸，是耕读文化的活化石。白墙黛瓦倒映墨池，鹅卵石路蜿蜒，千年古柏矗立。走在村里，每一步都踩着宋代的规划。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.8,
+      "assets": {
+        "cover": "assets/img/kb/cul-034-cover.webp",
+        "fallback": "assets/img/kb/cul-034-cover.webp"
+      }
+    },
+    {
+      "id": "CUL-035",
+      "name": "芙蓉古村-七星八斗布局",
+      "category": "古村落",
+      "tags": [
+        "芙蓉",
+        "七星八斗",
+        "唐代",
+        "陈姓",
+        "宋瓷博物馆"
+      ],
+      "summary": "芙蓉古村位于岩头镇，始建于唐代，陈姓聚居，因村西有芙蓉三崖而得名。村落按'七星八斗'思路布局，整体呈正方形，是楠溪江古村落中最具代表性的村落之一。村内有芙蓉宋瓷博物馆（70余件藏品，含越窑、龙泉窑、瓯窑等）、宋园（含11吨夜明珠、30吨根雕清明上河图）、民俗馆等。",
+      "related_poi": [
+        "POI-011",
+        "POI-011"
+      ],
+      "source": "温州市文化广电旅游局-芙蓉宋瓷博物馆；抖音芙蓉古村旅拍",
+      "source_url": "https://wl.wenzhou.gov.cn/art/2025/1/21/art_1229797874_58908919.html",
+      "domain": "culture",
+      "related_poi_ids": [
+        "POI-011",
+        "POI-019"
+      ],
+      "content": "芙蓉古村因村西南三崖高赤如芙蓉而得名，始建于唐代，重建于元，按'七星八斗'布局。村内有芙蓉亭、芙蓉池，民居错落。是楠溪江古村落中格局最完整的一个，七星八斗的规划理念体现了古人的智慧。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.2,
+      "assets": {
+        "cover": "assets/img/kb/cul-035-cover.webp",
+        "fallback": "assets/img/kb/cul-035-cover.webp"
+      }
+    },
+    {
+      "id": "CUL-036",
+      "name": "岩头村-丽水街",
+      "category": "古村落",
+      "tags": [
+        "岩头",
+        "丽水街",
+        "明嘉靖",
+        "商业街",
+        "蓄水堤"
+      ],
+      "summary": "丽水街位于岩头镇东缘蓄水堤上，又名丽水长廊。蓄水堤建于明嘉靖年间，当时宗族规定堤上只许莳花种树与建亭，不准筑屋经商。清代成为担盐客必经之路，清末发展为初具规模的商业街。现有90余间店面长廊依水而建，挂满红灯笼，是楠溪江最具烟火气的古街。南侧有塔湖庙景区，必看丽水古桥、接官花亭。",
+      "related_poi": [
+        "POI-012",
+        "POI-012"
+      ],
+      "source": "钱江晚报-耕读长廊岩头村丽水街；Trip.com",
+      "source_url": "https://qjwb.tidenews.com.cn/html/2013-11/18/content_2413269.htm",
+      "domain": "culture",
+      "related_poi_ids": [
+        "POI-012",
+        "POI-012"
+      ],
+      "content": "岩头村丽水街建于明代，300米临水廊檐街，木柱长廊红灯笼，曾是盐商古道上的重要驿站。街上店铺林立，水面倒映长廊，是楠溪江最有烟火气的古街。傍晚灯笼亮起时，走在廊下仿佛穿越回明清。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.3,
+      "assets": {
+        "cover": "assets/img/kb/cul-036-cover.webp",
+        "fallback": "assets/img/kb/cul-036-cover.webp"
+      }
+    },
+    {
+      "id": "CUL-037",
+      "name": "林坑古村",
+      "category": "古村落",
+      "tags": [
+        "林坑",
+        "元代",
+        "毛姓",
+        "晒秋",
+        "山地民居"
+      ],
+      "summary": "林坑古村位于岩坦镇，始建于元代，毛姓聚居，有700年历史，47幢老屋沿溪而建，是楠溪江山地民居的典型代表。2021年从婺源篁岭取经发展晒秋经济，第一届晒秋20天收入600万，五年累计带动增收超6000万，单日最高游客1.4万人。森林覆盖率91%，明清木楼晒秋场景是摄影胜地。",
+      "related_poi": [
+        "CUL-037"
+      ],
+      "source": "抖音-100个火遍全国的乡村拆解林坑古村",
+      "source_url": "https://www.iesdouyin.com/share/video/7672995985643895732",
+      "domain": "culture",
+      "related_poi_ids": [
+        "POI-013"
+      ],
+      "content": "林坑古村是楠溪江最偏远的古村之一，黄墙黑瓦的山地民居依山而建，溪水穿村而过，竹林环抱。因为交通不便，反而保存了最原始的村落风貌。是摄影爱好者的天堂，清晨云雾缭绕时最美。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.4,
+      "assets": {
+        "cover": "assets/img/kb/cul-037-cover.webp",
+        "fallback": "assets/img/kb/cul-037-cover.webp"
+      }
+    },
+    {
+      "id": "CUL-038",
+      "name": "埭头古村",
+      "category": "古村落",
+      "tags": [
+        "埭头",
+        "埭川",
+        "陈姓",
+        "船型之地",
+        "进士第"
+      ],
+      "summary": "埭头古村位于大若岩镇，古称'埭川'，别称'埭谷'，陈姓聚居。是典型的楠溪江民居村落，人称'船型之地'，自然景观与人文景观完美结合。清朝乾嘉以来文风鼎盛，私塾林立，村内有进士第等古建筑。紧邻百丈瀑和大若岩景区，是自然与人文结合的游览节点。",
+      "related_poi": [
+        "CUL-038",
+        "POI-007"
+      ],
+      "source": "抖音-楠溪江埭头古村",
+      "source_url": "https://www.iesdouyin.com/share/video/7655479173556751656",
+      "domain": "culture",
+      "related_poi_ids": [
+        "POI-014",
+        "POI-007"
+      ],
+      "content": "埭头古村位于大若岩镇，始建于元代，村落依山傍水，古民居保存完好。村内有宗祠、古井、古樟，村后是崖下库景区。埭头的'松风水月'门台是楠溪江门台建筑的代表，雕刻精美。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.5,
+      "assets": {
+        "cover": "assets/img/kb/cul-038-cover.webp",
+        "fallback": "assets/img/kb/cul-038-cover.webp"
+      }
+    },
+    {
+      "id": "CUL-039",
+      "name": "屿北古村",
+      "category": "古村落",
+      "tags": [
+        "屿北",
+        "汪姓",
+        "尚书祠",
+        "古村落"
+      ],
+      "summary": "屿北古村位于岩坦镇，汪姓聚居，是楠溪江流域著名的古村落。村落布局严谨，保存有大量明清古建筑，以尚书祠为代表。屿北村文风鼎盛，历史上出过多位进士和官员，是耕读文化的重要载体。",
+      "related_poi": [
+        "CUL-039"
+      ],
+      "source": "楠溪江古村落群公开资料",
+      "source_url": "https://m.ctrip.com/webapp/you/community/detail?articleId=214360028",
+      "domain": "culture",
+      "related_poi_ids": [
+        "POI-015"
+      ],
+      "content": "屿北古村是楠溪江流域独具特色的古村落，曾是红军挺进师的活动地，有'红色古村'之称。村落规划严整，民居为四合院式，高墙深巷。鹅卵石铺成的巷道纵横交错，走在里面像走迷宫。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.6,
+      "assets": {
+        "cover": "assets/img/kb/cul-039-cover.webp",
+        "fallback": "assets/img/kb/cul-039-cover.webp"
+      }
+    },
+    {
+      "id": "CUL-040",
+      "name": "暨家寨",
+      "category": "古村落",
+      "tags": [
+        "暨家寨",
+        "原始古村",
+        "仙居",
+        "瀑布"
+      ],
+      "summary": "暨家寨位于永嘉与仙居交界的深山之中，是楠溪江流域最原始的古村落之一。全村暨姓，保留着原生态的山地民居和生活方式，周边有瀑布群和原始森林，适合徒步和深度体验。相比苍坡、芙蓉等开发成熟的古村，暨家寨更加原始静谧。",
+      "related_poi": [
+        "CUL-040"
+      ],
+      "source": "搜狐-访秘境宿古村",
+      "source_url": "https://m.sohu.com/a/957932124_122401315/",
+      "domain": "culture",
+      "related_poi_ids": [
+        "POI-016"
+      ],
+      "content": "暨家寨是永嘉最西北的古村落，与仙居接壤，海拔高，是典型的山地村落。全村姓暨，保留了原始的农耕生活和传统建筑。这里的梯田、云海、古民居构成了世外桃源般的画面，适合徒步和摄影。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.7,
+      "assets": {
+        "cover": "assets/img/kb/cul-040-cover.webp",
+        "fallback": "assets/img/kb/cul-040-cover.webp"
+      }
+    },
+    {
+      "id": "CUL-041",
+      "name": "南戏故乡",
+      "category": "戏剧传统",
+      "tags": [
+        "南戏",
+        "温州",
+        "戏曲",
+        "永嘉"
+      ],
+      "summary": "永嘉是著名的'南戏'故乡。南戏是中国戏曲最早的成熟形式之一，诞生于南北宋之交的温州（永嘉）地区，对后世戏曲发展影响深远。徐渭《南词叙录》等典籍对南戏有详细记载。永嘉昆曲（永昆）正是南戏的直接传承者。",
+      "related_poi": [
+        "POI-017"
+      ],
+      "source": "永嘉网-浙江文化名城永嘉",
+      "source_url": "http://www.yjnet.cn/system/2010/06/07/010372649.shtml",
+      "domain": "culture",
+      "related_poi_ids": [
+        "POI-017"
+      ],
+      "content": "永嘉是南戏的故乡，南戏是中国戏曲最早的成熟形态，诞生于北宋末年的温州一带。永嘉昆曲、永嘉木偶戏都和南戏有渊源。《张协状元》是现存最早的南戏剧本。可以说，中国戏曲的根，有一条在永嘉。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.8,
+      "assets": {
+        "cover": "assets/img/kb/cul-041-cover.webp",
+        "fallback": "assets/img/kb/cul-041-cover.webp"
+      }
+    },
+    {
+      "id": "CUL-042",
+      "name": "宗族文化",
+      "category": "文化传统",
+      "tags": [
+        "宗族",
+        "祠堂",
+        "族谱",
+        "楠溪江"
+      ],
+      "summary": "永嘉人意识深处有着浓重的宗族观念，宗族内聚力是后世发展的根本。楠溪江流域古村落多为一姓聚居，如苍坡李姓、芙蓉陈姓、林坑毛姓、埭头陈姓等。每个村落都有宗祠、族谱和族规，宗族文化深刻影响了村落布局、建筑风格和社会结构，也是耕读文化得以千年传承的组织保障。",
+      "related_poi": [
+        "POI-010",
+        "POI-011",
+        "POI-012"
+      ],
+      "source": "浙江日报-永嘉：永远的山水诗 最美的桃花源",
+      "source_url": "https://mepaper.zjol.com.cn/szb/zjrb_hd_news.html?theDate=2014-11-27",
+      "domain": "culture",
+      "related_poi_ids": [
+        "POI-010",
+        "POI-011",
+        "POI-012"
+      ],
+      "content": "宗族文化是楠溪江古村落的核心社会结构，每个村落都有宗祠、族谱、族规。苍坡李氏、芙蓉陈氏、岩头金氏，各有传承。宗祠是村落的精神中心，祭祖、议事、庆典都在这里。读族谱、看宗祠，就能读懂楠溪江的社会密码。",
+      "indoor": null,
+      "suitable_for": [],
+      "avg_cost_cny": null,
+      "avg_duration_min": null,
+      "geo_lat": null,
+      "geo_lng": null,
+      "rating": 4.2,
+      "assets": {
+        "cover": "assets/img/kb/cul-042-cover.webp",
+        "fallback": "assets/img/kb/cul-042-cover.webp"
+      }
+    },
+    {
+      "id": "POI-001",
+      "name": "石桅岩景区",
+      "category": "自然山水",
+      "tags": [
+        "石桅岩",
+        "浙南天柱",
+        "3D数字孪生",
+        "核心景区",
+        "户外"
+      ],
+      "indoor": false,
+      "summary": "石桅岩位于鹤盛镇，是楠溪江的标志性景观，被誉为'浙南天柱'。岩体高306米，相对高度全国第一，因形似船桅而得名。景区内有小三峡、水仙洞、麒麟峰等景点，集雄、奇、险、秀、幽于一体。是本期3D数字孪生空间的首期落地Demo，提供GLB模型查看和720°全景游览。",
+      "location": "永嘉县鹤盛镇下岙村",
+      "ticket": "50元",
+      "opening_hours": "08:00-18:00",
+      "duration": "3-4小时",
+      "related_culture": [
+        "CUL-003"
+      ],
+      "source": "楠溪江风景区官方资料；携程攻略",
+      "source_url": "https://you.ctrip.com/sight/tongshan2706/56445-dianping142054228.html",
+      "domain": "poi",
+      "related_culture_ids": [
+        "CUL-003"
+      ],
+      "content": "石桅岩是楠溪江的招牌景观，一块306米高的巨石像船桅立在溪谷间，号称'浙南天柱'。所在鹤盛镇是楠溪江上游精华段，小三峡碧水绕岩壁，水仙洞藏在山脚。建议上午进山光线好，全程约3.5小时，穿防滑鞋。景区内楠溪书院可做中场休息。",
+      "avg_cost_cny": 50,
+      "avg_duration_min": 210,
+      "geo_lat": 28.384325,
+      "geo_lng": 120.874906,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.3,
+      "assets": {
+        "cover": "assets/img/kb/poi-001-cover.webp",
+        "fallback": "assets/img/placeholders/poi-cover.webp"
+      }
+    },
+    {
+      "id": "POI-002",
+      "name": "狮子岩景区",
+      "category": "自然山水",
+      "tags": [
+        "狮子岩",
+        "竹筏漂流",
+        "楠溪江中心",
+        "户外"
+      ],
+      "indoor": false,
+      "summary": "狮子岩是楠溪江风景名胜区的中心和交通枢纽，以'水美、村古、林秀'著称。江心双岩形似狮子戏球，是楠溪江标志性景观。可乘坐复古竹筏泛舟江上，欣赏两岸滩林风光。江边浅滩水流平缓，是夏日亲子玩水、拍照出片的热门地。",
+      "location": "永嘉县岩头镇下日川村",
+      "ticket": "免费（竹筏漂流另收费）",
+      "opening_hours": "全天",
+      "duration": "2小时",
+      "related_culture": [
+        "CUL-003"
+      ],
+      "source": "马蜂窝-楠溪江；携程攻略",
+      "source_url": "https://m.mafengwo.cn/gl/catalog/index?catalog_id=3156&id=351",
+      "domain": "poi",
+      "related_culture_ids": [
+        "CUL-003"
+      ],
+      "content": "狮子岩是楠溪江中的两座小屿，远望像狮子戏球，是楠溪江的标志性景观。傍晚夕阳洒在江面，竹筏从狮子岩旁划过，是经典摄影画面。这里是竹筏漂流的起点，坐筏顺流而下看两岸滩林古村，是最楠溪江的体验。免费开放。",
+      "avg_cost_cny": 0,
+      "avg_duration_min": 120,
+      "geo_lat": 28.299138,
+      "geo_lng": 120.742804,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.4,
+      "assets": {
+        "cover": "assets/img/kb/poi-002-cover.webp",
+        "fallback": "assets/img/kb/poi-002-cover.webp"
+      }
+    },
+    {
+      "id": "POI-003",
+      "name": "龙湾潭国家森林公园",
+      "category": "自然山水",
+      "tags": [
+        "龙湾潭",
+        "国家森林公园",
+        "瀑布",
+        "玻璃船",
+        "户外"
+      ],
+      "indoor": false,
+      "summary": "龙湾潭国家森林公园位于鹤盛镇，森林覆盖率95%以上，有七折瀑、五连瀑等瀑布群。景区内有网红玻璃船、冰雪世界、ns鸟巢等拍照打卡点，还有高空玻璃观景台。游玩时间约3小时，景区内无餐厅，建议自带永嘉麦饼等干粮。《跑男》曾在此录制。",
+      "location": "永嘉县鹤盛镇岩上村",
+      "ticket": "60元",
+      "opening_hours": "08:00-17:00",
+      "duration": "3-4小时",
+      "related_culture": [],
+      "source": "游浙里-楠溪江经典线路；携程聚龙阁客栈",
+      "source_url": "https://wap.cnbztrip.com/guide/path_detail?id=lZtt",
+      "domain": "poi",
+      "related_culture_ids": [],
+      "content": "龙湾潭国家森林公园以七折瀑闻名，七条瀑布层层叠叠从山间倾泻，还有玻璃观景台俯瞰峡谷。森林覆盖率高，是天然氧吧。全程步道约2-3小时，夏季清凉。景区内有高空玻璃漂流，喜欢刺激的可以试试。",
+      "avg_cost_cny": 60,
+      "avg_duration_min": 210,
+      "geo_lat": 28.338996,
+      "geo_lng": 120.882295,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.5,
+      "assets": {
+        "cover": "assets/img/kb/poi-003-cover.webp",
+        "fallback": "assets/img/placeholders/poi-cover.webp"
+      }
+    },
+    {
+      "id": "POI-004",
+      "name": "崖下库景区",
+      "category": "自然山水",
+      "tags": [
+        "崖下库",
+        "悬空栈道",
+        "大若岩",
+        "户外"
+      ],
+      "indoor": false,
+      "summary": "崖下库位于大若岩镇，是楠溪江最险峻的景区之一。景区以悬空栈道著称，栈道贴崖而建，脚下是深谷，惊险刺激。内有含羞瀑、天门、九龙谷等景点，云雾缭绕时如入仙境。适合喜欢徒步和探险的游客。",
+      "location": "永嘉县大若岩镇",
+      "ticket": "50元",
+      "opening_hours": "08:00-17:00",
+      "duration": "2-3小时",
+      "related_culture": [],
+      "source": "去哪儿网-楠溪江风景旅游区",
+      "source_url": "https://m.flight.qunar.com/shark/active/cc16868c594f193f4d7f198d810db018",
+      "domain": "poi",
+      "related_culture_ids": [],
+      "content": "崖下库以陡峭悬崖和悬空栈道著称，走在贴崖而建的栈道上，脚下是深谷，头顶是瀑布，惊险又壮观。瀑布从崖壁倾泻入潭，水雾弥漫。全程约2小时，需要一定体力，恐高的朋友走栈道要做好心理准备。",
+      "avg_cost_cny": 50,
+      "avg_duration_min": 150,
+      "geo_lat": 28.29343,
+      "geo_lng": 120.668403,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.6,
+      "assets": {
+        "cover": "assets/img/kb/poi-004-cover.webp",
+        "fallback": "assets/img/placeholders/poi-cover.webp"
+      }
+    },
+    {
+      "id": "POI-005",
+      "name": "陶公洞",
+      "category": "人文景观",
+      "tags": [
+        "陶公洞",
+        "道家福地",
+        "石室",
+        "半室内"
+      ],
+      "indoor": true,
+      "summary": "陶公洞位于大若岩镇，被道家誉为'天下第十二福地'，是浙南最大的石室。洞高56米，宽76米，深79米，洞内晦明随云变幻。洞分上下两层，下层建有三间观音阁，讲经坛可纳数百人。门票仅10元，周边有咖啡馆可享悠闲下午茶。雨天可作为户外景点的替代方案。",
+      "location": "永嘉县大若岩镇九黄公路一侧",
+      "ticket": "10元",
+      "opening_hours": "08:00-17:00",
+      "duration": "1-2小时",
+      "related_culture": [],
+      "source": "永嘉县人民政府-风景名胜；浙江日报-坐着高铁游楠溪",
+      "source_url": "http://www.yj.gov.cn/art/2021/1/28/art_1229487039_59055858.html",
+      "domain": "poi",
+      "related_culture_ids": [],
+      "content": "陶公洞是巨大天然岩洞中的道教宫观，洞内可容纳千人，相传是陶弘景修炼之地。洞内庙宇建筑依山而建，香火缭绕，岩壁上有历代刻字。半室内空间，雨天也能参观。是楠溪江道教文化的重要场所，农历九月初九有庙会。",
+      "avg_cost_cny": 10,
+      "avg_duration_min": 90,
+      "geo_lat": 28.297143,
+      "geo_lng": 120.632191,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.7,
+      "assets": {
+        "cover": "assets/img/kb/poi-005-cover.webp",
+        "fallback": "assets/img/placeholders/poi-cover.webp"
+      }
+    },
+    {
+      "id": "POI-006",
+      "name": "十二峰景区",
+      "category": "自然山水",
+      "tags": [
+        "十二峰",
+        "流纹岩",
+        "天台山",
+        "户外"
+      ],
+      "indoor": false,
+      "summary": "十二峰位于大若岩景区陶公洞西北约3公里，古称天台山，是一组流纹岩因节理风化和流水侵蚀、地壳抬升而成的峰群。包括莲花峰、香炉峰等十二座山峰，群峰嵯峨峭拔，气势磅礴，各有所似，形象逼真。云雾缭绕时如仙境，徒步路线结合溪涧瀑布。",
+      "location": "永嘉县大若岩镇",
+      "ticket": "30元",
+      "opening_hours": "08:00-17:00",
+      "duration": "2-3小时",
+      "related_culture": [],
+      "source": "永嘉县人民政府-风景名胜；抖音百科-楠溪江风景区",
+      "source_url": "http://www.yj.gov.cn/art/2021/1/28/art_1229487039_59055858.html",
+      "domain": "poi",
+      "related_culture_ids": [],
+      "content": "十二峰景区有十二座奇峰并列耸立，云雾缭绕时如仙境。丹霞地貌岩壁色彩丰富，苍翠植被点缀其间。有步道可登山近观，也可在远处观景台拍全景。和石桅岩的孤峰不同，十二峰是群峰竞秀，气势磅礴。",
+      "avg_cost_cny": 30,
+      "avg_duration_min": 150,
+      "geo_lat": 28.298219,
+      "geo_lng": 120.62379,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.8,
+      "assets": {
+        "cover": "assets/img/kb/poi-006-cover.webp",
+        "fallback": "assets/img/placeholders/poi-cover.webp"
+      }
+    },
+    {
+      "id": "POI-007",
+      "name": "百丈瀑景区",
+      "category": "自然山水",
+      "tags": [
+        "百丈瀑",
+        "浙江第二大瀑布",
+        "落差124米",
+        "户外"
+      ],
+      "indoor": false,
+      "summary": "百丈瀑位于大若岩镇府岸村北1公里，瀑布落差124米，又名傅岸瀑，为浙江第二大瀑布。三面合围如白绫垂天，夏季清凉避暑胜地。附近有藤溪十瀑群，可组合游览。紧邻埭头古村，自然与人文可串联游览。",
+      "location": "永嘉县大若岩镇府岸村",
+      "ticket": "50元",
+      "opening_hours": "08:00-17:00",
+      "duration": "2小时",
+      "related_culture": [],
+      "source": "永嘉县人民政府-风景名胜；携程攻略",
+      "source_url": "http://www.yj.gov.cn/art/2021/1/28/art_1229487039_59055858.html",
+      "domain": "poi",
+      "related_culture_ids": [],
+      "content": "百丈瀑高124米，是浙江第二大瀑布，从悬崖飞流直下，水雾弥漫，晴天常能看到彩虹。周围森林茂密，仰拍视角最壮观。瀑布下有水潭，夏天可以戏水。全程游览约1.5小时，雨季水量大更震撼。",
+      "avg_cost_cny": 50,
+      "avg_duration_min": 120,
+      "geo_lat": 28.293056,
+      "geo_lng": 120.605751,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.2,
+      "assets": {
+        "cover": "assets/img/kb/poi-007-cover.webp",
+        "fallback": "assets/img/placeholders/poi-cover.webp"
+      }
+    },
+    {
+      "id": "POI-008",
+      "name": "九漈石门台",
+      "category": "自然山水",
+      "tags": [
+        "石门台",
+        "九漈瀑布",
+        "大若岩",
+        "户外"
+      ],
+      "indoor": false,
+      "summary": "九漈石门台位于大若岩景区，以九级瀑布闻名，一漈一景，瀑瀑相连，是楠溪江瀑布景观最集中的区域。沿溪涧徒步而上，可依次欣赏九级瀑布的不同姿态，适合自然爱好者和徒步爱好者。",
+      "location": "永嘉县大若岩镇",
+      "ticket": "30元",
+      "opening_hours": "08:00-17:00",
+      "duration": "2-3小时",
+      "related_culture": [],
+      "source": "去哪儿网-楠溪江风景旅游区",
+      "source_url": "https://m.flight.qunar.com/shark/active/cc16868c594f193f4d7f198d810db018",
+      "domain": "poi",
+      "related_culture_ids": [],
+      "content": "九漈石门台以九级瀑布闻名，一漈一景，瀑瀑相连，沿溪而上逐级登高。每级瀑布都有不同的形态和水潭，是亲水徒步的好去处。全程约2小时，台阶较多，建议穿运动鞋。夏季溪水清凉，可以踩水。",
+      "avg_cost_cny": 30,
+      "avg_duration_min": 150,
+      "geo_lat": 28.315591,
+      "geo_lng": 120.630609,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.3,
+      "assets": {
+        "cover": "assets/img/kb/poi-008-cover.webp",
+        "fallback": "assets/img/kb/poi-008-cover.webp"
+      }
+    },
+    {
+      "id": "POI-009",
+      "name": "永嘉书院",
+      "category": "人文景观",
+      "tags": [
+        "永嘉书院",
+        "永嘉学派",
+        "水心塔",
+        "学馆",
+        "半室内"
+      ],
+      "indoor": true,
+      "summary": "永嘉书院是楠溪江老牌景区，国内最大的书院之一，有'千年书院'之称。景区水中央矗立'水心塔'，纪念永嘉学派集大成者叶适（号水心先生）。内有永嘉学馆（展示永嘉学派演化与温州商道文化传承）、翰墨斋书画馆、瓯窑书画文化展馆等。检票亭采用南宋四方天井式建筑。雨天可作为户外替代。",
+      "location": "永嘉县沙头镇珠岸村",
+      "ticket": "50元",
+      "opening_hours": "08:00-17:30",
+      "duration": "3-4小时",
+      "related_culture": [
+        "CUL-001",
+        "CUL-002"
+      ],
+      "source": "永嘉书院官网；温州市文化广电旅游局",
+      "source_url": "http://wzyjsy.com/",
+      "domain": "poi",
+      "related_culture_ids": [
+        "CUL-001",
+        "CUL-002"
+      ],
+      "content": "永嘉书院是楠溪江畔的现代书院建筑群，白墙黛瓦临水而建，竹林掩映，水面倒影如画。这里不只是看书的地方，还有耕读文化展示、国学体验和山水景观。适合下午来，在书院里坐坐，感受'耕读传家'的氛围。免费参观。",
+      "avg_cost_cny": 50,
+      "avg_duration_min": 210,
+      "geo_lat": 28.266008,
+      "geo_lng": 120.701207,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.4,
+      "assets": {
+        "cover": "assets/img/kb/poi-009-cover.webp",
+        "fallback": "assets/img/placeholders/poi-cover.webp"
+      }
+    },
+    {
+      "id": "POI-010",
+      "name": "苍坡古村",
+      "category": "古村落",
+      "tags": [
+        "苍坡",
+        "文房四宝",
+        "南宋",
+        "李姓",
+        "半户外"
+      ],
+      "indoor": false,
+      "summary": "苍坡古村位于岩头镇，始建于五代后周显德二年（955年），以'文房四宝'布局闻名。笔架山为笔、笔街为笔、墨池为墨、平畴为纸、条石为砚。保留宋代寨墙、路道、住宅、亭榭、祠庙、水池及古柏。1991年列为浙江省历史文化保护区。村内有楠溪别院民宿，白墙黛瓦安静避世。",
+      "location": "永嘉县岩头镇苍坡村",
+      "ticket": "免费（8点后部分区域收费）",
+      "opening_hours": "全天",
+      "duration": "1.5-2小时",
+      "related_culture": [
+        "CUL-002",
+        "CUL-034"
+      ],
+      "source": "今日永嘉-岩头三古村；携程攻略",
+      "source_url": "http://yjb.yjnet.cn/index.php/home/article/index/appkey/69/date/2023-07-06/page/1382702/aid/7712426.html",
+      "domain": "poi",
+      "related_culture_ids": [
+        "CUL-002",
+        "CUL-034"
+      ],
+      "content": "苍坡古村始建于南宋，按'文房四宝'布局：笔街对笔架山，墨池如砚，村墙似纸。白墙黛瓦倒映墨池，鹅卵石路，千年古柏。是耕读文化的活化石，晨游墨池最出片。门票约25元，建议和丽水街、芙蓉古村连起来走。",
+      "avg_cost_cny": 0,
+      "avg_duration_min": 105,
+      "geo_lat": 28.360136,
+      "geo_lng": 120.749059,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.5,
+      "assets": {
+        "cover": "assets/img/kb/poi-010-cover.webp",
+        "fallback": "assets/img/placeholders/poi-cover.webp"
+      }
+    },
+    {
+      "id": "POI-011",
+      "name": "芙蓉古村",
+      "category": "古村落",
+      "tags": [
+        "芙蓉",
+        "七星八斗",
+        "唐代",
+        "陈姓",
+        "宋瓷博物馆",
+        "半室内"
+      ],
+      "indoor": false,
+      "summary": "芙蓉古村位于岩头镇，始建于唐代，陈姓聚居，按'七星八斗'布局，整体呈正方形。村内有芙蓉宋瓷博物馆（70余件藏品，含越窑、龙泉窑、瓯窑等）、宋园（11吨夜明珠、30吨根雕清明上河图）、民俗馆、古石雕馆等。是楠溪江古村落群中最具代表性的村落。",
+      "location": "永嘉县岩头镇芙蓉村",
+      "ticket": "20元",
+      "opening_hours": "08:00-17:30",
+      "duration": "2小时",
+      "related_culture": [
+        "CUL-035",
+        "CUL-002"
+      ],
+      "source": "温州市文化广电旅游局-芙蓉宋瓷博物馆；携程攻略",
+      "source_url": "https://wl.wenzhou.gov.cn/art/2025/1/21/art_1229797874_58908919.html",
+      "domain": "poi",
+      "related_culture_ids": [
+        "CUL-035",
+        "CUL-002"
+      ],
+      "content": "芙蓉古村始建于唐，元时重建，按'七星八斗'布局，是楠溪江格局最完整的古村。芙蓉亭、芙蓉池是核心，民居错落有致。村内有民俗馆展示耕读文化。和苍坡相距不远，可以一起游览，感受两种不同的古村规划理念。",
+      "avg_cost_cny": 20,
+      "avg_duration_min": 120,
+      "geo_lat": 28.32955,
+      "geo_lng": 120.736196,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.6,
+      "assets": {
+        "cover": "assets/img/kb/poi-011-cover.webp",
+        "fallback": "assets/img/placeholders/poi-cover.webp"
+      }
+    },
+    {
+      "id": "POI-012",
+      "name": "丽水街（岩头村）",
+      "category": "古村落",
+      "tags": [
+        "丽水街",
+        "明嘉靖",
+        "商业街",
+        "红灯笼",
+        "半户外"
+      ],
+      "indoor": false,
+      "summary": "丽水街位于岩头镇东缘蓄水堤上，又名丽水长廊，建于明嘉靖年间。90余间店面长廊依水而建，挂满红灯笼，是楠溪江最具烟火气的古街。必看丽水古桥、接官花亭，夜晚灯笼倒映水中景色绝美。街内有楠溪石文化馆、鞋文化馆、纽扣文化馆、岩头百姓书屋等。",
+      "location": "永嘉县岩头镇丽水街",
+      "ticket": "15元",
+      "opening_hours": "全天（店铺9:00-21:00）",
+      "duration": "1.5小时",
+      "related_culture": [
+        "CUL-036"
+      ],
+      "source": "钱江晚报-耕读长廊岩头村丽水街；搜狐-永嘉文化生活地图",
+      "source_url": "https://qjwb.tidenews.com.cn/html/2013-11/18/content_2413269.htm",
+      "domain": "poi",
+      "related_culture_ids": [
+        "CUL-036"
+      ],
+      "content": "丽水街在岩头村，300米临水廊檐古街，木柱长廊红灯笼，曾是盐商古道驿站。街上店铺林立，水面倒映长廊，午后遮阴正好。傍晚灯笼亮起最美，街上有麦饼、素面等小吃。门票约15元，和苍坡、芙蓉可买联票。",
+      "avg_cost_cny": 15,
+      "avg_duration_min": 90,
+      "geo_lat": 28.336485,
+      "geo_lng": 120.735273,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.7,
+      "assets": {
+        "cover": "assets/img/kb/poi-012-cover.webp",
+        "fallback": "assets/img/placeholders/poi-cover.webp"
+      }
+    },
+    {
+      "id": "POI-013",
+      "name": "林坑古村",
+      "category": "古村落",
+      "tags": [
+        "林坑",
+        "元代",
+        "毛姓",
+        "晒秋",
+        "山地民居",
+        "户外"
+      ],
+      "indoor": false,
+      "summary": "林坑古村位于岩坦镇，始建于元代，700年历史，47幢老屋沿溪而建，是楠溪江山地民居的典型代表。森林覆盖率91%，明清木楼晒秋场景是摄影胜地。2021年起发展晒秋经济，五年累计带动增收超6000万。适合摄影和深度人文体验。",
+      "location": "永嘉县岩坦镇林坑村",
+      "ticket": "免费",
+      "opening_hours": "全天",
+      "duration": "2-3小时",
+      "related_culture": [
+        "CUL-037"
+      ],
+      "source": "抖音-100个火遍全国的乡村拆解林坑古村",
+      "source_url": "https://www.iesdouyin.com/share/video/7672995985643895732",
+      "domain": "poi",
+      "related_culture_ids": [
+        "CUL-037"
+      ],
+      "content": "林坑古村是楠溪江最偏远的古村，黄墙黑瓦山地民居依山而建，溪水穿村，竹林环抱。因交通不便反而保存了原始风貌，是摄影天堂。清晨云雾缭绕时最美，村里有几家农家乐和民宿，可以住一晚看日出。",
+      "avg_cost_cny": 0,
+      "avg_duration_min": 150,
+      "geo_lat": 28.539905,
+      "geo_lng": 120.702548,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.8,
+      "assets": {
+        "cover": "assets/img/kb/poi-013-cover.webp",
+        "fallback": "assets/img/kb/poi-013-cover.webp"
+      }
+    },
+    {
+      "id": "POI-014",
+      "name": "埭头古村",
+      "category": "古村落",
+      "tags": [
+        "埭头",
+        "埭川",
+        "陈姓",
+        "船型之地",
+        "进士第",
+        "户外"
+      ],
+      "indoor": false,
+      "summary": "埭头古村位于大若岩镇，古称'埭川'，陈姓聚居，人称'船型之地'。清朝乾嘉以来文风鼎盛，私塾林立，村内有进士第等古建筑。紧邻百丈瀑和大若岩景区，自然与人文可串联游览，是楠溪江古村落群中自然与人文结合的典型。",
+      "location": "永嘉县大若岩镇埭头村",
+      "ticket": "免费",
+      "opening_hours": "全天",
+      "duration": "1-1.5小时",
+      "related_culture": [
+        "CUL-038",
+        "CUL-002"
+      ],
+      "source": "抖音-楠溪江埭头古村",
+      "source_url": "https://www.iesdouyin.com/share/video/7655479173556751656",
+      "domain": "poi",
+      "related_culture_ids": [
+        "CUL-038",
+        "CUL-002"
+      ],
+      "content": "埭头古村在大若岩镇，始建于元代，依山傍水，古民居保存完好。'松风水月'门台是楠溪江门台建筑代表，雕刻精美。村后就是崖下库景区，可以连起来玩。村内有古井古樟，生活气息浓，游客不多。",
+      "avg_cost_cny": 0,
+      "avg_duration_min": 75,
+      "geo_lat": 28.28423,
+      "geo_lng": 120.67723,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.2,
+      "assets": {
+        "cover": "assets/img/kb/poi-014-cover.webp",
+        "fallback": "assets/img/kb/poi-014-cover.webp"
+      }
+    },
+    {
+      "id": "POI-015",
+      "name": "屿北古村",
+      "category": "古村落",
+      "tags": [
+        "屿北",
+        "汪姓",
+        "尚书祠",
+        "户外"
+      ],
+      "indoor": false,
+      "summary": "屿北古村位于岩坦镇，汪姓聚居，是楠溪江流域著名古村落。村落布局严谨，保存大量明清古建筑，以尚书祠为代表。历史上文风鼎盛，出过多位进士和官员，是耕读文化的重要载体。周边有屿北武装起义纪念亭等红色旅游资源。",
+      "location": "永嘉县岩坦镇屿北村",
+      "ticket": "免费",
+      "opening_hours": "全天",
+      "duration": "1.5小时",
+      "related_culture": [
+        "CUL-039",
+        "CUL-002"
+      ],
+      "source": "楠溪江古村落群公开资料",
+      "source_url": "https://m.ctrip.com/webapp/you/community/detail?articleId=214360028",
+      "domain": "poi",
+      "related_culture_ids": [
+        "CUL-039",
+        "CUL-002"
+      ],
+      "content": "屿北古村有'红色古村'之称，曾是红军挺进师活动地。村落规划严整，四合院式民居高墙深巷，鹅卵石巷道纵横。这里出过不少文人志士，宗族文化浓厚。适合喜欢历史和红色文化的游客，比较小众安静。",
+      "avg_cost_cny": 0,
+      "avg_duration_min": 90,
+      "geo_lat": 28.460876,
+      "geo_lng": 120.726887,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.3,
+      "assets": {
+        "cover": "assets/img/kb/poi-015-cover.webp",
+        "fallback": "assets/img/kb/poi-015-cover.webp"
+      }
+    },
+    {
+      "id": "POI-016",
+      "name": "暨家寨",
+      "category": "古村落",
+      "tags": [
+        "暨家寨",
+        "原始古村",
+        "瀑布",
+        "户外"
+      ],
+      "indoor": false,
+      "summary": "暨家寨位于永嘉与仙居交界的深山之中，是楠溪江流域最原始的古村落之一。全村暨姓，保留原生态山地民居和生活方式，周边有瀑布群和原始森林。相比开发成熟的古村，暨家寨更加原始静谧，适合徒步和深度体验。",
+      "location": "永嘉县岩坦镇暨家寨",
+      "ticket": "免费",
+      "opening_hours": "全天",
+      "duration": "2-3小时",
+      "related_culture": [
+        "CUL-040"
+      ],
+      "source": "搜狐-访秘境宿古村",
+      "source_url": "https://m.sohu.com/a/957932124_122401315/",
+      "domain": "poi",
+      "related_culture_ids": [
+        "CUL-040"
+      ],
+      "content": "暨家寨在永嘉最西北，与仙居接壤，海拔高，是典型山地村落。全村姓暨，保留原始农耕生活和传统建筑。梯田、云海、古民居构成世外桃源画面。适合徒步和摄影，路较远建议自驾，村里有简单的农家乐。",
+      "avg_cost_cny": 0,
+      "avg_duration_min": 150,
+      "geo_lat": 28.520625,
+      "geo_lng": 120.607325,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.4,
+      "assets": {
+        "cover": "assets/img/kb/poi-016-cover.webp",
+        "fallback": "assets/img/kb/poi-016-cover.webp"
+      }
+    },
+    {
+      "id": "POI-017",
+      "name": "瓯窑小镇",
+      "category": "文化小镇",
+      "tags": [
+        "瓯窑",
+        "官窑遗址",
+        "非遗",
+        "博物馆",
+        "室内"
+      ],
+      "indoor": true,
+      "summary": "瓯窑小镇位于三江街道坦头村，是唐代瓯窑官窑遗址所在地，坐拥全国重点文物保护单位坦头窑址。小镇以'匣钵'为造型的瓯窑博物馆为核心，复刻40.5米长柴烧龙窑，完整还原瓯窑烧制技艺。聚集永昆、温州莲花、瓯瓷、木雕、竹雕、泥塑、绸塑、漆画、乌牛早、瓯绣等多项非遗。是雨天最佳室内替代景点。",
+      "location": "永嘉县三江街道坦头村",
+      "ticket": "免费",
+      "opening_hours": "09:00-17:00",
+      "duration": "2-3小时",
+      "related_culture": [
+        "CUL-006",
+        "CUL-005",
+        "CUL-009"
+      ],
+      "source": "永嘉网-温州园博会永嘉分会场；抖音百科-瓯窑小镇",
+      "source_url": "http://www.yjnet.cn/system/2026/04/07/015438343.shtml",
+      "domain": "poi",
+      "related_culture_ids": [
+        "CUL-006",
+        "CUL-005",
+        "CUL-009"
+      ],
+      "content": "瓯窑小镇在三江坦头村，围绕唐代瓯窑官窑遗址打造。有青瓷展示、陶艺工坊、非遗体验，青绿色调文艺氛围浓。可以亲手拉坯做一件青瓷带走，也有瓯绣、绸塑等非遗展示。是文化体验和亲子游的好去处。",
+      "avg_cost_cny": 0,
+      "avg_duration_min": 150,
+      "geo_lat": 28.074533,
+      "geo_lng": 120.72748,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.5,
+      "assets": {
+        "cover": "assets/img/kb/poi-017-cover.webp",
+        "fallback": "assets/img/placeholders/poi-cover.webp"
+      }
+    },
+    {
+      "id": "POI-018",
+      "name": "瓯窑博物馆",
+      "category": "博物馆",
+      "tags": [
+        "瓯窑",
+        "陶瓷博物馆",
+        "窑炉造型",
+        "室内"
+      ],
+      "indoor": true,
+      "summary": "瓯窑博物馆位于瓯窑小镇内，坐落在瓯窑文化发源地永嘉上塘河畔。由主馆和窑址两部分组成，建筑外观采用窑炉造型，以红黑灰白四种色彩为基调。馆内收藏大量瓯窑文物，最具特色的是瓯字形瓷器，展示了瓯窑从东汉到南宋的发展历程。配套有瓯窑文化体验馆。",
+      "location": "永嘉县三江街道瓯窑小镇",
+      "ticket": "免费",
+      "opening_hours": "09:00-17:00（周一闭馆）",
+      "duration": "1-1.5小时",
+      "related_culture": [
+        "CUL-006"
+      ],
+      "source": "抖音-温州瓯窑博物馆",
+      "source_url": "https://www.iesdouyin.com/share/video/7426345862281841977",
+      "domain": "poi",
+      "related_culture_ids": [
+        "CUL-006"
+      ],
+      "content": "瓯窑博物馆在瓯窑小镇内，系统展示瓯窑从东汉到唐宋的发展历史，有大量出土瓷器标本和完整器物。坦头窑址的考古发现是重点展项，包括六大'首次'。对陶瓷文化感兴趣的不要错过，免费参观。",
+      "avg_cost_cny": 0,
+      "avg_duration_min": 75,
+      "geo_lat": 28.071598,
+      "geo_lng": 120.731556,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.6,
+      "assets": {
+        "cover": "assets/img/kb/poi-018-cover.webp",
+        "fallback": "assets/img/kb/poi-018-cover.webp"
+      }
+    },
+    {
+      "id": "POI-019",
+      "name": "芙蓉宋瓷博物馆",
+      "category": "博物馆",
+      "tags": [
+        "宋瓷",
+        "瓷器",
+        "芙蓉村",
+        "室内"
+      ],
+      "indoor": true,
+      "summary": "芙蓉宋瓷博物馆位于芙蓉村内，建筑面积240平方米，馆内拥有70余件藏品，包括全国各个窑口的瓷器，其中有著名的越窑、龙泉窑、瓯窑、湖田窑、建窑和北方白瓷等。主要器型有碗、盘、瓶、罐、壶等，是了解宋代瓷器文化的小型专题博物馆。",
+      "location": "永嘉县岩头镇芙蓉村",
+      "ticket": "含在芙蓉古村门票内",
+      "opening_hours": "08:30-17:00",
+      "duration": "40分钟",
+      "related_culture": [
+        "CUL-006"
+      ],
+      "source": "温州市文化广电旅游局-永嘉县芙蓉宋瓷博物馆",
+      "source_url": "https://wl.wenzhou.gov.cn/art/2025/1/21/art_1229797874_58908919.html",
+      "domain": "poi",
+      "related_culture_ids": [
+        "CUL-006"
+      ],
+      "content": "芙蓉宋瓷博物馆在芙蓉古村旁，专题展示宋代瓯窑瓷器，藏品丰富，有不少精品。博物馆建筑本身也很有特色，和古村环境融合。可以和芙蓉古村一起参观，看完古村看瓷器，了解宋代永嘉的制瓷业。",
+      "avg_cost_cny": 0,
+      "avg_duration_min": 40,
+      "geo_lat": 28.330344,
+      "geo_lng": 120.735245,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.7,
+      "assets": {
+        "cover": "assets/img/kb/poi-019-cover.webp",
+        "fallback": "assets/img/kb/poi-019-cover.webp"
+      }
+    },
+    {
+      "id": "POI-020",
+      "name": "楠溪书院",
+      "category": "文化场馆",
+      "tags": [
+        "楠溪书院",
+        "美术馆",
+        "矿物颜料",
+        "石桅岩",
+        "室内"
+      ],
+      "indoor": true,
+      "summary": "楠溪书院位于石桅岩景区内，是集美术馆、博物馆、艺术家写生基地为一体的综合建筑群落，主体建筑面积约4000平方米。包括美术馆、图书馆、会议厅、收藏室、陈列室、观景台、艺术家工作室、艺术家餐厅等。可体验矿物颜料作画，楼顶可远眺被誉为'浙南天柱'的石桅岩。",
+      "location": "永嘉县鹤盛镇石桅岩景区内",
+      "ticket": "含在石桅岩门票内",
+      "opening_hours": "09:00-17:00",
+      "duration": "1小时",
+      "related_culture": [
+        "CUL-003"
+      ],
+      "source": "微博-楠溪书院；抖音-楠溪书院探秘",
+      "source_url": "https://card.weibo.com/article/m/show/id/2309404449064614756395",
+      "domain": "poi",
+      "related_culture_ids": [
+        "CUL-003"
+      ],
+      "content": "楠溪书院在石桅岩景区内，是歇脚和感受耕读文化的好地方。书院临水而建，有书画展示和国学活动。爬石桅岩累了可以在这里坐坐，喝杯茶看看书。建筑风格和自然环境融合得很好，拍照也出片。",
+      "avg_cost_cny": 0,
+      "avg_duration_min": 60,
+      "geo_lat": 28.386067,
+      "geo_lng": 120.901184,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.8,
+      "assets": {
+        "cover": "assets/img/kb/poi-020-cover.webp",
+        "fallback": "assets/img/kb/poi-020-cover.webp"
+      }
+    },
+    {
+      "id": "POI-021",
+      "name": "永嘉学馆",
+      "category": "文化场馆",
+      "tags": [
+        "永嘉学馆",
+        "永嘉学派",
+        "叶适",
+        "室内"
+      ],
+      "indoor": true,
+      "summary": "永嘉学馆位于永嘉书院景区内，是书院的文化核心之一。展示永嘉学派在各个历史时期的演化形态，以及与温州商道文化的传承关系，阐述永嘉学派和温州商道文化的思想脉络体系，展现永嘉学派产生的历史人文背景和不同发展时期的学术成就。门口悬挂清代学者孙衣言题写的匾额。",
+      "location": "永嘉县沙头镇永嘉书院内",
+      "ticket": "含在永嘉书院门票内",
+      "opening_hours": "08:30-17:00",
+      "duration": "1小时",
+      "related_culture": [
+        "CUL-001"
+      ],
+      "source": "永嘉书院官网；温州市文化广电旅游局",
+      "source_url": "http://wzyjsy.com/",
+      "domain": "poi",
+      "related_culture_ids": [
+        "CUL-001"
+      ],
+      "content": "永嘉学馆是展示永嘉学派思想的专题场馆，系统介绍薛季宣、陈傅良、叶适等代表人物的事功之学。有古籍展示和互动体验，是了解温州文化基因的好地方。对历史文化感兴趣的建议来看看，免费参观。",
+      "avg_cost_cny": 0,
+      "avg_duration_min": 60,
+      "geo_lat": 28.259485,
+      "geo_lng": 120.694284,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.2,
+      "assets": {
+        "cover": "assets/img/kb/poi-021-cover.webp",
+        "fallback": "assets/img/kb/poi-021-cover.webp"
+      }
+    },
+    {
+      "id": "POI-022",
+      "name": "徐定超故居民俗博物馆",
+      "category": "博物馆",
+      "tags": [
+        "徐定超",
+        "民俗博物馆",
+        "枫林",
+        "清代民国",
+        "室内"
+      ],
+      "indoor": true,
+      "summary": "徐定超故居民俗博物馆位于枫林镇圣旨门街100号徐定超故居内。馆藏品以清代、民国等时期的婚俗、文房、家居、生活、佛教祭祀等民间藏品为特色，具备强烈的地域特征。以徐定超先生生平事迹为切入点，将民俗文物与故居特色相结合，通过情景复现带领观众走入楠溪江特色民居生活。",
+      "location": "永嘉县枫林镇圣旨门街100号",
+      "ticket": "免费",
+      "opening_hours": "08:00-11:00, 14:00-17:00",
+      "duration": "1小时",
+      "related_culture": [
+        "CUL-002"
+      ],
+      "source": "永嘉县人民政府-永嘉县博物馆名录",
+      "source_url": "http://www.yj.gov.cn/col/col1229264293/art/2025/art_2ac9ab8b62cb4f54bc0049888e49f673.html",
+      "domain": "poi",
+      "related_culture_ids": [
+        "CUL-002"
+      ],
+      "content": "徐定超故居在枫林镇，是清末民初温州名人徐定超的故居，现在也是民俗博物馆。展示枫林镇的历史文化和民俗文物，建筑是典型的浙南民居。免费参观，室内空间，雨天也适合来。",
+      "avg_cost_cny": 0,
+      "avg_duration_min": 60,
+      "geo_lat": 28.318711,
+      "geo_lng": 120.765239,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.3,
+      "assets": {
+        "cover": "assets/img/kb/poi-022-cover.webp",
+        "fallback": "assets/img/kb/poi-022-cover.webp"
+      }
+    },
+    {
+      "id": "POI-023",
+      "name": "书兰居非遗博物馆",
+      "category": "博物馆",
+      "tags": [
+        "非遗博物馆",
+        "老酒汗",
+        "戚氏拓印",
+        "戚家军",
+        "室内"
+      ],
+      "indoor": true,
+      "summary": "书兰居非遗博物馆位于桥下镇，展馆分为永嘉老酒汗、戚氏拓印术、戚家军爱国文化三大单元主题。致力于传播永嘉白酒烧制技艺与戚氏拓印术两项非遗项目，积极参与永嘉老酒汗团体标准制定，助力老酒汗产业振兴。是'产业发展和博物馆文化一体化'的典型案例。",
+      "location": "永嘉县桥下镇",
+      "ticket": "免费",
+      "opening_hours": "09:00-17:00",
+      "duration": "1小时",
+      "related_culture": [
+        "CUL-015",
+        "CUL-025"
+      ],
+      "source": "永嘉县人民政府-免费开放乡村博物馆",
+      "source_url": "https://www.yj.gov.cn/art/2024/6/3/art_1229264293_59104708.html",
+      "domain": "poi",
+      "related_culture_ids": [
+        "CUL-014",
+        "CUL-027"
+      ],
+      "content": "书兰居非遗博物馆收藏和展示永嘉多项非遗，包括老酒汗、戚氏拓印术、木雕等。有专题展区和传承人现场展示，游客可以体验拓印。是集中了解永嘉非遗的好地方，室内场馆，适合雨天或文化深度游。",
+      "avg_cost_cny": 0,
+      "avg_duration_min": 60,
+      "geo_lat": 28.157076,
+      "geo_lng": 120.557417,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.4,
+      "assets": {
+        "cover": "assets/img/kb/poi-023-cover.webp",
+        "fallback": "assets/img/kb/poi-023-cover.webp"
+      }
+    },
+    {
+      "id": "POI-024",
+      "name": "瓯渠民俗博物馆",
+      "category": "博物馆",
+      "tags": [
+        "瓯渠",
+        "民俗博物馆",
+        "耕读楼",
+        "古物楼",
+        "室内"
+      ],
+      "indoor": true,
+      "summary": "瓯渠民俗博物馆成立于2000年，馆舍建筑面积2070平方米，展厅1470平方米，馆藏藏品1500余件套，多为村民捐献。古物楼、耕读楼两座古建筑尤其引人注目。馆内陈列楠溪江地区明代、清代老百姓的日用器，是了解楠溪江民俗生活的重要窗口。",
+      "location": "永嘉县瓯渠乡",
+      "ticket": "免费",
+      "opening_hours": "08:30-17:00",
+      "duration": "1小时",
+      "related_culture": [
+        "CUL-002",
+        "CUL-024"
+      ],
+      "source": "九陆岛-永嘉县瓯渠民俗博物馆",
+      "source_url": "https://m.jiuludao.com/museum/52330324502156689D",
+      "domain": "poi",
+      "related_culture_ids": [
+        "CUL-002",
+        "CUL-019"
+      ],
+      "content": "瓯渠民俗博物馆在瓯渠乡，展示当地民俗和南拳文化。瓯渠是南拳之乡，博物馆里有武术器械和民俗器物。地方不大但内容实在，能了解楠溪江山区的生活方式和尚武传统。免费参观。",
+      "avg_cost_cny": 0,
+      "avg_duration_min": 60,
+      "geo_lat": 28.253018,
+      "geo_lng": 120.506599,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.5,
+      "assets": {
+        "cover": "assets/img/kb/poi-024-cover.webp",
+        "fallback": "assets/img/kb/poi-024-cover.webp"
+      }
+    },
+    {
+      "id": "POI-025",
+      "name": "永嘉县博物馆",
+      "category": "博物馆",
+      "tags": [
+        "县级博物馆",
+        "综合博物馆",
+        "室内"
+      ],
+      "indoor": true,
+      "summary": "永嘉县博物馆是永嘉县综合性地方博物馆，收藏和展示永嘉地区历史文物、民俗文化、自然标本等。是了解永嘉千年历史文化的重要窗口，位于永嘉县公共文化活动中心内。",
+      "location": "永嘉县南城街道公共文化活动中心",
+      "ticket": "免费",
+      "opening_hours": "09:00-17:00（周一闭馆）",
+      "duration": "1.5-2小时",
+      "related_culture": [
+        "CUL-001",
+        "CUL-002"
+      ],
+      "source": "永嘉县人民政府-公共文化场馆名录",
+      "source_url": "http://www.yj.gov.cn/col/col1229264293/art/2026/art_0417ce05a8cf451ba02db14224e93045.html",
+      "domain": "poi",
+      "related_culture_ids": [
+        "CUL-001",
+        "CUL-002"
+      ],
+      "content": "永嘉县博物馆在县城，是了解永嘉历史文化的综合性博物馆。有历史、民俗、非遗等展区，藏品丰富。如果想系统了解永嘉的过去和现在，这里是最好的起点。免费开放，周一闭馆，室内场馆适合任何天气。",
+      "avg_cost_cny": 0,
+      "avg_duration_min": 105,
+      "geo_lat": 28.149178,
+      "geo_lng": 120.686562,
+      "geo_source": "高德地图采集（GCJ-02，按官方地址锚定）",
+      "suitable_for": [],
+      "rating": 4.6,
+      "assets": {
+        "cover": "assets/img/kb/poi-025-cover.webp",
+        "fallback": "assets/img/kb/poi-025-cover.webp"
+      }
+    },
+    {
+      "id": "POI-026",
+      "name": "枫林数字诗路e站",
+      "category": "文化场馆",
+      "tags": [
+        "数字诗路",
+        "VR/AR",
+        "3D全息",
+        "非遗数字化",
+        "室内"
+      ],
+      "indoor": true,
+      "summary": "枫林数字诗路e站位于枫林镇，是浙江首个数字诗路e站。通过VR/AR、3D全息投影等数字技术手段展示永嘉昆曲、素面、瓯窑等非遗项目，是传统文化数字化展示的创新平台。适合科技与文化融合体验，雨天理想室内替代。",
+      "location": "永嘉县枫林镇",
+      "ticket": "免费",
+      "opening_hours": "09:00-17:00",
+      "duration": "1小时",
+      "related_culture": [
+        "CUL-005",
+        "CUL-006",
+        "CUL-020"
+      ],
+      "source": "永嘉县人民政府-关于县人大代表建议的答复函",
+      "source_url": "http://www.yj.gov.cn/zyklm/jbxxgk/jyta/rd/art/2026/art_f3acf769030b49a2a88391e8b3265304.html",
+      "domain": "poi",
+      "related_culture_ids": [
+        "CUL-005",
+        "CUL-006",
+        "CUL-016"
+      ],
+      "content": "枫林数字诗路e站是数字化文化体验空间，用多媒体手段展示永嘉山水诗和诗歌文化。可以互动体验'跟着谢灵运游楠溪江'，有AR和VR内容。科技感和文化结合，适合年轻人和亲子，室内空间雨天可去。",
+      "avg_cost_cny": 0,
+      "avg_duration_min": 60,
+      "geo_lat": 28.3189,
+      "geo_lng": 120.76556,
+      "geo_source": "高德地图采集（GCJ-02，按官方地址锚定）",
+      "suitable_for": [],
+      "rating": 4.7,
+      "assets": {
+        "cover": "assets/img/kb/poi-026-cover.webp",
+        "fallback": "assets/img/kb/poi-026-cover.webp"
+      }
+    },
+    {
+      "id": "POI-027",
+      "name": "四海山森林公园",
+      "category": "自然山水",
+      "tags": [
+        "四海山",
+        "森林公园",
+        "避暑",
+        "户外"
+      ],
+      "indoor": false,
+      "summary": "四海山森林公园位于永嘉北部，是楠溪江流域面积最大的森林公园，以云海、林海、雾海、雪海'四海'闻名。夏季平均气温比市区低5-8度，是避暑胜地。园内有四海尖、上潘大瀑布等景点，适合徒步和露营。",
+      "location": "永嘉县岩坦镇四海山",
+      "ticket": "30元",
+      "opening_hours": "08:00-17:00",
+      "duration": "3-4小时",
+      "related_culture": [],
+      "source": "楠溪江风景区公开资料",
+      "source_url": "https://m.ctrip.com/webapp/you/community/detail?articleId=214360028",
+      "domain": "poi",
+      "related_culture_ids": [],
+      "content": "四海山森林公园是永嘉海拔最高的景区，森林茂密，夏季避暑胜地。有四海山日出、云海、森林步道，冬天偶尔能看到雾凇。和楠溪江的水景不同，这里是山景和森林。适合自驾和徒步，山上有住宿。",
+      "avg_cost_cny": 30,
+      "avg_duration_min": 210,
+      "geo_lat": 28.509807,
+      "geo_lng": 120.760623,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.8,
+      "assets": {
+        "cover": "assets/img/kb/poi-027-cover.webp",
+        "fallback": "assets/img/kb/poi-027-cover.webp"
+      }
+    },
+    {
+      "id": "POI-028",
+      "name": "茗岙梯田",
+      "category": "自然景观",
+      "tags": [
+        "茗岙",
+        "梯田",
+        "摄影",
+        "户外"
+      ],
+      "indoor": false,
+      "summary": "茗岙梯田位于永嘉茗岙乡，是浙南规模最大的梯田群，共有1600多亩梯田，层层叠叠从山脚延伸到山顶。春季灌水期和秋季丰收期是最佳摄影季节，是中国摄影家协会梯田创作基地。周边有梯田观景民宿，适合摄影和徒步爱好者。",
+      "location": "永嘉县茗岙乡",
+      "ticket": "免费",
+      "opening_hours": "全天",
+      "duration": "2-3小时",
+      "related_culture": [],
+      "source": "新浪新闻-楠溪江民宿攻略",
+      "source_url": "https://www.sina.cn/news/article/comos_niqyzxx0290912.html",
+      "domain": "poi",
+      "related_culture_ids": [],
+      "content": "茗岙梯田是浙江最美梯田之一，层层叠叠从山脚盘到山顶。灌水期（5-6月）镜面反射天空最美，秋收时（9-10月）金黄一片。日出时分云雾缭绕，是摄影爱好者的圣地。有多个观景台，建议自驾前往。",
+      "avg_cost_cny": 0,
+      "avg_duration_min": 150,
+      "geo_lat": 28.261717,
+      "geo_lng": 120.538435,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.2,
+      "assets": {
+        "cover": "assets/img/kb/poi-028-cover.webp",
+        "fallback": "assets/img/placeholders/poi-cover.webp"
+      }
+    },
+    {
+      "id": "POI-029",
+      "name": "岭上人家",
+      "category": "民俗村落",
+      "tags": [
+        "岭上人家",
+        "烤全羊",
+        "鹤盛",
+        "半户外"
+      ],
+      "indoor": false,
+      "summary": "岭上人家位于鹤盛镇半山腰的岭上村，全村家家户户经营烤全羊生意。以本地山羊为原料，采用独特配方炭烤，外脆里嫩、油而不腻，配上盐巴、孜然，是楠溪江最具人气的美食村落。村庄依山而建，风格奇特，可边赏山景边品美食。",
+      "location": "永嘉县鹤盛镇岭上村",
+      "ticket": "免费（烤全羊按只收费）",
+      "opening_hours": "10:00-21:00",
+      "duration": "2小时",
+      "related_culture": [],
+      "source": "浙江在线-舌尖上的楠溪江",
+      "source_url": "http://zjnews.zjol.com.cn/202409/t20240905_30506169.shtml",
+      "domain": "poi",
+      "related_culture_ids": [],
+      "content": "岭上人家在石桅岩附近，依山而建的古村落，吊脚楼风格民居，最出名的是烤全羊。村子里家家户户做烤全羊，外焦里嫩，是永嘉美食地标。可以在村里吃饭、逛逛古民居，感受山村烟火气。建议提前预订烤全羊。",
+      "avg_cost_cny": 0,
+      "avg_duration_min": 120,
+      "geo_lat": 28.389925,
+      "geo_lng": 120.882825,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.3,
+      "assets": {
+        "cover": "assets/img/kb/poi-029-cover.webp",
+        "fallback": "assets/img/placeholders/poi-cover.webp"
+      }
+    },
+    {
+      "id": "POI-030",
+      "name": "楠溪江滩地音乐公园",
+      "category": "休闲公园",
+      "tags": [
+        "音乐公园",
+        "滩地",
+        "露营",
+        "户外"
+      ],
+      "indoor": false,
+      "summary": "楠溪江滩地音乐公园位于岩头镇，是楠溪江沿岸的大型休闲公园，以音乐为主题，定期举办音乐节和户外活动。公园内有大片草坪和滩地，适合露营、野餐、放风筝，是亲子休闲和年轻人聚会的热门地。ROCKTOWN楠溪江音乐产业基地也在此区域。",
+      "location": "永嘉县岩头镇楠溪江畔",
+      "ticket": "免费",
+      "opening_hours": "全天",
+      "duration": "2-3小时",
+      "related_culture": [],
+      "source": "携程-遇见云崖民宿周边介绍",
+      "source_url": "https://hotels.corporatetravel.ctrip.com/hotels/65300976.html",
+      "domain": "poi",
+      "related_culture_ids": [],
+      "content": "楠溪江滩地音乐公园在岩头镇，是楠溪江音乐节的举办地。有大片草坪和滩地，平时是休闲散步的好地方，音乐节期间则是狂欢现场。春天可以放风筝、野餐，夏天有露营活动。免费开放，适合家庭休闲。",
+      "avg_cost_cny": 0,
+      "avg_duration_min": 150,
+      "geo_lat": 28.333234,
+      "geo_lng": 120.744851,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.4,
+      "assets": {
+        "cover": "assets/img/kb/poi-030-cover.webp",
+        "fallback": "assets/img/kb/poi-030-cover.webp"
+      }
+    },
+    {
+      "id": "POI-031",
+      "name": "龙瀑仙洞",
+      "category": "自然山水",
+      "tags": [
+        "龙瀑仙洞",
+        "瀑布",
+        "洞穴",
+        "半室内"
+      ],
+      "indoor": false,
+      "summary": "龙瀑仙洞位于岩头镇，是楠溪江的特色景点，以瀑布和洞穴结合著称。瀑布从洞口倾泻而下，洞内有潭水，可乘船进入，体验别有洞天的感觉。景区内有悬空栈道和观景台，是夏季避暑的好去处。",
+      "location": "永嘉县岩头镇",
+      "ticket": "50元",
+      "opening_hours": "08:00-17:00",
+      "duration": "1.5-2小时",
+      "related_culture": [],
+      "source": "携程-遇见云崖民宿周边介绍",
+      "source_url": "https://hotels.corporatetravel.ctrip.com/hotels/65300976.html",
+      "domain": "poi",
+      "related_culture_ids": [],
+      "content": "龙瀑仙洞是一个水帘洞式的景区，瀑布从洞口倾泻，洞内有深潭，可以坐船进入。夏天特别清凉，是避暑好去处。洞内景观奇特，灯光照射下如仙境。全程约1-2小时，和石桅岩方向一致可以连玩。",
+      "avg_cost_cny": 50,
+      "avg_duration_min": 105,
+      "geo_lat": 28.301488,
+      "geo_lng": 120.710784,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.5,
+      "assets": {
+        "cover": "assets/img/kb/poi-031-cover.webp",
+        "fallback": "assets/img/kb/poi-031-cover.webp"
+      }
+    },
+    {
+      "id": "POI-032",
+      "name": "水仙洞",
+      "category": "自然景观",
+      "tags": [
+        "水仙洞",
+        "石桅岩",
+        "石洞",
+        "半室内"
+      ],
+      "indoor": true,
+      "summary": "水仙洞位于石桅岩景区内，石桅岩下有深潭，坐船到潭中过小木桥，扶梯而上约二十步可见一天然石洞。洞深10米许，宽约5米，洞内有泉水常年不涸，传说有水仙居住，故名水仙洞。是石桅岩景区的重要打卡点。",
+      "location": "永嘉县鹤盛镇石桅岩景区内",
+      "ticket": "含在石桅岩门票内",
+      "opening_hours": "08:00-18:00",
+      "duration": "30分钟",
+      "related_culture": [],
+      "source": "携程-石桅岩水仙洞攻略",
+      "source_url": "https://you.ctrip.com/sight/tongshan2706/56445-dianping142054228.html",
+      "domain": "poi",
+      "related_culture_ids": [],
+      "content": "水仙洞在石桅岩景区内，是山脚下的天然岩洞，传说有水仙在此修炼。洞不大但清幽，洞口对着溪水，是休息拍照的好地方。走石桅岩环线时会经过，不要错过。洞内凉爽，夏天很舒服。",
+      "avg_cost_cny": 0,
+      "avg_duration_min": 30,
+      "geo_lat": 28.387583,
+      "geo_lng": 120.896066,
+      "geo_source": "高德地图采集（GCJ-02）",
+      "suitable_for": [],
+      "rating": 4.6,
+      "assets": {
+        "cover": "assets/img/kb/poi-032-cover.webp",
+        "fallback": "assets/img/kb/poi-032-cover.webp"
+      }
+    },
+    {
+      "id": "POI-033",
+      "name": "岩头百姓书屋",
+      "category": "文化场馆",
+      "tags": [
+        "百姓书屋",
+        "24小时",
+        "城市书房",
+        "室内"
+      ],
+      "indoor": true,
+      "summary": "岩头百姓书屋位于丽水街北端，是全市首个百姓书屋，即乡村版的24小时'城市书房'，2017年开放。阅读席位30人，藏书1.2万册，环境清幽舒适，风格古朴简单，面积约90平方米。与楠溪石文化馆、鞋文化馆、纽扣文化馆等坐落于丽水老街深巷内。",
+      "location": "永嘉县岩头镇丽水街北端",
+      "ticket": "免费",
+      "opening_hours": "24小时",
+      "duration": "30分钟",
+      "related_culture": [
+        "CUL-002"
+      ],
+      "source": "搜狐-永嘉文化生活地图",
+      "source_url": "https://m.sohu.com/a/338465580_737554/",
+      "domain": "poi",
+      "related_culture_ids": [
+        "CUL-002"
+      ],
+      "content": "岩头百姓书屋在岩头村，是面向村民和游客的公共阅读空间，有永嘉地方文献和旅游书籍。古色古香的建筑，安静舒适。逛丽水街累了可以进来坐坐，看看书歇歇脚。免费开放，室内空间。",
+      "avg_cost_cny": 0,
+      "avg_duration_min": 30,
+      "geo_lat": 28.3385,
+      "geo_lng": 120.7353,
+      "geo_source": "高德地图采集（GCJ-02，按官方地址锚定）",
+      "suitable_for": [],
+      "rating": 4.7,
+      "assets": {
+        "cover": "assets/img/kb/poi-033-cover.webp",
+        "fallback": "assets/img/kb/poi-033-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-001",
+      "name": "永嘉麦饼（经典咸菜鲜肉馅）",
+      "category": "美食餐饮",
+      "tags": [
+        "麦饼",
+        "非遗美食",
+        "咸菜鲜肉",
+        "梅干菜",
+        "伴手礼"
+      ],
+      "summary": "永嘉麦饼是永嘉最具代表性的非遗美食，有一千多年历史。经典馅料为梅干菜五花肉，外皮酥脆掉渣，内馅咸香多汁。标准配料为半斤麦粉、一个鸡蛋、一汤匙菜油、咸菜和鲜肉。全县麦饼年销售额突破6亿元，是永嘉文旅的标志性美食IP。",
+      "price_range": "10-15元/个",
+      "location": "全县各景区、古镇均有售卖，沙头镇花坦村为发源地",
+      "best_for": [
+        "早餐",
+        "干粮",
+        "伴手礼"
+      ],
+      "related_culture": [
+        "CUL-019"
+      ],
+      "source": "今日头条-非遗美食之浙江永嘉麦饼；携程美食攻略",
+      "source_url": "http://m.toutiao.com/group/7554376400531128871/",
+      "domain": "business",
+      "related_culture_ids": [
+        "CUL-007"
+      ],
+      "content": "永嘉麦饼经典咸菜鲜肉馅，外皮酥脆内馅咸香，是永嘉最具代表性的美食。现烤现卖，一个管饱。在岩头老街、岭上人家都能吃到，配一碗葱花汤是地道吃法。人均约13元，是必尝的永嘉味道。",
+      "category_raw": "特色餐饮",
+      "avg_cost_cny": 12,
+      "avg_duration_min": null,
+      "suitable_for": [
+        "早餐",
+        "干粮",
+        "伴手礼"
+      ],
+      "indoor": false,
+      "geo_lat": 28.275,
+      "geo_lng": 120.712,
+      "geo_source": "演示预设坐标",
+      "rating": 4.3,
+      "assets": {
+        "cover": "assets/img/kb/biz-001-cover.webp",
+        "fallback": "assets/img/placeholders/business-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-002",
+      "name": "王大妈麦饼（老字号品牌）",
+      "category": "美食餐饮",
+      "tags": [
+        "王大妈",
+        "麦饼老字号",
+        "乌牛早茶粉麦饼",
+        "创新产品"
+      ],
+      "summary": "王大妈麦饼是永嘉本土老字号麦饼品牌，与温州科技职业学院合作研发乌牛早茶粉麦饼，将3%乌牛早茶粉和5%茶花融入麦饼工艺，配合茶水替代和面及200℃、10分钟烘焙参数，形成茶香特色麦饼新品。是'古法新做'的代表品牌。",
+      "price_range": "12-20元/个",
+      "location": "永嘉县上塘镇及各景区分店",
+      "best_for": [
+        "伴手礼",
+        "创新美食体验"
+      ],
+      "related_culture": [
+        "CUL-019",
+        "CUL-021"
+      ],
+      "source": "温州市文化广电旅游局-乌牛早的破圈和拓圈",
+      "source_url": "https://wl.wenzhou.gov.cn/col/col1642048/art/2026/art_ce228515718c4d2782b16f2bda2cd47a.html",
+      "domain": "business",
+      "related_culture_ids": [
+        "CUL-007",
+        "CUL-013"
+      ],
+      "content": "王大妈麦饼是永嘉老字号品牌，在传统麦饼基础上做了创新，有多种口味。和乌牛早茶合作推出了茶粉麦饼，是文创美食。门店环境干净，适合伴手礼采购。可以真空包装带走，送朋友不错。",
+      "category_raw": "餐饮品牌",
+      "avg_cost_cny": 16,
+      "avg_duration_min": null,
+      "suitable_for": [
+        "伴手礼",
+        "创新美食体验"
+      ],
+      "indoor": false,
+      "geo_lat": 28.152,
+      "geo_lng": 120.682,
+      "geo_source": "演示预设坐标",
+      "rating": 4.4,
+      "assets": {
+        "cover": "assets/img/kb/biz-002-cover.webp",
+        "fallback": "assets/img/kb/biz-002-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-003",
+      "name": "楠溪素面",
+      "category": "美食餐饮",
+      "tags": [
+        "素面",
+        "长寿面",
+        "8字面",
+        "伴手礼"
+      ],
+      "summary": "楠溪素面亦称楠溪江长寿面，细如银丝（直径<1.3mm），洁白柔韧，成品常交叠成'8'字形。味冷而清，可浸于肉汤或丸子中，营养丰富易消化，适合老人小孩。是楠溪两岸村民千年传统家庭副业，也是当地人走亲访友的首选伴手礼。",
+      "price_range": "3-5元/碗，15-30元/斤（礼盒）",
+      "location": "楠溪江沿岸各村，岩头镇、枫林镇为主要产区",
+      "best_for": [
+        "早餐",
+        "伴手礼",
+        "老人儿童餐"
+      ],
+      "related_culture": [
+        "CUL-020"
+      ],
+      "source": "爱自由旅游网-楠溪素面；温州本地宝",
+      "source_url": "https://izy.cn/travel_guide/225/0_0_11307_7_0_0.html",
+      "domain": "business",
+      "related_culture_ids": [
+        "CUL-016"
+      ],
+      "content": "楠溪素面细如银丝，洁白柔韧，是楠溪江千年传统美食。煮一碗素面加个鸡蛋，是永嘉人待客的最高礼遇。容易消化，老人小孩都适合。在枫林镇和各古村都能买到，人均约10元，也可做伴手礼。",
+      "category_raw": "特色餐饮",
+      "avg_cost_cny": 4,
+      "avg_duration_min": null,
+      "suitable_for": [
+        "早餐",
+        "伴手礼",
+        "老人儿童餐"
+      ],
+      "indoor": false,
+      "geo_lat": 28.36,
+      "geo_lng": 120.748,
+      "geo_source": "演示预设坐标",
+      "rating": 4.5,
+      "assets": {
+        "cover": "assets/img/kb/biz-003-cover.webp",
+        "fallback": "assets/img/placeholders/business-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-004",
+      "name": "沙岗粉干（圣旨门品牌）",
+      "category": "美食餐饮",
+      "tags": [
+        "沙岗粉干",
+        "圣旨门",
+        "宋代美食",
+        "伴手礼"
+      ],
+      "summary": "沙岗粉干产于枫林镇西北新坊、镬炉、兆潭一带，已有800余年历史，宋代就已成为食中佳品。细如纱线，洁白软韧，快熟耐煮，汤清不浑。'圣旨门'是沙岗粉干的知名品牌。经箱包装便于携带，并有出口境外，是永嘉独具特色的旅游产品。",
+      "price_range": "10-15元/斤，礼盒30-50元",
+      "location": "永嘉县枫林镇沙岗片区",
+      "best_for": [
+        "主食",
+        "伴手礼"
+      ],
+      "related_culture": [
+        "CUL-022"
+      ],
+      "source": "抖音-沙岗粉干圣旨门品牌；温州本地宝",
+      "source_url": "https://m.wz.bendibao.com/jingdian/nanxijiang/meishi/",
+      "domain": "business",
+      "related_culture_ids": [
+        "CUL-015"
+      ],
+      "content": "沙岗粉干产自枫林镇，800年历史，细如纱线洁白软韧，快熟耐煮。炒粉干、煮汤粉都好吃，是永嘉人餐桌上的常客。在枫林老街可以买到正宗的，价格实惠，是很好的伴手礼。",
+      "category_raw": "特色餐饮",
+      "avg_cost_cny": 12,
+      "avg_duration_min": null,
+      "suitable_for": [
+        "主食",
+        "伴手礼"
+      ],
+      "indoor": false,
+      "geo_lat": 28.402,
+      "geo_lng": 120.764,
+      "geo_source": "演示预设坐标",
+      "rating": 4.6,
+      "assets": {
+        "cover": "assets/img/kb/biz-004-cover.webp",
+        "fallback": "assets/img/kb/biz-004-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-005",
+      "name": "金粉饺",
+      "category": "美食餐饮",
+      "tags": [
+        "金粉饺",
+        "红薯粉",
+        "Q弹",
+        "地方小吃"
+      ],
+      "summary": "金粉饺是永嘉特色小吃，以红薯粉为皮，包裹肉馅和蔬菜蒸制而成。粉皮透明Q弹，口感独特，蘸酱油食用最正宗。是楠溪江地区逢年过节的传统食品，也是游客必尝的地方小吃。",
+      "price_range": "20-25元/斤，5-8元/份",
+      "location": "岩头镇、枫林镇各小吃店",
+      "best_for": [
+        "午餐",
+        "小吃"
+      ],
+      "related_culture": [],
+      "source": "携程-浙江宝藏县城美食清单",
+      "source_url": "https://m.ctrip.com/webapp/you/community/detail?articleId=298787959",
+      "domain": "business",
+      "related_culture_ids": [],
+      "content": "金粉饺是温州特色小吃，用番薯粉做皮，晶莹剔透透出馅料，蒸着吃最能体现口感。馅料一般是肉末、笋丁、香菇，鲜香可口。在永嘉的早餐店和小吃摊都能找到，人均约15元，配醋碟吃更地道。",
+      "category_raw": "特色餐饮",
+      "avg_cost_cny": 22,
+      "avg_duration_min": null,
+      "suitable_for": [
+        "午餐",
+        "小吃"
+      ],
+      "indoor": false,
+      "geo_lat": 28.36,
+      "geo_lng": 120.748,
+      "geo_source": "演示预设坐标",
+      "rating": 4.7,
+      "assets": {
+        "cover": "assets/img/kb/biz-005-cover.webp",
+        "fallback": "assets/img/placeholders/business-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-006",
+      "name": "楠溪香鱼",
+      "category": "美食餐饮",
+      "tags": [
+        "香鱼",
+        "淡水鱼之王",
+        "楠溪江特产"
+      ],
+      "summary": "楠溪香鱼是楠溪江名贵淡水鱼，因脊背上有一条满是香脂的腔道散出香味而得名。一般重2-5两，体偏长呈青黄色，鳞片细小。肉细味美，具有特殊香味，在国际市场上有'淡水鱼之王'的美誉。是楠溪江宴席上的上等佳肴。",
+      "price_range": "时价，约80-150元/斤",
+      "location": "楠溪江沿岸各农家乐、饭店",
+      "best_for": [
+        "宴席",
+        "特色菜"
+      ],
+      "related_culture": [],
+      "source": "汉语字典-楠溪江特产；温州本地宝",
+      "source_url": "https://www.zxzidian.com/nst/JJGt.html",
+      "domain": "business",
+      "related_culture_ids": [],
+      "content": "楠溪香鱼是楠溪江特产，肉质细嫩，有独特的黄瓜清香，自古就是贡品。香鱼干是很好的伴手礼，香鱼烤着吃最香。在岩头镇和沿江餐馆能吃到新鲜的，价格按季节浮动，秋季最肥美。",
+      "category_raw": "特色餐饮",
+      "avg_cost_cny": 115,
+      "avg_duration_min": null,
+      "suitable_for": [
+        "宴席",
+        "特色菜"
+      ],
+      "indoor": false,
+      "geo_lat": 28.152,
+      "geo_lng": 120.682,
+      "geo_source": "演示预设坐标",
+      "rating": 4.8,
+      "assets": {
+        "cover": "assets/img/kb/biz-006-cover.webp",
+        "fallback": "assets/img/kb/biz-006-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-007",
+      "name": "岭上人家烤全羊",
+      "category": "美食餐饮",
+      "tags": [
+        "烤全羊",
+        "岭上村",
+        "炭烤",
+        "团建"
+      ],
+      "summary": "岭上人家位于鹤盛镇岭上村，全村家家户户经营烤全羊。以本地山羊为原料，采用独特配方炭烤，外脆里嫩、油而不腻，配上盐巴、孜然，口感绝妙。是楠溪江最具人气的美食目的地，适合团建和家庭聚餐。",
+      "price_range": "约800-1500元/只（按大小）",
+      "location": "永嘉县鹤盛镇岭上村",
+      "best_for": [
+        "团建",
+        "家庭聚餐",
+        "晚餐"
+      ],
+      "related_culture": [],
+      "source": "浙江在线-舌尖上的楠溪江",
+      "source_url": "http://zjnews.zjol.com.cn/202409/t20240905_30506169.shtml",
+      "domain": "business",
+      "related_culture_ids": [],
+      "content": "岭上人家烤全羊是永嘉美食地标，山羊现杀现烤，外焦里嫩，撒上孜然和辣椒，一桌人围着吃特别有氛围。一般10人拼一只更划算，人均约115元。建议提前预订，吃完可以逛逛古村。",
+      "category_raw": "特色餐饮",
+      "avg_cost_cny": 1150,
+      "avg_duration_min": null,
+      "suitable_for": [
+        "团建",
+        "家庭聚餐",
+        "晚餐"
+      ],
+      "indoor": false,
+      "geo_lat": 28.41,
+      "geo_lng": 120.88,
+      "geo_source": "演示预设坐标",
+      "rating": 4.2,
+      "assets": {
+        "cover": "assets/img/kb/biz-007-cover.webp",
+        "fallback": "assets/img/kb/biz-007-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-008",
+      "name": "田鱼干",
+      "category": "特产伴手礼",
+      "tags": [
+        "田鱼干",
+        "稻田鱼",
+        "干货",
+        "伴手礼"
+      ],
+      "summary": "田鱼干是永嘉传统特产，以稻田养殖的田鱼为原料，经腌制、晾晒或熏制而成。鱼肉紧实，风味独特，是楠溪江地区农家常备的干货食材，也是游客喜爱的伴手礼。可清蒸、爆炒或炖汤。",
+      "price_range": "50-80元/斤",
+      "location": "永嘉县各地农贸市场、特产店",
+      "best_for": [
+        "伴手礼",
+        "家常菜食材"
+      ],
+      "related_culture": [],
+      "source": "途牛-永嘉县美食攻略",
+      "source_url": "https://m.tuniu.com/g40786/cuisine/",
+      "domain": "business",
+      "related_culture_ids": [],
+      "content": "田鱼干是永嘉山区特产，用稻田里养的田鱼腌制晒干制成，肉质紧实咸香。可以蒸着吃、炒辣椒，是下饭神器。在山区农家乐和特产店能买到，是很好的伴手礼，保质期长。",
+      "category_raw": "特产",
+      "avg_cost_cny": 65,
+      "avg_duration_min": null,
+      "suitable_for": [
+        "伴手礼",
+        "家常菜食材"
+      ],
+      "indoor": false,
+      "geo_lat": 28.152,
+      "geo_lng": 120.682,
+      "geo_source": "演示预设坐标",
+      "rating": 4.3,
+      "assets": {
+        "cover": "assets/img/kb/biz-008-cover.webp",
+        "fallback": "assets/img/kb/biz-008-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-009",
+      "name": "灯盏糕",
+      "category": "其他",
+      "tags": [
+        "灯盏糕",
+        "油炸",
+        "街头小吃"
+      ],
+      "summary": "灯盏糕是温州地区经典街头小吃，永嘉各地均有售卖。以大米和黄豆磨浆为皮，包裹萝卜丝、肉末等馅料，油炸至金黄酥脆。因形似古代灯盏而得名，外酥里嫩，是楠溪江非遗市集的热门美食。",
+      "price_range": "5-10元/个",
+      "location": "全县各小吃摊、古镇商业街",
+      "best_for": [
+        "小吃",
+        "下午茶"
+      ],
+      "related_culture": [],
+      "source": "温都网-AI的非遗市集美食类",
+      "source_url": "https://wap.wendu.cn/article/id/594938",
+      "domain": "business",
+      "related_culture_ids": [],
+      "content": "灯盏糕是温州传统小吃，用米浆做皮，裹萝卜丝和肉末油炸，外酥里嫩，形状像灯盏。刚出锅的最好吃，咬一口酥脆掉渣。在永嘉街头小吃摊常见，人均约8元，是街头必尝的小吃。",
+      "category_raw": "特色小吃",
+      "avg_cost_cny": 8,
+      "avg_duration_min": null,
+      "suitable_for": [
+        "小吃",
+        "下午茶"
+      ],
+      "indoor": false,
+      "geo_lat": 28.152,
+      "geo_lng": 120.682,
+      "geo_source": "演示预设坐标",
+      "rating": 4.4,
+      "assets": {
+        "cover": "assets/img/kb/biz-009-cover.webp",
+        "fallback": "assets/img/kb/biz-009-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-010",
+      "name": "永嘉松糕",
+      "category": "其他",
+      "tags": [
+        "松糕",
+        "糕点",
+        "传统美食"
+      ],
+      "summary": "永嘉松糕是永嘉传统糕点，以糯米粉为主要原料，加入红糖、桂花、红枣等蒸制而成。口感松软香甜，是永嘉人逢年过节和婚嫁喜事的必备食品，也是非遗市集的常驻美食。",
+      "price_range": "15-30元/个",
+      "location": "全县各糕点店、非遗市集",
+      "best_for": [
+        "茶点",
+        "伴手礼"
+      ],
+      "related_culture": [],
+      "source": "温都网-AI的非遗市集美食类",
+      "source_url": "https://wap.wendu.cn/article/id/594938",
+      "domain": "business",
+      "related_culture_ids": [],
+      "content": "永嘉松糕是传统糕点，用米粉和红糖蒸制，松软香甜，有桂花、红枣等口味。过年过节时家家户户做松糕，是永嘉人的年味记忆。在糕点店和菜市场能买到，人均约10元，适合当茶点。",
+      "category_raw": "特色小吃",
+      "avg_cost_cny": 22,
+      "avg_duration_min": null,
+      "suitable_for": [
+        "茶点",
+        "伴手礼"
+      ],
+      "indoor": false,
+      "geo_lat": 28.152,
+      "geo_lng": 120.682,
+      "geo_source": "演示预设坐标",
+      "rating": 4.5,
+      "assets": {
+        "cover": "assets/img/kb/biz-010-cover.webp",
+        "fallback": "assets/img/kb/biz-010-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-011",
+      "name": "乌牛早茶",
+      "category": "特产伴手礼",
+      "tags": [
+        "乌牛早",
+        "绿茶",
+        "中国最早春茶",
+        "伴手礼"
+      ],
+      "summary": "乌牛早茶是永嘉特产，中国每年最早上市的春茶之一，比一般绿茶早上市一个月。茶形扁平光滑，汤色清透明亮，茶香四溢。近年来研发出栀子花、杨梅、桂花等风味新中式调饮茶，以及乌牛早茶粉麦饼等创新产品，是永嘉农业的金字招牌。",
+      "price_range": "200-800元/斤（按等级）",
+      "location": "永嘉县乌牛镇主产区，全县各茶叶店",
+      "best_for": [
+        "伴手礼",
+        "茶饮"
+      ],
+      "related_culture": [
+        "CUL-021"
+      ],
+      "source": "温州市文化广电旅游局-乌牛早的破圈和拓圈",
+      "source_url": "https://wl.wenzhou.gov.cn/col/col1642048/art/2026/art_ce228515718c4d2782b16f2bda2cd47a.html",
+      "domain": "business",
+      "related_culture_ids": [
+        "CUL-013"
+      ],
+      "content": "乌牛早茶是中国最早上市的春茶之一，比普通绿茶早一个月，扁平光滑汤色清透香气高。除了传统绿茶，还有栀子花、杨梅、桂花等新中式调饮茶。在乌牛镇茶园和县城茶店能买到，从几十到几百元不等。",
+      "category_raw": "特产",
+      "avg_cost_cny": 500,
+      "avg_duration_min": null,
+      "suitable_for": [
+        "伴手礼",
+        "茶饮"
+      ],
+      "indoor": false,
+      "geo_lat": 28.102,
+      "geo_lng": 120.785,
+      "geo_source": "演示预设坐标",
+      "rating": 4.6,
+      "assets": {
+        "cover": "assets/img/kb/biz-011-cover.webp",
+        "fallback": "assets/img/placeholders/business-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-012",
+      "name": "碧莲早香柚",
+      "category": "特产伴手礼",
+      "tags": [
+        "早香柚",
+        "碧莲镇",
+        "中国早香柚之乡",
+        "水果"
+      ],
+      "summary": "碧莲早香柚是永嘉碧莲镇特产，永嘉被誉为'中国早香柚之乡'。早香柚果皮青黄，果肉蜜甜，香气浓郁，早熟品种比普通柚子早上市1-2个月。是永嘉秋季代表性水果，山水滋养的甜润果香深受消费者喜爱。",
+      "price_range": "5-10元/斤，礼盒50-100元",
+      "location": "永嘉县碧莲镇",
+      "best_for": [
+        "秋季水果",
+        "伴手礼"
+      ],
+      "related_culture": [],
+      "source": "抖音-楠溪江畔碧莲早香柚",
+      "source_url": "https://www.iesdouyin.com/share/video/7567191449621988790",
+      "domain": "business",
+      "related_culture_ids": [],
+      "content": "碧莲早香柚是永嘉特产，果皮薄、果肉嫩、汁多味甜，有独特香气。秋季上市，是永嘉人秋冬必备的水果。在碧莲镇和县城水果店能买到，也可以直接去果园采摘，适合亲子体验。",
+      "category_raw": "特产",
+      "avg_cost_cny": 8,
+      "avg_duration_min": null,
+      "suitable_for": [
+        "秋季水果",
+        "伴手礼"
+      ],
+      "indoor": false,
+      "geo_lat": 28.33,
+      "geo_lng": 120.62,
+      "geo_source": "演示预设坐标",
+      "rating": 4.7,
+      "assets": {
+        "cover": "assets/img/kb/biz-012-cover.webp",
+        "fallback": "assets/img/kb/biz-012-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-013",
+      "name": "东皋红柿",
+      "category": "特产伴手礼",
+      "tags": [
+        "红柿",
+        "东皋",
+        "水果",
+        "柿饼"
+      ],
+      "summary": "东皋红柿是永嘉东皋乡特产，以果大、色红、味甜著称。东皋乡有悠久的柿子种植历史，秋季满山红柿是楠溪江的一大景观。除鲜食外，还可制作柿饼，是永嘉秋季代表性农产品。",
+      "price_range": "3-8元/斤，柿饼30-50元/斤",
+      "location": "永嘉县东皋乡",
+      "best_for": [
+        "秋季水果",
+        "伴手礼"
+      ],
+      "related_culture": [],
+      "source": "途牛-永嘉县美食攻略",
+      "source_url": "https://m.tuniu.com/g40786/cuisine/",
+      "domain": "business",
+      "related_culture_ids": [],
+      "content": "东皋红柿是永嘉特色水果，柿子个头大、甜度高，秋天成熟时挂满枝头如红灯笼。可以鲜吃，也可以做成柿饼。东皋村有柿子林，秋天去拍照特别美，还能体验采摘。",
+      "category_raw": "特产",
+      "avg_cost_cny": 6,
+      "avg_duration_min": null,
+      "suitable_for": [
+        "秋季水果",
+        "伴手礼"
+      ],
+      "indoor": false,
+      "geo_lat": 28.395,
+      "geo_lng": 120.84,
+      "geo_source": "演示预设坐标",
+      "rating": 4.8,
+      "assets": {
+        "cover": "assets/img/kb/biz-013-cover.webp",
+        "fallback": "assets/img/kb/biz-013-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-014",
+      "name": "上吴枇杷",
+      "category": "特产伴手礼",
+      "tags": [
+        "枇杷",
+        "上吴",
+        "水果",
+        "初夏"
+      ],
+      "summary": "上吴枇杷是永嘉特产，以果大、肉厚、汁多、味甜闻名。每年初夏成熟，是楠溪江流域的代表性水果，有'初夏第一果'之称。可鲜食，也可制作枇杷膏、枇杷酒等深加工产品。",
+      "price_range": "10-25元/斤",
+      "location": "永嘉县上吴村及周边",
+      "best_for": [
+        "初夏水果",
+        "伴手礼"
+      ],
+      "related_culture": [],
+      "source": "途牛-永嘉县美食攻略",
+      "source_url": "https://m.tuniu.com/g40786/cuisine/",
+      "domain": "business",
+      "related_culture_ids": [],
+      "content": "上吴枇杷是永嘉名产，果实大、果肉厚、汁多味甜，五月下旬上市。上吴村有枇杷基地，可以自驾去采摘。新鲜枇杷不耐存放，建议现买现吃，也有做成枇杷膏的便于携带。",
+      "category_raw": "特产",
+      "avg_cost_cny": 18,
+      "avg_duration_min": null,
+      "suitable_for": [
+        "初夏水果",
+        "伴手礼"
+      ],
+      "indoor": false,
+      "geo_lat": 28.46,
+      "geo_lng": 120.79,
+      "geo_source": "演示预设坐标",
+      "rating": 4.2,
+      "assets": {
+        "cover": "assets/img/kb/biz-014-cover.webp",
+        "fallback": "assets/img/kb/biz-014-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-015",
+      "name": "永嘉老酒汗",
+      "category": "特产伴手礼",
+      "tags": [
+        "老酒汗",
+        "白酒",
+        "非遗",
+        "徐贤孟"
+      ],
+      "summary": "永嘉老酒汗是永嘉传统白酒，采用古法烧制技艺，非遗传承人徐贤孟（老司头）坚守传统工艺40年。以优质大米为原料，经发酵、蒸馏等多道工序制成，酒体醇厚，香气浓郁。书兰居非遗博物馆设有专题展区，是永嘉酒文化的代表。",
+      "price_range": "80-300元/瓶（按年份）",
+      "location": "永嘉县桥下镇书兰居，全县各特产店",
+      "best_for": [
+        "伴手礼",
+        "宴席用酒"
+      ],
+      "related_culture": [
+        "CUL-015"
+      ],
+      "source": "永嘉县人民政府-免费开放乡村博物馆；抖音非遗里的中国",
+      "source_url": "https://www.yj.gov.cn/art/2024/6/3/art_1229264293_59104708.html",
+      "domain": "business",
+      "related_culture_ids": [
+        "CUL-014"
+      ],
+      "content": "永嘉老酒汗是传统白酒，古法烧制，酒体醇厚香气浓郁。非遗传承人徐贤孟坚守40年。度数较高，适合小酌。在书兰居非遗博物馆和特产店能买到，是很有地方特色的伴手礼。",
+      "category_raw": "特产",
+      "avg_cost_cny": 190,
+      "avg_duration_min": null,
+      "suitable_for": [
+        "伴手礼",
+        "宴席用酒"
+      ],
+      "indoor": false,
+      "geo_lat": 28.132,
+      "geo_lng": 120.552,
+      "geo_source": "演示预设坐标",
+      "rating": 4.3,
+      "assets": {
+        "cover": "assets/img/kb/biz-015-cover.webp",
+        "fallback": "assets/img/placeholders/business-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-016",
+      "name": "瓯窑青瓷文创",
+      "category": "文创手作",
+      "tags": [
+        "瓯窑",
+        "青瓷",
+        "文创",
+        "伴手礼"
+      ],
+      "summary": "瓯窑青瓷文创产品以瓯窑传统工艺为基础，结合现代设计理念，开发出茶具、花器、摆件、饰品等系列产品。瓯窑小镇设有文创体验区，游客可亲手体验拉坯、彩绘等制瓷工艺，定制专属青瓷作品。是永嘉最具文化内涵的伴手礼。",
+      "price_range": "50-500元（按品类）",
+      "location": "永嘉县三江街道瓯窑小镇",
+      "best_for": [
+        "伴手礼",
+        "手工体验"
+      ],
+      "related_culture": [
+        "CUL-006"
+      ],
+      "source": "永嘉网-温州园博会永嘉分会场",
+      "source_url": "http://www.yjnet.cn/system/2026/04/07/015438343.shtml",
+      "domain": "business",
+      "related_culture_ids": [
+        "CUL-006"
+      ],
+      "content": "瓯窑青瓷文创以瓯窑传统器型为基础，开发了茶具、花器、摆件等文创产品，青釉温润，设计现代。在瓯窑小镇可以选购，也可以亲手定制。价格从几十到几百元不等，是最有永嘉文化味的伴手礼。",
+      "category_raw": "文创产品",
+      "avg_cost_cny": 275,
+      "avg_duration_min": null,
+      "suitable_for": [
+        "伴手礼",
+        "手工体验"
+      ],
+      "indoor": false,
+      "geo_lat": 28.135,
+      "geo_lng": 120.708,
+      "geo_source": "演示预设坐标",
+      "rating": 4.4,
+      "assets": {
+        "cover": "assets/img/kb/biz-016-cover.webp",
+        "fallback": "assets/img/placeholders/business-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-017",
+      "name": "永嘉木雕工艺品",
+      "category": "文创手作",
+      "tags": [
+        "木雕",
+        "清刀技法",
+        "佛像",
+        "工艺美术"
+      ],
+      "summary": "永嘉木雕工艺品以清刀技法为特色，以线代面，讲究对称，工艺严谨精细。产品包括传统木雕摆件、佛像木雕、茶盘、笔筒等，多次获国家级金奖。永嘉工艺美术创业园集中了多位省级工艺美术大师的工作室，可参观选购。",
+      "price_range": "100-5000元（按工艺和尺寸）",
+      "location": "永嘉工艺美术创业园、瓯窑小镇",
+      "best_for": [
+        "伴手礼",
+        "收藏"
+      ],
+      "related_culture": [
+        "CUL-009"
+      ],
+      "source": "永嘉县人民政府-非遗周周荟预告；搜狐-百工一条街",
+      "source_url": "http://www.yj.gov.cn/col/col1229264293/art/2026/art_080ef24b0b724920ada9e680f1d79e8d.html",
+      "domain": "business",
+      "related_culture_ids": [
+        "CUL-009"
+      ],
+      "content": "永嘉木雕工艺品以清刀技法著称，有佛像、摆件、茶则等，工艺精细。在工艺美术创业园和非遗市集能买到，也可以定制。价格因大小和工艺差异大，从几百到几千元，是收藏和送礼的佳品。",
+      "category_raw": "文创产品",
+      "avg_cost_cny": 2550,
+      "avg_duration_min": null,
+      "suitable_for": [
+        "伴手礼",
+        "收藏"
+      ],
+      "indoor": false,
+      "geo_lat": 28.135,
+      "geo_lng": 120.708,
+      "geo_source": "演示预设坐标",
+      "rating": 4.5,
+      "assets": {
+        "cover": "assets/img/kb/biz-017-cover.webp",
+        "fallback": "assets/img/kb/biz-017-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-018",
+      "name": "楠溪别院（苍坡古村民宿）",
+      "category": "民宿住宿",
+      "tags": [
+        "楠溪别院",
+        "苍坡古村",
+        "人文民宿",
+        "16间客房"
+      ],
+      "summary": "楠溪别院位于苍坡古村内，16间客房藏在千年古村里，白墙黛瓦安静避世。是古村人文爱好者的首选民宿，出门即可漫步文房四宝布局的古村，感受耕读文化。民宿设计融合传统与现代，提供地道农家菜。",
+      "price_range": "400-800元/晚",
+      "location": "永嘉县岩头镇苍坡古村内",
+      "capacity": "16间客房",
+      "nearby_poi": [
+        "苍坡古村",
+        "丽水街",
+        "芙蓉古村"
+      ],
+      "source": "新浪新闻-楠溪江民宿攻略",
+      "source_url": "https://www.sina.cn/news/article/comos_niqcmtp9571165.html",
+      "domain": "business",
+      "related_culture_ids": [],
+      "content": "楠溪别院在苍坡古村，是改造自古民居的精品民宿，保留白墙黛瓦外观，内部现代舒适。推窗就是古村和田园，适合想深度体验耕读文化的游客。价格约300-500元/晚，建议提前预订。",
+      "category_raw": "精品民宿",
+      "avg_cost_cny": 600,
+      "avg_duration_min": null,
+      "suitable_for": [
+        "住宿",
+        "过夜"
+      ],
+      "indoor": false,
+      "geo_lat": 28.36,
+      "geo_lng": 120.748,
+      "geo_source": "演示预设坐标",
+      "rating": 4.6,
+      "assets": {
+        "cover": "assets/img/kb/biz-018-cover.webp",
+        "fallback": "assets/img/kb/biz-018-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-019",
+      "name": "楠溪江星和月庭民宿",
+      "category": "民宿住宿",
+      "tags": [
+        "星和月庭",
+        "岩头镇",
+        "江景",
+        "新开业"
+      ],
+      "summary": "星和月庭民宿位于岩头镇下日川村，是新开业的江景民宿，卫生条件出色。每天醒来可看到窗外青山白云，提供地道农家菜（现摘青菜、清蒸溪鱼），还有老板自酿的杨梅酒。靠近狮子岩景区，出行便利。",
+      "price_range": "200-400元/晚",
+      "location": "永嘉县岩头镇下日川村上塘屋18号",
+      "capacity": "约10间客房",
+      "nearby_poi": [
+        "狮子岩",
+        "丽水街",
+        "楠溪江滩地音乐公园"
+      ],
+      "source": "携程酒店-楠溪江星和月庭民宿",
+      "source_url": "https://hotels.ctrip.com/hotels/125960693.html",
+      "domain": "business",
+      "related_culture_ids": [],
+      "content": "楠溪江星和月庭民宿在岩头镇附近，设计感强，有庭院和星空房。离狮子岩和丽水街都近，出行方便。老板热情，会推荐本地玩法和美食。价格约250-400元/晚，适合年轻游客和情侣。",
+      "category_raw": "精品民宿",
+      "avg_cost_cny": 300,
+      "avg_duration_min": null,
+      "suitable_for": [
+        "住宿",
+        "过夜"
+      ],
+      "indoor": false,
+      "geo_lat": 28.152,
+      "geo_lng": 120.682,
+      "geo_source": "演示预设坐标",
+      "rating": 4.7,
+      "assets": {
+        "cover": "assets/img/kb/biz-019-cover.webp",
+        "fallback": "assets/img/kb/biz-019-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-020",
+      "name": "楠溪江遇见云崖民宿",
+      "category": "民宿住宿",
+      "tags": [
+        "遇见云崖",
+        "岩头镇",
+        "半山腰",
+        "山景"
+      ],
+      "summary": "遇见云崖民宿位于岩头镇里岙村村口南崖森林公园景区，在半山腰上，避开主路热闹，推开门就是青山和溪谷。早上被鸟叫叫醒，晚上看满天星星。离狮子岩开车10分钟，苍坡古村15分钟，门口有专属停车位。",
+      "price_range": "300-600元/晚",
+      "location": "永嘉县岩头镇里岙村村口",
+      "capacity": "约8间客房",
+      "nearby_poi": [
+        "狮子岩",
+        "苍坡古村",
+        "丽水街",
+        "龙瀑仙洞"
+      ],
+      "source": "携程酒店-楠溪江遇见云崖民宿",
+      "source_url": "https://hotels.corporatetravel.ctrip.com/hotels/65300976.html",
+      "domain": "business",
+      "related_culture_ids": [],
+      "content": "楠溪江遇见云崖民宿在崖下库附近，依山而建，落地窗正对山景，云雾天气如住仙境。适合喜欢安静和自然的游客，早上起来看云海。价格约300-500元/晚，建议自驾前往。",
+      "category_raw": "精品民宿",
+      "avg_cost_cny": 450,
+      "avg_duration_min": null,
+      "suitable_for": [
+        "住宿",
+        "过夜"
+      ],
+      "indoor": false,
+      "geo_lat": 28.36,
+      "geo_lng": 120.748,
+      "geo_source": "演示预设坐标",
+      "rating": 4.8,
+      "assets": {
+        "cover": "assets/img/kb/biz-020-cover.webp",
+        "fallback": "assets/img/kb/biz-020-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-021",
+      "name": "楠溪江狮子岩饭店",
+      "category": "美食餐饮",
+      "tags": [
+        "狮子岩饭店",
+        "楠溪嘉宴",
+        "江景",
+        "婚宴"
+      ],
+      "summary": "狮子岩饭店位于岩头镇下日川村，是楠溪江老牌酒店。餐厅楠溪嘉宴装修典雅古朴，可同时容纳数百人就餐，是品尝永嘉特色菜的理想去处，食材新鲜环保。有影院、棋牌室、台球、足球桌等娱乐设施，适合举办婚宴酒席和大型聚餐。",
+      "price_range": "客房200-500元/晚，餐饮人均80-150元",
+      "location": "永嘉县岩头镇下日川村",
+      "capacity": "约40间客房，餐厅可容数百人",
+      "nearby_poi": [
+        "狮子岩",
+        "竹筏漂流"
+      ],
+      "source": "携程酒店-楠溪江狮子岩饭店",
+      "source_url": "https://hotels.ctrip.com/hotels/2115762.html",
+      "domain": "business",
+      "related_culture_ids": [],
+      "content": "楠溪江狮子岩饭店在狮子岩旁，是楠溪江老牌饭店，做本地农家菜，香鱼、田鱼、素面、麦饼都有。临窗位置可以看狮子岩和江景。人均约60-80元，团队和家庭聚餐都合适。",
+      "category_raw": "酒店餐饮",
+      "avg_cost_cny": 350,
+      "avg_duration_min": null,
+      "suitable_for": [],
+      "indoor": false,
+      "geo_lat": 28.36,
+      "geo_lng": 120.748,
+      "geo_source": "演示预设坐标",
+      "rating": 4.2,
+      "assets": {
+        "cover": "assets/img/kb/biz-021-cover.webp",
+        "fallback": "assets/img/kb/biz-021-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-022",
+      "name": "永嘉聚龙阁客栈",
+      "category": "民宿住宿",
+      "tags": [
+        "聚龙阁",
+        "鹤盛镇",
+        "龙湾潭",
+        "跑男打卡地"
+      ],
+      "summary": "聚龙阁民宿坐落于鹤盛镇岩上村，紧邻龙湾潭国家森林公园，步行10分钟直达景区，是《跑男》楠溪江录制打卡地。周边石桅岩、狮子岩、芙蓉古村等知名景区均30分钟左右车程。2016年开业，28间客房，性价比高。",
+      "price_range": "150-300元/晚",
+      "location": "永嘉县鹤盛镇岩上村",
+      "capacity": "28间客房",
+      "nearby_poi": [
+        "龙湾潭国家森林公园",
+        "石桅岩"
+      ],
+      "source": "携程酒店-永嘉聚龙阁客栈",
+      "source_url": "https://hotels.ctrip.com/hotels/6087158.html",
+      "domain": "business",
+      "related_culture_ids": [],
+      "content": "永嘉聚龙阁客栈在鹤盛镇，离石桅岩近，是游览石桅岩和岭上人家的好住处。房间干净，老板会帮忙安排烤全羊和行程。价格约200-300元/晚，性价比高，适合自驾游客。",
+      "category_raw": "民宿",
+      "avg_cost_cny": 225,
+      "avg_duration_min": null,
+      "suitable_for": [
+        "住宿",
+        "过夜"
+      ],
+      "indoor": false,
+      "geo_lat": 28.41,
+      "geo_lng": 120.88,
+      "geo_source": "演示预设坐标",
+      "rating": 4.3,
+      "assets": {
+        "cover": "assets/img/kb/biz-022-cover.webp",
+        "fallback": "assets/img/kb/biz-022-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-023",
+      "name": "永嘉小岙山居民宿",
+      "category": "民宿住宿",
+      "tags": [
+        "小岙山居",
+        "岩头镇",
+        "农家乐",
+        "包吃住"
+      ],
+      "summary": "小岙山居民宿位于岩头镇里岙村广福路，地处楠溪江风景区腹地，紧邻丽水古街与永嘉书院（2公里），距楠溪江滩地音乐公园（4公里）、苍坡古村（7公里）。提供包吃住服务，10人一桌10菜一汤，节假日价格略有上浮，适合团体和家庭。",
+      "price_range": "包吃住约150-250元/人/天",
+      "location": "永嘉县岩头镇里岙村广福路21号",
+      "capacity": "约15间客房",
+      "nearby_poi": [
+        "丽水街",
+        "永嘉书院",
+        "楠溪江滩地音乐公园"
+      ],
+      "source": "168农家乐民宿网-永嘉小岙山居民宿",
+      "source_url": "https://m.iwz168.com/zj/wznxj/8663.html",
+      "domain": "business",
+      "related_culture_ids": [],
+      "content": "永嘉小岙山居民宿在鹤盛镇小岙村，藏在山谷里，环境清幽，有小溪和竹林。是避世放松的好地方，老板做的农家菜很好吃。价格约250-400元/晚，适合想远离喧嚣的游客。",
+      "category_raw": "民宿",
+      "avg_cost_cny": 200,
+      "avg_duration_min": null,
+      "suitable_for": [
+        "住宿",
+        "过夜"
+      ],
+      "indoor": false,
+      "geo_lat": 28.36,
+      "geo_lng": 120.748,
+      "geo_source": "演示预设坐标",
+      "rating": 4.4,
+      "assets": {
+        "cover": "assets/img/kb/biz-023-cover.webp",
+        "fallback": "assets/img/kb/biz-023-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-024",
+      "name": "永嘉闲逸居民宿",
+      "category": "民宿住宿",
+      "tags": [
+        "闲逸居",
+        "鹤盛镇",
+        "石桅岩",
+        "农家乐",
+        "包吃住"
+      ],
+      "summary": "闲逸居民宿位于鹤盛镇桅峰村，地处石桅岩风景区（200米），出门步行5分钟即到石桅岩漂流。是体验奇峰险峡、领略峭壁危岩的必经之地。提供包吃住服务，10人一桌10菜一汤，适合游览石桅岩的游客。",
+      "price_range": "包吃住约150-250元/人/天",
+      "location": "永嘉县鹤盛镇桅峰村桅峰路22号",
+      "capacity": "约12间客房",
+      "nearby_poi": [
+        "石桅岩",
+        "石桅岩漂流"
+      ],
+      "source": "168农家乐民宿网-永嘉闲逸居民宿",
+      "source_url": "https://m.iwz168.com/zj/wznxj/8658.html",
+      "domain": "business",
+      "related_culture_ids": [],
+      "content": "永嘉闲逸居民宿在岩头镇，装修温馨，离丽水街步行可达。老板是本地人，对楠溪江了如指掌，会给你推荐小众景点和美食。价格约150-250元/晚，性价比高，适合预算有限的游客。",
+      "category_raw": "民宿",
+      "avg_cost_cny": 200,
+      "avg_duration_min": null,
+      "suitable_for": [
+        "住宿",
+        "过夜"
+      ],
+      "indoor": false,
+      "geo_lat": 28.41,
+      "geo_lng": 120.88,
+      "geo_source": "演示预设坐标",
+      "rating": 4.5,
+      "assets": {
+        "cover": "assets/img/kb/biz-024-cover.webp",
+        "fallback": "assets/img/kb/biz-024-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-025",
+      "name": "田家莫上隐",
+      "category": "民宿住宿",
+      "tags": [
+        "田家莫上隐",
+        "田园体验",
+        "高端",
+        "设计感"
+      ],
+      "summary": "田家莫上隐是楠溪江高端田园体验民宿，以田园生活为主题，设计感强。提供农事体验、田园下午茶、星空晚餐等特色服务，是追求品质和体验的游客首选。价格较高，但体验独特。",
+      "price_range": "800-1500元/晚",
+      "location": "永嘉县岩头镇周边",
+      "capacity": "约6-8间客房",
+      "nearby_poi": [
+        "苍坡古村",
+        "丽水街"
+      ],
+      "source": "新浪新闻-楠溪江民宿攻略",
+      "source_url": "https://www.sina.cn/news/article/comos_niqsraq5927747.html",
+      "domain": "business",
+      "related_culture_ids": [],
+      "content": "田家莫上隐是永嘉高端民宿，设计感强，融合了当地建筑元素和现代美学。有无边泳池、下午茶和定制晚餐，适合度假和纪念日。价格约800-1500元/晚，需要提前预订，服务贴心。",
+      "category_raw": "高端民宿",
+      "avg_cost_cny": 1150,
+      "avg_duration_min": null,
+      "suitable_for": [
+        "住宿",
+        "过夜"
+      ],
+      "indoor": false,
+      "geo_lat": 28.36,
+      "geo_lng": 120.748,
+      "geo_source": "演示预设坐标",
+      "rating": 4.6,
+      "assets": {
+        "cover": "assets/img/kb/biz-025-cover.webp",
+        "fallback": "assets/img/kb/biz-025-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-026",
+      "name": "丽水街金驿民宿",
+      "category": "民宿住宿",
+      "tags": [
+        "金驿民宿",
+        "丽水街",
+        "性价比",
+        "古街"
+      ],
+      "summary": "金驿民宿位于岩头镇丽水街，评分4.8分，143元起，被称为楠溪江民宿性价比之王。出门就是丽水古街，晚上可赏灯笼倒映水中的美景。周边餐饮购物便利，适合预算有限但想体验古街氛围的游客。",
+      "price_range": "143-300元/晚",
+      "location": "永嘉县岩头镇丽水街",
+      "capacity": "约10间客房",
+      "nearby_poi": [
+        "丽水街",
+        "芙蓉古村",
+        "苍坡古村"
+      ],
+      "source": "新浪新闻-楠溪江民宿攻略",
+      "source_url": "https://www.sina.cn/news/article/comos_niqsraq5927747.html",
+      "domain": "business",
+      "related_culture_ids": [],
+      "content": "丽水街金驿民宿在丽水街旁，出门就是古街，位置绝佳。房间古色古香，推窗看廊檐和水面。晚上逛完古街回房休息特别方便。价格约200-350元/晚，适合想深度体验古街夜景的游客。",
+      "category_raw": "民宿",
+      "avg_cost_cny": 222,
+      "avg_duration_min": null,
+      "suitable_for": [
+        "住宿",
+        "过夜"
+      ],
+      "indoor": false,
+      "geo_lat": 28.36,
+      "geo_lng": 120.748,
+      "geo_source": "演示预设坐标",
+      "rating": 4.7,
+      "assets": {
+        "cover": "assets/img/kb/biz-026-cover.webp",
+        "fallback": "assets/img/kb/biz-026-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-027",
+      "name": "悦庭壹舍",
+      "category": "民宿住宿",
+      "tags": [
+        "悦庭壹舍",
+        "鹤盛镇",
+        "亲水",
+        "桨板"
+      ],
+      "summary": "悦庭壹舍位于鹤盛镇，是亲水型民宿，出门可玩桨板、漂流。靠近石桅岩和楠溪江漂流码头，适合喜欢玩水的年轻游客和亲子家庭。民宿设计现代，提供烧烤、K歌等娱乐设施。",
+      "price_range": "300-600元/晚",
+      "location": "永嘉县鹤盛镇",
+      "capacity": "约10间客房",
+      "nearby_poi": [
+        "石桅岩",
+        "楠溪江漂流"
+      ],
+      "source": "新浪新闻-楠溪江民宿攻略",
+      "source_url": "https://www.sina.cn/news/article/comos_niqyzxx0290912.html",
+      "domain": "business",
+      "related_culture_ids": [],
+      "content": "悦庭壹舍是精品民宿，在永嘉县城附近，交通便利，装修现代简约。有咖啡和阅读空间，适合商务和短途停留。价格约200-300元/晚，房间干净舒适，早餐不错。",
+      "category_raw": "精品民宿",
+      "avg_cost_cny": 450,
+      "avg_duration_min": null,
+      "suitable_for": [
+        "住宿",
+        "过夜"
+      ],
+      "indoor": false,
+      "geo_lat": 28.41,
+      "geo_lng": 120.88,
+      "geo_source": "演示预设坐标",
+      "rating": 4.8,
+      "assets": {
+        "cover": "assets/img/kb/biz-027-cover.webp",
+        "fallback": "assets/img/kb/biz-027-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-028",
+      "name": "楠溪江麦饼+葱花汤套餐",
+      "category": "美食餐饮",
+      "tags": [
+        "麦饼",
+        "葱花汤",
+        "经典搭配",
+        "快餐"
+      ],
+      "summary": "永嘉麦饼配葱花汤是当地经典搭配，麦饼的酥脆咸香配上葱花汤的清淡鲜美，是楠溪江人最日常的美食组合。葱花汤以热水加盐和葱花制成，简单却回味无穷。各景区和古镇均有售卖，是快速解决用餐的首选。",
+      "price_range": "12-18元/套",
+      "location": "全县各麦饼店",
+      "best_for": [
+        "早餐",
+        "午餐",
+        "干粮"
+      ],
+      "related_culture": [
+        "CUL-019"
+      ],
+      "source": "抖音-非遗美食永嘉麦饼传统制作技艺",
+      "source_url": "https://www.iesdouyin.com/share/video/7445614334731947318",
+      "domain": "business",
+      "related_culture_ids": [
+        "CUL-007"
+      ],
+      "content": "楠溪江麦饼+葱花汤套餐是最经典的永嘉早餐组合，一个现烤麦饼配一碗热葱花汤，简单但满足。在岩头老街和县城早餐店都能吃到，人均约15元，是体验永嘉日常饮食的最佳选择。",
+      "category_raw": "餐饮组合",
+      "avg_cost_cny": 15,
+      "avg_duration_min": null,
+      "suitable_for": [
+        "早餐",
+        "午餐",
+        "干粮"
+      ],
+      "indoor": false,
+      "geo_lat": 28.152,
+      "geo_lng": 120.682,
+      "geo_source": "演示预设坐标",
+      "rating": 4.2,
+      "assets": {
+        "cover": "assets/img/kb/biz-028-cover.webp",
+        "fallback": "assets/img/kb/biz-028-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-029",
+      "name": "楠溪江竹筏漂流",
+      "category": "体验游玩",
+      "tags": [
+        "竹筏漂流",
+        "狮子岩",
+        "水上体验",
+        "亲子"
+      ],
+      "summary": "楠溪江竹筏漂流是楠溪江最具代表性的体验项目，从狮子岩码头出发，乘坐复古竹筏慢悠悠泛舟江上，吹着山野清风，沉浸式欣赏两岸滩林风光。全程约1小时，水流平缓，适合全年龄段。是'走进山水诗'的最佳方式。",
+      "price_range": "约75-100元/人（包筏约300-500元）",
+      "location": "永嘉县岩头镇狮子岩漂流码头",
+      "duration": "约1小时",
+      "best_for": [
+        "亲子",
+        "摄影",
+        "休闲"
+      ],
+      "related_culture": [
+        "CUL-003"
+      ],
+      "source": "携程-楠溪江游玩全攻略",
+      "source_url": "https://m.ctrip.com/webapp/you/community/detail?articleId=338323861",
+      "domain": "business",
+      "related_culture_ids": [
+        "CUL-003"
+      ],
+      "content": "楠溪江竹筏漂流是最楠溪江的体验，坐竹筏顺流而下，看两岸滩林古村，艄公会讲本地故事。狮子岩到岩头段最经典，全程约1小时。人均约80-120元，建议傍晚去，夕阳洒在江面上最美。",
+      "category_raw": "体验项目",
+      "avg_cost_cny": 88,
+      "avg_duration_min": 60,
+      "suitable_for": [
+        "亲子",
+        "摄影",
+        "休闲"
+      ],
+      "indoor": false,
+      "geo_lat": 28.36,
+      "geo_lng": 120.748,
+      "geo_source": "演示预设坐标",
+      "rating": 4.3,
+      "assets": {
+        "cover": "assets/img/kb/biz-029-cover.webp",
+        "fallback": "assets/img/placeholders/business-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-030",
+      "name": "瓯窑手工体验课",
+      "category": "体验游玩",
+      "tags": [
+        "瓯窑",
+        "手工体验",
+        "拉坯",
+        "彩绘",
+        "亲子"
+      ],
+      "summary": "瓯窑小镇提供瓯窑手工体验课，游客可在非遗传承人的指导下，亲手体验拉坯、修坯、彩绘等制瓷工艺，制作专属青瓷作品。作品可烧制后邮寄到家。是亲子研学和文化体验的热门项目，也是雨天最佳室内活动。",
+      "price_range": "80-200元/人（含材料和烧制）",
+      "location": "永嘉县三江街道瓯窑小镇",
+      "duration": "1.5-2小时",
+      "best_for": [
+        "亲子",
+        "研学",
+        "雨天替代"
+      ],
+      "related_culture": [
+        "CUL-006"
+      ],
+      "source": "永嘉网-温州园博会永嘉分会场；抖音百科-瓯窑小镇",
+      "source_url": "http://www.yjnet.cn/system/2026/04/07/015438343.shtml",
+      "domain": "business",
+      "related_culture_ids": [
+        "CUL-006"
+      ],
+      "content": "瓯窑手工体验课在瓯窑小镇，老师手把手教拉坯、修坯、上釉，做完可以烧制后寄回家。适合亲子和情侣，体验时长约1-2小时。人均约80-150元（含烧制费），是很有意义的文化体验。",
+      "category_raw": "体验项目",
+      "avg_cost_cny": 140,
+      "avg_duration_min": 105,
+      "suitable_for": [
+        "亲子",
+        "研学",
+        "雨天替代"
+      ],
+      "indoor": true,
+      "geo_lat": 28.135,
+      "geo_lng": 120.708,
+      "geo_source": "演示预设坐标",
+      "rating": 4.4,
+      "assets": {
+        "cover": "assets/img/kb/biz-030-cover.webp",
+        "fallback": "assets/img/kb/biz-030-cover.webp"
+      }
+    },
+    {
+      "id": "BIZ-031",
+      "name": "乌牛早新中式茶饮",
+      "category": "美食餐饮",
+      "tags": [
+        "乌牛早",
+        "新中式茶饮",
+        "栀子花",
+        "杨梅",
+        "桂花"
+      ],
+      "summary": "乌牛早新中式茶饮是以乌牛早茶为原料研发的创新茶饮系列，包括栀子花、杨梅、桂花等风味调饮茶，搭配鲜奶、鲜果及各种辅料，变成年轻人喜爱的中式奶茶和新式果茶。由温州科技职业学院浙礼嘉茗实践团研发，是传统茶文化年轻化的代表产品。",
+      "price_range": "15-25元/杯",
+      "location": "瓯窑小镇及永嘉各茶饮店",
+      "best_for": [
+        "下午茶",
+        "年轻游客"
+      ],
+      "related_culture": [
+        "CUL-021"
+      ],
+      "source": "温州市文化广电旅游局-乌牛早的破圈和拓圈",
+      "source_url": "https://wl.wenzhou.gov.cn/col/col1642048/art/2026/art_ce228515718c4d2782b16f2bda2cd47a.html",
+      "domain": "business",
+      "related_culture_ids": [
+        "CUL-013"
+      ],
+      "content": "乌牛早新中式茶饮是本地创新茶饮品牌，用乌牛早茶做底，搭配栀子花、杨梅、桂花等本地食材，口味清新。在县城和瓯窑小镇有店，人均约15-25元。逛累了来一杯，比普通奶茶更有永嘉特色。",
+      "category_raw": "创新餐饮",
+      "avg_cost_cny": 20,
+      "avg_duration_min": null,
+      "suitable_for": [
+        "下午茶",
+        "年轻游客"
+      ],
+      "indoor": false,
+      "geo_lat": 28.135,
+      "geo_lng": 120.708,
+      "geo_source": "演示预设坐标",
+      "rating": 4.5,
+      "assets": {
+        "cover": "assets/img/kb/biz-031-cover.webp",
+        "fallback": "assets/img/kb/biz-031-cover.webp"
+      }
+    }
+  ]
+}

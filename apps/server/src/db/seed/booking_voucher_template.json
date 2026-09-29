@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "name": "模拟预订凭证模板",
+    "version": "1.0",
+    "purpose": "FR-AGT-08 模拟预订闭环，用户确认行程后返回标注'演示模拟'的凭证",
+    "disclaimer": "本凭证为大赛演示模拟数据，不构成真实预订，不产生实际费用"
+  },
+  "template": {
+    "voucher_no": "YJZY-{date}-{seq:04d}",
+    "status": "模拟已确认",
+    "is_demo": true,
+    "demo_label": "演示模拟 · DEMO",
+    "created_at": "{timestamp}",
+    "itinerary": {
+      "title": "行程标题",
+      "days": 2,
+      "total_budget_cny": 0,
+      "items": []
+    },
+    "bookings": [
+      {
+        "type": "hotel",
+        "name": "住宿名称",
+        "poi_id": "BIZ-xxx",
+        "check_in": "YYYY-MM-DD",
+        "check_out": "YYYY-MM-DD",
+        "rooms": 1,
+        "guests": 2,
+        "price_cny": 0,
+        "address": "地址",
+        "contact": "演示电话（非真实）"
+      },
+      {
+        "type": "restaurant",
+        "name": "餐饮名称",
+        "poi_id": "BIZ-xxx",
+        "date": "YYYY-MM-DD",
+        "time": "12:00",
+        "guests": 2,
+        "price_cny": 0,
+        "address": "地址"
+      },
+      {
+        "type": "experience",
+        "name": "体验项目",
+        "poi_id": "BIZ-xxx",
+        "date": "YYYY-MM-DD",
+        "time": "14:00",
+        "guests": 2,
+        "price_cny": 0
+      }
+    ],
+    "payment": {
+      "method": "演示支付（未实际扣款）",
+      "total_cny": 0,
+      "status": "模拟支付成功"
+    },
+    "qr_code_text": "永嘉新游演示凭证 - {voucher_no}",
+    "footer": "本凭证由永嘉新游AI伴游平台生成，仅供大赛演示使用。如需真实预订请联系商户。"
+  },
+  "example": {
+    "voucher_no": "YJZY-20260908-0001",
+    "status": "模拟已确认",
+    "is_demo": true,
+    "demo_label": "演示模拟 · DEMO",
+    "itinerary": {
+      "title": "永嘉楠溪江经典两日游",
+      "days": 2,
+      "total_budget_cny": 1478
+    },
+    "bookings": [
+      {
+        "type": "hotel",
+        "name": "永嘉聚龙阁客栈",
+        "poi_id": "BIZ-022",
+        "check_in": "2026-09-20",
+        "check_out": "2026-09-21",
+        "rooms": 1,
+        "guests": 2,
+        "price_cny": 225,
+        "address": "永嘉县鹤盛镇"
+      },
+      {
+        "type": "restaurant",
+        "name": "岭上人家烤全羊",
+        "poi_id": "BIZ-007",
+        "date": "2026-09-20",
+        "time": "13:00",
+        "guests": 10,
+        "price_cny": 1150
+      }
+    ],
+    "payment": {
+      "method": "演示支付（未实际扣款）",
+      "total_cny": 1375,
+      "status": "模拟支付成功"
+    }
+  }
+}

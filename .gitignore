@@ -1,0 +1,19 @@
+node_modules
+dist
+.env
+*.db
+apps/server/data/*.db
+.DS_Store
+.vite
+
+# pnpm junction 异常时的过渡产物
+node_modules.pnpm.bak/
+pnpm-lock.yaml.bak
+.dev-*.log
+_clean.mjs
+
+# 日志与调试产物
+*.log
+.playwright-cli/
+.tmp-*
+

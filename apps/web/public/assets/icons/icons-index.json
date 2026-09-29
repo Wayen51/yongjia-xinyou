@@ -1,0 +1,58 @@
+{
+  "version": "1.0",
+  "style": "outline-dark",
+  "primary": "#3EC6B8",
+  "accent": "#E8B84B",
+  "icons": [
+    {
+      "name": "treasure-chest",
+      "file": "treasure-chest.svg",
+      "size": 452
+    },
+    {
+      "name": "lantern",
+      "file": "lantern.svg",
+      "size": 658
+    },
+    {
+      "name": "gift",
+      "file": "gift.svg",
+      "size": 563
+    },
+    {
+      "name": "location-pin",
+      "file": "location-pin.svg",
+      "size": 349
+    },
+    {
+      "name": "ar-camera",
+      "file": "ar-camera.svg",
+      "size": 433
+    },
+    {
+      "name": "quest",
+      "file": "quest.svg",
+      "size": 533
+    },
+    {
+      "name": "moon",
+      "file": "moon.svg",
+      "size": 523
+    },
+    {
+      "name": "coin",
+      "file": "coin.svg",
+      "size": 482
+    },
+    {
+      "name": "check-circle",
+      "file": "check-circle.svg",
+      "size": 367
+    },
+    {
+      "name": "compass",
+      "file": "compass.svg",
+      "size": 427
+    }
+  ]
+}

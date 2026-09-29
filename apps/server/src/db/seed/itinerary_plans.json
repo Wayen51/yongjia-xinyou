@@ -1,0 +1,648 @@
+{
+  "meta": {
+    "version": "1.0",
+    "source": "knowledge_seed_v3.json",
+    "generated": "2026-09-10",
+    "note": "7条结构化行程，id/name/cost均取自knowledge_seed_v3.json，budget自动计算"
+  },
+  "plans": [
+    {
+      "key": "family-1d",
+      "title": "永嘉亲子趣味一日游",
+      "days": [
+        {
+          "day": 1,
+          "theme": "亲子互动 · 书院+陶艺",
+          "items": [
+            {
+              "id": "POI-009",
+              "name": "永嘉书院",
+              "start": "09:00",
+              "end": "11:30",
+              "cost_cny": 50,
+              "indoor": true,
+              "reason": "永嘉书院有山有水有展馆，孩子可跑可看，室内外结合"
+            },
+            {
+              "id": "BIZ-028",
+              "name": "楠溪江麦饼+葱花汤套餐",
+              "start": "12:00",
+              "end": "13:00",
+              "cost_cny": 15,
+              "indoor": false,
+              "reason": "麦饼+葱花汤经典套餐，孩子也爱吃"
+            },
+            {
+              "id": "POI-017",
+              "name": "瓯窑小镇",
+              "start": "13:30",
+              "end": "15:00",
+              "cost_cny": 0,
+              "indoor": true,
+              "reason": "瓯窑小镇看龙窑遗址，室内展馆不怕晒"
+            },
+            {
+              "id": "BIZ-030",
+              "name": "瓯窑手工体验课",
+              "start": "15:00",
+              "end": "17:00",
+              "cost_cny": 140,
+              "indoor": true,
+              "reason": "瓯窑手工拉坯体验课，亲子动手做青瓷"
+            }
+          ]
+        }
+      ],
+      "budget_total_cny": 205,
+      "budget_note": "含140元陶艺体验课，适合6岁以上亲子家庭",
+      "sources": [
+        "BIZ-028",
+        "BIZ-030",
+        "POI-009",
+        "POI-017"
+      ]
+    },
+    {
+      "key": "culture-1d",
+      "title": "永嘉耕读文化一日游",
+      "days": [
+        {
+          "day": 1,
+          "theme": "耕读传家 · 古村+书院",
+          "items": [
+            {
+              "id": "POI-010",
+              "name": "苍坡古村",
+              "start": "08:30",
+              "end": "10:30",
+              "cost_cny": 0,
+              "indoor": false,
+              "reason": "苍坡古村文房四宝布局，晨游墨池最清净"
+            },
+            {
+              "id": "POI-021",
+              "name": "永嘉学馆",
+              "start": "10:45",
+              "end": "12:00",
+              "cost_cny": 0,
+              "indoor": true,
+              "reason": "永嘉学馆了解永嘉学派事功之学，室内"
+            },
+            {
+              "id": "BIZ-003",
+              "name": "楠溪素面",
+              "start": "12:30",
+              "end": "13:15",
+              "cost_cny": 4,
+              "indoor": false,
+              "reason": "楠溪素面，长寿面寓意好，清淡适合文化游"
+            },
+            {
+              "id": "POI-011",
+              "name": "芙蓉古村",
+              "start": "13:45",
+              "end": "15:30",
+              "cost_cny": 20,
+              "indoor": false,
+              "reason": "芙蓉古村七星八斗布局，宋代建筑群"
+            },
+            {
+              "id": "POI-012",
+              "name": "丽水街（岩头村）",
+              "start": "16:00",
+              "end": "17:30",
+              "cost_cny": 15,
+              "indoor": false,
+              "reason": "丽水街300米廊檐商业街，感受耕读余韵"
+            }
+          ]
+        }
+      ],
+      "budget_total_cny": 39,
+      "budget_note": "古村门票低廉，文化体验为主，人均消费极低",
+      "sources": [
+        "BIZ-003",
+        "POI-010",
+        "POI-011",
+        "POI-012",
+        "POI-021"
+      ]
+    },
+    {
+      "key": "food-1d",
+      "title": "永嘉非遗美食寻味一日游",
+      "days": [
+        {
+          "day": 1,
+          "theme": "舌尖楠溪 · 从早茶到烤全羊",
+          "items": [
+            {
+              "id": "BIZ-031",
+              "name": "乌牛早新中式茶饮",
+              "start": "09:00",
+              "end": "10:00",
+              "cost_cny": 20,
+              "indoor": false,
+              "reason": "乌牛早新中式茶饮，中国最早春茶做底"
+            },
+            {
+              "id": "BIZ-007",
+              "name": "岭上人家烤全羊",
+              "start": "11:30",
+              "end": "13:30",
+              "cost_cny": 1150,
+              "indoor": false,
+              "reason": "岭上人家炭烤全羊，楠溪江最硬的硬菜"
+            },
+            {
+              "id": "BIZ-004",
+              "name": "沙岗粉干（圣旨门品牌）",
+              "start": "14:30",
+              "end": "15:15",
+              "cost_cny": 12,
+              "indoor": false,
+              "reason": "沙岗粉干，宋代传承的细如发丝"
+            },
+            {
+              "id": "BIZ-005",
+              "name": "金粉饺",
+              "start": "15:30",
+              "end": "16:15",
+              "cost_cny": 22,
+              "indoor": false,
+              "reason": "金粉饺，红薯粉皮Q弹，永嘉特色小吃"
+            },
+            {
+              "id": "BIZ-001",
+              "name": "永嘉麦饼（经典咸菜鲜肉馅）",
+              "start": "16:30",
+              "end": "17:00",
+              "cost_cny": 12,
+              "indoor": false,
+              "reason": "永嘉麦饼经典咸菜鲜肉馅，打包带走"
+            }
+          ]
+        }
+      ],
+      "budget_total_cny": 1216,
+      "budget_note": "烤全羊按10人拼单折算人均约115元，整单1150元为一只羊价格",
+      "sources": [
+        "BIZ-001",
+        "BIZ-004",
+        "BIZ-005",
+        "BIZ-007",
+        "BIZ-031"
+      ]
+    },
+    {
+      "key": "photo-2d",
+      "title": "永嘉楠溪江摄影两日游",
+      "days": [
+        {
+          "day": 1,
+          "theme": "下游晨雾 · 梯田+古村",
+          "items": [
+            {
+              "id": "POI-028",
+              "name": "茗岙梯田",
+              "start": "05:30",
+              "end": "08:30",
+              "cost_cny": 0,
+              "indoor": false,
+              "reason": "茗岙梯田日出云海，摄影人必到的晨景"
+            },
+            {
+              "id": "POI-010",
+              "name": "苍坡古村",
+              "start": "10:00",
+              "end": "12:00",
+              "cost_cny": 0,
+              "indoor": false,
+              "reason": "苍坡古村白墙黛瓦，上午侧光最出片"
+            },
+            {
+              "id": "BIZ-001",
+              "name": "永嘉麦饼（经典咸菜鲜肉馅）",
+              "start": "12:30",
+              "end": "13:15",
+              "cost_cny": 12,
+              "indoor": false,
+              "reason": "麦饼干粮午餐，节省时间赶路"
+            },
+            {
+              "id": "POI-012",
+              "name": "丽水街（岩头村）",
+              "start": "14:00",
+              "end": "16:00",
+              "cost_cny": 15,
+              "indoor": false,
+              "reason": "丽水街廊檐倒影，午后漫射光柔和"
+            },
+            {
+              "id": "POI-002",
+              "name": "狮子岩景区",
+              "start": "16:30",
+              "end": "18:30",
+              "cost_cny": 0,
+              "indoor": false,
+              "reason": "狮子岩日落，楠溪江标志性夕照"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "theme": "上游奇峰 · 石桅岩+瀑布",
+          "items": [
+            {
+              "id": "POI-001",
+              "name": "石桅岩景区",
+              "start": "08:00",
+              "end": "11:30",
+              "cost_cny": 50,
+              "indoor": false,
+              "reason": "石桅岩306米孤峰，上午顺光拍全貌"
+            },
+            {
+              "id": "BIZ-007",
+              "name": "岭上人家烤全羊",
+              "start": "12:00",
+              "end": "13:30",
+              "cost_cny": 1150,
+              "indoor": false,
+              "reason": "岭上人家烤全羊午餐，补充体力"
+            },
+            {
+              "id": "POI-003",
+              "name": "龙湾潭国家森林公园",
+              "start": "14:30",
+              "end": "17:00",
+              "cost_cny": 60,
+              "indoor": false,
+              "reason": "龙湾潭七折瀑，慢门拍丝绢水流"
+            }
+          ]
+        }
+      ],
+      "budget_total_cny": 1287,
+      "budget_note": "需早起拍日出，建议住岩头镇；烤全羊按拼单折算",
+      "sources": [
+        "BIZ-001",
+        "BIZ-007",
+        "POI-001",
+        "POI-002",
+        "POI-003",
+        "POI-010",
+        "POI-012",
+        "POI-028"
+      ]
+    },
+    {
+      "key": "craft-2d",
+      "title": "永嘉非遗手作体验两日游",
+      "days": [
+        {
+          "day": 1,
+          "theme": "瓯窑千年 · 从遗址到拉坯",
+          "items": [
+            {
+              "id": "POI-017",
+              "name": "瓯窑小镇",
+              "start": "09:00",
+              "end": "10:30",
+              "cost_cny": 0,
+              "indoor": true,
+              "reason": "瓯窑小镇看唐代官窑遗址，室内外结合"
+            },
+            {
+              "id": "POI-018",
+              "name": "瓯窑博物馆",
+              "start": "10:45",
+              "end": "12:00",
+              "cost_cny": 0,
+              "indoor": true,
+              "reason": "瓯窑博物馆看青瓷藏品，窑炉造型建筑"
+            },
+            {
+              "id": "BIZ-005",
+              "name": "金粉饺",
+              "start": "12:30",
+              "end": "13:15",
+              "cost_cny": 22,
+              "indoor": false,
+              "reason": "金粉饺午餐，就在瓯窑小镇附近"
+            },
+            {
+              "id": "BIZ-030",
+              "name": "瓯窑手工体验课",
+              "start": "13:45",
+              "end": "16:45",
+              "cost_cny": 140,
+              "indoor": true,
+              "reason": "瓯窑手工拉坯体验课，3小时深度手作"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "theme": "耕读非遗 · 书院+数字诗路",
+          "items": [
+            {
+              "id": "POI-009",
+              "name": "永嘉书院",
+              "start": "09:00",
+              "end": "11:30",
+              "cost_cny": 50,
+              "indoor": true,
+              "reason": "永嘉书院，永嘉学派传承地"
+            },
+            {
+              "id": "BIZ-003",
+              "name": "楠溪素面",
+              "start": "12:00",
+              "end": "12:45",
+              "cost_cny": 4,
+              "indoor": false,
+              "reason": "楠溪素面午餐，8字面长寿寓意"
+            },
+            {
+              "id": "POI-023",
+              "name": "书兰居非遗博物馆",
+              "start": "13:30",
+              "end": "15:00",
+              "cost_cny": 0,
+              "indoor": true,
+              "reason": "书兰居非遗博物馆，老酒汗+戚氏拓印"
+            },
+            {
+              "id": "POI-026",
+              "name": "枫林数字诗路e站",
+              "start": "15:30",
+              "end": "17:00",
+              "cost_cny": 0,
+              "indoor": true,
+              "reason": "枫林数字诗路e站，VR/AR看永嘉昆曲"
+            }
+          ]
+        }
+      ],
+      "budget_total_cny": 216,
+      "budget_note": "含140元陶艺体验课，适合对手工感兴趣的游客",
+      "sources": [
+        "BIZ-003",
+        "BIZ-005",
+        "BIZ-030",
+        "POI-009",
+        "POI-017",
+        "POI-018",
+        "POI-023",
+        "POI-026"
+      ]
+    },
+    {
+      "key": "deep-3d",
+      "title": "永嘉楠溪江深度三日游",
+      "days": [
+        {
+          "day": 1,
+          "theme": "上游山水 · 奇峰+瀑布",
+          "items": [
+            {
+              "id": "POI-001",
+              "name": "石桅岩景区",
+              "start": "08:30",
+              "end": "12:00",
+              "cost_cny": 50,
+              "indoor": false,
+              "reason": "石桅岩景区，浙南天柱3.5小时深度游"
+            },
+            {
+              "id": "BIZ-007",
+              "name": "岭上人家烤全羊",
+              "start": "12:30",
+              "end": "14:00",
+              "cost_cny": 1150,
+              "indoor": false,
+              "reason": "岭上人家烤全羊，上游最具代表性的美食"
+            },
+            {
+              "id": "POI-003",
+              "name": "龙湾潭国家森林公园",
+              "start": "14:30",
+              "end": "17:30",
+              "cost_cny": 60,
+              "indoor": false,
+              "reason": "龙湾潭国家森林公园，七折瀑+玻璃观景台"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "theme": "中游古村 · 耕读+丽水街",
+          "items": [
+            {
+              "id": "POI-010",
+              "name": "苍坡古村",
+              "start": "08:30",
+              "end": "10:30",
+              "cost_cny": 0,
+              "indoor": false,
+              "reason": "苍坡古村，文房四宝布局的南宋古村"
+            },
+            {
+              "id": "POI-009",
+              "name": "永嘉书院",
+              "start": "11:00",
+              "end": "12:30",
+              "cost_cny": 50,
+              "indoor": true,
+              "reason": "永嘉书院，永嘉学派文化核心"
+            },
+            {
+              "id": "BIZ-001",
+              "name": "永嘉麦饼（经典咸菜鲜肉馅）",
+              "start": "13:00",
+              "end": "13:45",
+              "cost_cny": 12,
+              "indoor": false,
+              "reason": "永嘉麦饼午餐，非遗美食"
+            },
+            {
+              "id": "POI-012",
+              "name": "丽水街（岩头村）",
+              "start": "14:15",
+              "end": "16:15",
+              "cost_cny": 15,
+              "indoor": false,
+              "reason": "丽水街，300米明嘉靖廊檐商业街"
+            },
+            {
+              "id": "POI-002",
+              "name": "狮子岩景区",
+              "start": "16:45",
+              "end": "18:30",
+              "cost_cny": 0,
+              "indoor": false,
+              "reason": "狮子岩景区，楠溪江中心看夕阳"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "theme": "下游秘境 · 梯田+崖下库",
+          "items": [
+            {
+              "id": "POI-028",
+              "name": "茗岙梯田",
+              "start": "07:00",
+              "end": "09:30",
+              "cost_cny": 0,
+              "indoor": false,
+              "reason": "茗岙梯田，层层叠叠的农耕奇观"
+            },
+            {
+              "id": "POI-004",
+              "name": "崖下库景区",
+              "start": "10:30",
+              "end": "13:00",
+              "cost_cny": 50,
+              "indoor": false,
+              "reason": "崖下库，悬空栈道+陡峭崖壁"
+            },
+            {
+              "id": "POI-005",
+              "name": "陶公洞",
+              "start": "14:00",
+              "end": "16:00",
+              "cost_cny": 10,
+              "indoor": true,
+              "reason": "陶公洞，道家福地巨大石室，室内"
+            }
+          ]
+        }
+      ],
+      "budget_total_cny": 1397,
+      "budget_note": "覆盖上游中游下游，烤全羊按拼单折算人均；三日行程强度较高",
+      "sources": [
+        "BIZ-001",
+        "BIZ-007",
+        "POI-001",
+        "POI-002",
+        "POI-003",
+        "POI-004",
+        "POI-005",
+        "POI-009",
+        "POI-010",
+        "POI-012",
+        "POI-028"
+      ]
+    },
+    {
+      "key": "slow-3d",
+      "title": "永嘉家庭慢游三日游",
+      "days": [
+        {
+          "day": 1,
+          "theme": "上游轻松 · 石桅岩+烤全羊",
+          "items": [
+            {
+              "id": "POI-001",
+              "name": "石桅岩景区",
+              "start": "09:30",
+              "end": "12:30",
+              "cost_cny": 50,
+              "indoor": false,
+              "reason": "石桅岩景区，慢慢走不赶路"
+            },
+            {
+              "id": "BIZ-007",
+              "name": "岭上人家烤全羊",
+              "start": "13:00",
+              "end": "14:30",
+              "cost_cny": 1150,
+              "indoor": false,
+              "reason": "岭上人家烤全羊，慢悠悠吃午饭"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "theme": "中游古村 · 苍坡+丽水街",
+          "items": [
+            {
+              "id": "POI-010",
+              "name": "苍坡古村",
+              "start": "09:30",
+              "end": "11:30",
+              "cost_cny": 0,
+              "indoor": false,
+              "reason": "苍坡古村，带孩子看墨池和笔架山"
+            },
+            {
+              "id": "BIZ-028",
+              "name": "楠溪江麦饼+葱花汤套餐",
+              "start": "12:00",
+              "end": "13:00",
+              "cost_cny": 15,
+              "indoor": false,
+              "reason": "麦饼+葱花汤套餐，简单午餐"
+            },
+            {
+              "id": "POI-012",
+              "name": "丽水街（岩头村）",
+              "start": "14:00",
+              "end": "16:00",
+              "cost_cny": 15,
+              "indoor": false,
+              "reason": "丽水街，廊檐下闲逛买特产"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "theme": "书院收尾 · 永嘉书院+狮子岩",
+          "items": [
+            {
+              "id": "POI-009",
+              "name": "永嘉书院",
+              "start": "09:30",
+              "end": "12:00",
+              "cost_cny": 50,
+              "indoor": true,
+              "reason": "永嘉书院，室内外结合不累"
+            },
+            {
+              "id": "BIZ-003",
+              "name": "楠溪素面",
+              "start": "12:30",
+              "end": "13:15",
+              "cost_cny": 4,
+              "indoor": false,
+              "reason": "楠溪素面，清淡收尾"
+            },
+            {
+              "id": "POI-002",
+              "name": "狮子岩景区",
+              "start": "14:00",
+              "end": "16:00",
+              "cost_cny": 0,
+              "indoor": false,
+              "reason": "狮子岩，竹筏漂流看江景"
+            }
+          ]
+        }
+      ],
+      "budget_total_cny": 1284,
+      "budget_note": "单日不超3个点，适合带老人小孩的家庭慢游；烤全羊按拼单折算",
+      "sources": [
+        "BIZ-003",
+        "BIZ-007",
+        "BIZ-028",
+        "POI-001",
+        "POI-002",
+        "POI-009",
+        "POI-010",
+        "POI-012"
+      ]
+    }
+  ]
+}

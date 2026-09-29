@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "version": "1.0",
+    "total": 12,
+    "coord_system": "GCJ-02（高德）",
+    "note": "演示用真实经纬度，围栏半径为米"
+  },
+  "points": [
+    {
+      "id": "POI-001",
+      "name": "石桅岩",
+      "lat": 28.384325,
+      "lng": 120.874906,
+      "type": "scenic",
+      "radius": 50
+    },
+    {
+      "id": "POI-002",
+      "name": "岭上人家",
+      "lat": 28.393349,
+      "lng": 120.878891,
+      "type": "food",
+      "radius": 40
+    },
+    {
+      "id": "POI-003",
+      "name": "龙湾潭",
+      "lat": 28.338996,
+      "lng": 120.882295,
+      "type": "scenic",
+      "radius": 60
+    },
+    {
+      "id": "POI-004",
+      "name": "苍坡古村",
+      "lat": 28.360136,
+      "lng": 120.749059,
+      "type": "culture",
+      "radius": 40
+    },
+    {
+      "id": "POI-005",
+      "name": "芙蓉古村",
+      "lat": 28.32955,
+      "lng": 120.736196,
+      "type": "culture",
+      "radius": 40
+    },
+    {
+      "id": "POI-006",
+      "name": "丽水街",
+      "lat": 28.338989,
+      "lng": 120.73556,
+      "type": "culture",
+      "radius": 30
+    },
+    {
+      "id": "POI-007",
+      "name": "狮子岩",
+      "lat": 28.299138,
+      "lng": 120.742804,
+      "type": "scenic",
+      "radius": 50
+    },
+    {
+      "id": "POI-008",
+      "name": "永嘉书院",
+      "lat": 28.266008,
+      "lng": 120.701207,
+      "type": "culture",
+      "radius": 50
+    },
+    {
+      "id": "POI-009",
+      "name": "崖下库",
+      "lat": 28.29343,
+      "lng": 120.668403,
+      "type": "scenic",
+      "radius": 50
+    },
+    {
+      "id": "POI-010",
+      "name": "茗岙梯田",
+      "lat": 28.279213,
+      "lng": 120.52592,
+      "type": "scenic",
+      "radius": 80
+    },
+    {
+      "id": "POI-011",
+      "name": "陶公洞",
+      "lat": 28.17,
+      "lng": 120.73,
+      "type": "culture",
+      "radius": 40
+    },
+    {
+      "id": "POI-012",
+      "name": "楠溪江竹筏",
+      "lat": 28.301039,
+      "lng": 120.743281,
+      "type": "activity",
+      "radius": 30
+    }
+  ]
+}

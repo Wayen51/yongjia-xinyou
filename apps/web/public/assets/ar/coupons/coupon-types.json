@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "version": "1.0"
+  },
+  "types": [
+    {
+      "id": "discount",
+      "name": "折扣券",
+      "icon": "gift"
+    },
+    {
+      "id": "cash",
+      "name": "代金券",
+      "icon": "coin"
+    },
+    {
+      "id": "buyget",
+      "name": "买赠券",
+      "icon": "gift"
+    },
+    {
+      "id": "free",
+      "name": "免费体验",
+      "icon": "treasure-chest"
+    },
+    {
+      "id": "badge",
+      "name": "成就徽章",
+      "icon": "check-circle"
+    }
+  ]
+}

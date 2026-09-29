@@ -1,0 +1,137 @@
+/* =====================================================================
+   永嘉新游 · 设计令牌 Design Tokens（单一事实源）
+   对应《永嘉新游-UI设计方案稿.md》§2 与《前端素材资源调用手册》§8。
+   由 styles/main.css 顶部 @import 装载；新增/修改令牌只改本文件。
+
+   用法红线：
+   1. 组件中禁止直接写 hex / 裸 px，必须引用下方语义令牌（一次性插画与 SVG 路径值除外）；
+   2. 新代码一律使用 --color-* / --fs-* / --space-* / --radius-* / --shadow-* / --dur-* / --ease-*；
+   3. 底部保留旧别名（--bg-* / --primary / --accent / --border …），兼容历史组件并逐步收敛；
+   4. 深底可访问性底线：正文对比度 ≥ 7:1、次要文字 ≥ 4.5:1。
+   ===================================================================== */
+:root {
+  /* ---- 颜色 · 中性灰阶（surface/text/line） ---- */
+  --color-bg-base: #0a1220;
+  --color-surface-1: #101c30;
+  --color-surface-2: #16263f;
+  --color-surface-3: #1e314f;
+  --color-line-soft: #1f2d44;
+  --color-line-strong: #2d405e;
+  --color-text-primary: #e8ecf2;
+  --color-text-secondary: #a8b3c4;
+  --color-text-tertiary: #6b7891;
+  --color-text-inverse: #0a1220;
+
+  /* ---- 主色 · 楠溪青（500 仅用于点缀与小元素，大面积 surface 用 600） ---- */
+  --color-brand-50: #e6f8f4;
+  --color-brand-100: #a8e6d5;
+  --color-brand-300: #5dcab5;
+  --color-brand-500: #3ec6b8;
+  --color-brand-600: #33b8aa;
+  --color-brand-700: #1f8b82;
+  /* 半透明主色底：胶囊 / 徽标 / 选中态（旧 --primary-soft 的语义化形态） */
+  --color-brand-soft: rgba(62, 198, 184, 0.15);
+
+  /* ---- 强调 · 山岚金 ---- */
+  --color-accent-300: #f2d69a;
+  --color-accent-500: #e8b84b;
+  --color-accent-700: #a07b1f;
+  /* 半透明强调色底（旧 --accent-soft 的语义化形态） */
+  --color-accent-soft: rgba(232, 184, 75, 0.14);
+
+  /* ---- 模块强调色（每主页模块一个色） ---- */
+  --color-module-agent: #3ec6b8;
+  --color-module-space: #7c8ff5;
+  --color-module-dashboard: #4ade80;
+  --color-module-video: #e8b84b;
+  --color-module-treasure: #f472b6;
+  --color-module-wiki: #94a3b8;
+
+  /* ---- 语义色 / PlanDiff 状态色 ---- */
+  --color-success: #4ade80;
+  --color-warning: #f59e0b;
+  --color-danger: #f87171;
+  --color-info: #60a5fa;
+  --color-diff-removed: #f87171;
+  --color-diff-added: #4ade80;
+  --color-diff-changed: #f59e0b;
+
+  /* ---- 字号阶梯（1.125 模块，1rem = 16px） ---- */
+  --fs-caption: 0.75rem;
+  --fs-body-sm: 0.875rem;
+  --fs-body: 1rem;
+  --fs-body-lg: 1.125rem;
+  --fs-h4: 1.25rem;
+  --fs-h3: 1.5rem;
+  --fs-h2: 2rem;
+  --fs-h1: 2.5rem;
+  --fs-display: 3.5rem;
+  --fs-kpi: 4.5rem;
+
+  /* ---- 行高 / 字距 ---- */
+  --lh-tight: 1.2;
+  --lh-snug: 1.4;
+  --lh-normal: 1.6;
+  --lh-loose: 1.8;
+  --tracking-tight: -0.01em;
+
+  /* ---- 间距（4px 基线） ---- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-24: 96px;
+
+  /* ---- 圆角（6/8/12/16/24 + pill） ---- */
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 24px;
+  --radius-pill: 9999px;
+
+  /* ---- 阴影（暗色主题克制使用，层级靠 surface+边框表达） ---- */
+  --shadow-focus: 0 0 0 3px rgba(62, 198, 184, 0.35);
+  --shadow-pop: 0 8px 24px rgba(0, 0, 0, 0.45);
+  --shadow-modal: 0 16px 48px rgba(0, 0, 0, 0.6);
+
+  /* ---- 动效 ---- */
+  --dur-instant: 80ms;
+  --dur-fast: 150ms;
+  --dur-base: 250ms;
+  --dur-slow: 400ms;
+  --dur-deliberate: 600ms;
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* ---- 字体栈 ---- */
+  --font-sans: "Noto Sans SC", "PingFang SC", "HarmonyOS Sans SC", "Microsoft YaHei",
+    "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif;
+  --font-mono: "JetBrains Mono", Consolas, "Courier New", monospace;
+
+  /* ---- 兼容别名（旧组件引用；新代码请直接使用上方的 --color-* / --fs-*） ---- */
+  --bg-base: var(--color-bg-base);
+  --bg-panel: var(--color-surface-1);
+  --bg-elevated: var(--color-surface-2);
+  --border: var(--color-line-strong);
+  --primary: var(--color-brand-500);
+  --primary-soft: var(--color-brand-soft);
+  --accent: var(--color-accent-500);
+  --accent-soft: var(--color-accent-soft);
+  --text-primary: var(--color-text-primary);
+  --text-secondary: var(--color-text-secondary);
+  --text-dim: var(--color-text-tertiary);
+  --success: var(--color-success);
+  --warning: var(--color-warning);
+  --danger: var(--color-danger);
+  --glow-primary: 0 0 24px rgba(62, 198, 184, 0.25);
+  --radius-card: var(--radius-lg);
+  --radius-btn: var(--radius-md);
+}

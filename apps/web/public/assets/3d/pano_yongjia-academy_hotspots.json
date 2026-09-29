@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "name": "永嘉书院720°全景热点配置",
+    "version": "1.0",
+    "scene": "yongjia-academy",
+    "description": "山水间的书院建筑群全景模式下的可点击热点",
+    "hotspot_count": 3
+  },
+  "hotspots": [
+    {
+      "id": "hs-1",
+      "name": "书院建筑群",
+      "position": {
+        "yaw": 0,
+        "pitch": -5
+      },
+      "icon": "building",
+      "title": "永嘉书院 · 山水学府",
+      "content": "眼前这片依山傍水的建筑群就是永嘉书院，依托楠溪江支流而建，飞檐翘角的中式建筑与竹林溪水融为一体。书院展示永嘉学派\"经世致用、义利并举\"的思想，是了解温州地域文化的重要窗口。",
+      "source": "POI-009 永嘉书院",
+      "action": {
+        "type": "link",
+        "target": "/wiki/POI-009"
+      }
+    },
+    {
+      "id": "hs-2",
+      "name": "溪水",
+      "position": {
+        "yaw": 45,
+        "pitch": -15
+      },
+      "icon": "water",
+      "title": "楠溪支流 · 清澈见底",
+      "content": "书院前这条溪水是楠溪江的支流，水质达到国家一类标准，清得能看见水底的鹅卵石和游鱼。溪中有天然的浅滩，夏天可以踩水嬉戏。溪边的木栈道沿水而建，散步其中非常惬意。",
+      "source": "POI-009 永嘉书院",
+      "action": {
+        "type": "link",
+        "target": "/wiki/POI-009"
+      }
+    },
+    {
+      "id": "hs-3",
+      "name": "竹林",
+      "position": {
+        "yaw": -90,
+        "pitch": 0
+      },
+      "icon": "tree",
+      "title": "竹林小径 · 曲径通幽",
+      "content": "书院两侧的毛竹林是纳凉散步的好去处，竹林小径曲径通幽，阳光透过竹叶洒下斑驳光影。永嘉书院的竹林有近百亩，春季竹笋破土，夏季绿荫蔽日，秋季竹叶金黄，四季各有韵味。",
+      "source": "POI-009 永嘉书院",
+      "action": {
+        "type": "link",
+        "target": "/wiki/POI-009"
+      }
+    }
+  ]
+}

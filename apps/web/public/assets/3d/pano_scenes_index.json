@@ -1,0 +1,89 @@
+﻿{
+  "meta": {
+    "name": "永嘉新游3D云游多场景索引",
+    "version": "1.1",
+    "total": 6,
+    "description": "360°全景实景漫游场景列表，含默认视角和热点配置路径",
+    "mobile_panorama_note": "mobile_panorama为2048x1024压缩版，手机端WebGL纹理超限加载失败时使用"
+  },
+  "scenes": [
+    {
+      "id": "shiwei-rock",
+      "name": "石桅岩",
+      "poi_id": "POI-001",
+      "panorama": "/assets/pano/pano-shiweiyan.webp",
+      "mobile_panorama": "/assets/pano/pano-shiweiyan-mobile.webp",
+      "hotspots": "/assets/3d/pano_hotspots.json",
+      "default_yaw": 0,
+      "default_pitch": -10,
+      "default_fov": 75,
+      "description": "浙南天柱石桅岩306米孤峰",
+      "thumbnail": "/assets/img/kb/poi-001-cover.webp"
+    },
+    {
+      "id": "lishuijie",
+      "name": "丽水街",
+      "poi_id": "POI-012",
+      "panorama": "/assets/pano/pano-lishuijie.webp",
+      "mobile_panorama": "/assets/pano/pano-lishuijie-mobile.webp",
+      "hotspots": "/assets/3d/pano_lishuijie_hotspots.json",
+      "default_yaw": 0,
+      "default_pitch": -10,
+      "default_fov": 75,
+      "description": "岩头镇丽水街古村临水廊檐",
+      "thumbnail": "/assets/img/kb/poi-006-cover.webp"
+    },
+    {
+      "id": "furong",
+      "name": "芙蓉古村",
+      "poi_id": "POI-011",
+      "panorama": "/assets/pano/pano-furong.webp",
+      "mobile_panorama": "/assets/pano/pano-furong-mobile.webp",
+      "hotspots": "/assets/3d/pano_furong_hotspots.json",
+      "default_yaw": 0,
+      "default_pitch": -10,
+      "default_fov": 75,
+      "description": "宋代古村落七星八斗布局",
+      "thumbnail": "/assets/img/kb/poi-005-cover.webp"
+    },
+    {
+      "id": "cangpo",
+      "name": "苍坡古村",
+      "poi_id": "POI-010",
+      "panorama": "/assets/pano/pano-cangpo.webp",
+      "mobile_panorama": "/assets/pano/pano-cangpo-mobile.webp",
+      "hotspots": "/assets/3d/pano_cangpo_hotspots.json",
+      "default_yaw": 0,
+      "default_pitch": -10,
+      "default_fov": 75,
+      "description": "文房四宝布局耕读文化古村",
+      "thumbnail": "/assets/img/kb/poi-004-cover.webp"
+    },
+    {
+      "id": "yongjia-academy",
+      "name": "永嘉书院",
+      "poi_id": "POI-009",
+      "panorama": "/assets/pano/pano-yongjia-academy.webp",
+      "mobile_panorama": "/assets/pano/pano-yongjia-academy-mobile.webp",
+      "hotspots": "/assets/3d/pano_yongjia-academy_hotspots.json",
+      "default_yaw": 0,
+      "default_pitch": -10,
+      "default_fov": 75,
+      "description": "山水间的书院建筑群",
+      "thumbnail": "/assets/img/kb/poi-008-cover.webp"
+    },
+    {
+      "id": "longwantan",
+      "name": "龙湾潭",
+      "poi_id": "POI-003",
+      "panorama": "/assets/pano/pano-longwantan.webp",
+      "mobile_panorama": "/assets/pano/pano-longwantan-mobile.webp",
+      "hotspots": "/assets/3d/pano_longwantan_hotspots.json",
+      "default_yaw": 0,
+      "default_pitch": -10,
+      "default_fov": 75,
+      "description": "七折瀑国家森林公园",
+      "thumbnail": "/assets/img/kb/poi-003-cover.webp"
+    }
+  ]
+}
